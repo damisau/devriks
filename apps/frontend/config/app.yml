@@ -1,0 +1,32 @@
+# default values
+# BEFORE DEPLOYMENT, CHANGE VALUES ACCORDING TO PLATFORM
+all:
+  sf_google_analytics_plugin:
+    enabled:  on
+    profile_id:  UA-6085845-3
+    enabled:  on
+  home: <a href="/devriks/web">Home</a>
+  about: <a href="/devriks/web/static/about/">About RIKS</a>
+  databases: <a href="/devriks/web/static/database">Databases</a>
+  news: <a href="/devriks/web/static/news">News</a>
+  research: <a href="/devriks/web/static/research">Research</a>
+  education: <a href="/devriks/web/static/education">Education</a>
+  related:  <a href="/devriks/web/static/related">Related Platforms</a>
+  imageCopyright: Visiualization RIKS 2009
+  flag: /devriks/web/images/flags/
+  missingDataCode:  -999
+  max_page_items: 10
+  minyear: 1970
+  maxyear: 2010
+  cia_base_link:  https://www.cia.gov/library/publications/the-world-factbook/print/
+  first_base_link:  http://first.sipri.org/search?country=
+  first_peacemissions:  dataset=peace-missions
+  first_militarization:  dataset=militarization-index
+  first_ios:  dataset=international-organizations
+  jpgraph: /var/www/jpgraph/src/
+  #jpgraph: c:\wamp\www\jpgraph\src\
+  graphDir:  graphs/
+  graphUrl: http://www.cris.unu.edu/devriks/web/graphs/
+  customArrangementId:  999
+  fck_editor: js/fckeditor
+  fck_js: js/fckeditor

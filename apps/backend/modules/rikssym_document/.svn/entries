@@ -1,0 +1,40 @@
+9
+
+dir
+112
+file:///var/svn-repos/project_riks/apps/backend/modules/rikssym_document
+file:///var/svn-repos/project_riks
+
+
+
+2009-08-19T13:16:51.156486Z
+1
+subversion
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+bdae10af-1c07-455a-b906-ed9472b3f6e6
+
+actions
+dir
+
+config
+dir
+
+lib
+dir
+
+templates
+dir
+

@@ -1,0 +1,10 @@
+contactSuccess:
+    layout: homeSuccess
+notesSuccess:
+    layout: homeSuccess
+aboutSuccess:
+    layout: aboutSuccess
+educationSuccess:
+    layout: educationSuccess
+relatedSuccess:
+    layout:  relatedSuccess

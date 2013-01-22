@@ -1,0 +1,56 @@
+<?php
+
+require_once(sfConfig::get('sf_lib_dir').'/filter/base/BaseFormFilterPropel.class.php');
+
+/**
+ * RikssymArrangement filter form base class.
+ *
+ * @package    riks
+ * @subpackage filter
+ * @author     Your name here
+ * @version    SVN: $Id: sfPropelFormFilterGeneratedTemplate.php 13459 2008-11-28 14:48:12Z fabien $
+ */
+class BaseRikssymArrangementFormFilter extends BaseFormFilterPropel
+{
+  public function setup()
+  {
+    $this->setWidgets(array(
+      'name'         => new sfWidgetFormFilterInput(),
+      'description'  => new sfWidgetFormFilterInput(),
+      'abbrev'       => new sfWidgetFormFilterInput(),
+      'georegion_id' => new sfWidgetFormPropelChoice(array('model' => 'RikssymGeoregion', 'add_empty' => true)),
+      'show'         => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
+    ));
+
+    $this->setValidators(array(
+      'name'         => new sfValidatorPass(array('required' => false)),
+      'description'  => new sfValidatorPass(array('required' => false)),
+      'abbrev'       => new sfValidatorPass(array('required' => false)),
+      'georegion_id' => new sfValidatorPropelChoice(array('required' => false, 'model' => 'RikssymGeoregion', 'column' => 'id')),
+      'show'         => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
+    ));
+
+    $this->widgetSchema->setNameFormat('rikssym_arrangement_filters[%s]');
+
+    $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    parent::setup();
+  }
+
+  public function getModelName()
+  {
+    return 'RikssymArrangement';
+  }
+
+  public function getFields()
+  {
+    return array(
+      'id'           => 'Number',
+      'name'         => 'Text',
+      'description'  => 'Text',
+      'abbrev'       => 'Text',
+      'georegion_id' => 'ForeignKey',
+      'show'         => 'Boolean',
+    );
+  }
+}

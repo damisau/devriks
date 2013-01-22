@@ -1,0 +1,122 @@
+#config/schema.yml
+propel:
+  rikssym_country:
+    id: ~
+    name:   {type:varchar(255), required:true}
+    show: {type:boolean, required:false}
+    iso_countrycode:  {type:varchar(2), required:false}
+    iso3_countrycode:  {type:varchar(3), required:false}
+    cow_code: {type:integer, required:false}
+    georegion:  {type:integer, required:false, foreignTable:rikssym_georegion, foreignReference:id}
+
+  rikssym_development:
+    id: ~
+    title: {type:varchar(255), required:true}
+    text: {type:longvarchar, required:true}
+    date_published:   {type:date, required:true}
+    
+  rikssym_arrangement:
+    id: ~
+    name:   { type:varchar(255), required:true }
+    description:    { type:longvarchar }
+    abbrev: { type:varchar(255) }
+    georegion_id: {type:integer, foreignTable:rikssym_georegion, foreignReference:id}
+    show: {type:boolean, required:false}
+    
+  rikssym_georegion:
+    id: ~
+    name: {type:varchar(255), required:true}
+
+  rikssym_master:
+    id: ~
+    country_id: {type: integer, foreignTable: rikssym_country, foreignReference: id, required: false}
+    institute:  {type: varchar(255) }
+    program_title:  {type: varchar(255) }
+    url: {type: varchar(255) }
+
+  rikssym_training:
+    id: ~
+    country_id: {type: integer, foreignTable: rikssym_country, foreignReference: id, required: false}
+    institute:  {type: varchar(255) }
+    program_title:  {type: varchar(255) }
+    url: {type: varchar(255) }
+    
+  rikssym_phd:
+    id: ~
+    country_id: {type: integer, foreignTable: rikssym_country, foreignReference: id, required: false}
+    institute:  {type: varchar(255) }
+    program_title:  {type: varchar(255) }
+    url: {type: varchar(255) }
+  
+  rikssym_arrangement_country:
+    arrangement_id: {type:integer, foreignTable:rikssym_arrangement, foreignReference:id, required:true }
+    country_id: {type:integer, foreignTable:rikssym_country, foreignReference:id, required:true}
+
+  rikssym_document:
+    id: ~
+    title_short:  {type:longvarchar, required:true}
+    title_long: {type:longvarchar, required:false}
+    type: {type:varchar(255), required:false}
+    date_signed:  {type:integer, required:false}
+    date_force:  {type:integer, required:false}
+    filename:   { type:varchar(255), required:true }
+    language: {type:varchar(255), required:false}
+
+
+  rikssym_document_entity:
+    id: ~
+    document_id:  {type:integer, foreignTable:rikssym_document, foreignReference:id, required:true}
+    arrangement_id: {type:integer, foreignTable:rikssym_arrangement, foreignReference:id, required:false}
+    country_id: {type:integer, foreignTable:rikssym_country, foreignReference:id, required:false}
+
+  rikssym_entry:
+    id: ~
+    name: {type:varchar(255), required:true}
+
+  rikssym_data:
+    id:  ~
+    reporter_id: {type:integer, foreignTable:rikssym_country, foreignReference:id, required:true}
+    partner_id:  {type:integer, foreignTable:rikssym_country, foreignReference:id, required:false}
+    type_id:     {type:integer, foreignTable:rikssym_datatype, foreignReference:id, required:true}
+    value: {type:bigint, required:false}
+    source_id:   {type:integer, foreignTable:rikssym_sources, foreignReference:id, required:true}
+    period: {type:integer, required:true}
+
+  rikssym_sources:
+    id: ~
+    description:  {type:longvarchar, required:true}
+    url:  {type:longvarchar, required:false}
+
+  rikssym_datatype:
+    id: ~
+    unit: {type:varchar(255), required:true}
+    
+  rikssym_indicator:
+    id: ~
+    name: {type:varchar(255), required:true}
+    description:  {type:longvarchar, required:true}
+    ispublic: {type:boolean, required:false}
+    classname:  {type:varchar(255), required:true}
+    unit_title: {type:varchar(255), required:true}
+    method: {type:longvarchar(255), required:true}
+    category: {type:varchar(255), required:true}
+
+  rikssym_journal:
+    id: ~
+    name: {type:varchar(255), required:true}
+    description:  {type:longvarchar, required:false}
+    region_id:  {type:integer, foreignTable:rikssym_georegion, foreignReference:id, required:false}
+    url:  {type:varchar(255), required:false}
+    
+  rikssym_center:
+    id: ~
+    name: {type:varchar(255), required:true}
+    description:  {type:longvarchar, required:false}
+    region_id:  {type:integer, foreignTable:rikssym_georegion, foreignReference:id, required:false}
+    url:  {type:longvarchar, required:false}
+
+  rikssym_dblinks:
+    id: ~
+    name: {type:varchar(255), required:true}
+    description:  {type:longvarchar, required:false}
+    url:  {type:varchar(255), required:true}

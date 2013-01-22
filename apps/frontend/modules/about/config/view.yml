@@ -1,0 +1,15 @@
+## YAML Template.
+contactSuccess:
+    layout: aboutSuccess
+developmentsSuccess:
+    layout: aboutSuccess
+indexSuccess:
+    layout: aboutSuccess
+notesSuccess:
+    layout: aboutSuccess
+partnersSuccess:
+    layout: aboutSuccess
+contentsSuccess:
+    layout: aboutSuccess
+fundingSuccess:
+    layout: aboutSuccess

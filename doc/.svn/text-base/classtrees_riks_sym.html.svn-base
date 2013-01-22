@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title></title>
+			<link rel="stylesheet" href="media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+						
+<!-- Start of Class Data -->
+<H2>
+	
+</H2>
+<h2>Root class sfActions</h2>
+<ul>
+<li><a href="riks_sym/arrangement/arrangementActions.html">arrangementActions</a></li><li><a href="riks_sym/arrangements/arrangementsActions.html">arrangementsActions</a></li><li><a href="riks_sym/country/countryActions.html">countryActions</a></li><li><a href="riks_sym/data/dataActions.html">dataActions</a></li><li><a href="riks_sym/document/documentActions.html">documentActions</a></li><li><a href="riks_sym/georegion/georegionActions.html">georegionActions</a></li><li><a href="riks_sym/indicator/indicatorActions.html">indicatorActions</a></li></ul>
+
+<h2>Root class sfFormFilterPropel</h2>
+<ul>
+<li><a href="riks_sym/filter/BaseFormFilterPropel.html">BaseFormFilterPropel</a><ul>
+<li><a href="riks_sym/filter/BaseRikssymArrangementCountryFormFilter.html">BaseRikssymArrangementCountryFormFilter</a><ul>
+<li><a href="riks_sym/filter/RikssymArrangementCountryFormFilter.html">RikssymArrangementCountryFormFilter</a></li></ul></li>
+<li><a href="riks_sym/filter/BaseRikssymArrangementFormFilter.html">BaseRikssymArrangementFormFilter</a><ul>
+<li><a href="riks_sym/filter/RikssymArrangementFormFilter.html">RikssymArrangementFormFilter</a></li></ul></li>
+<li><a href="riks_sym/filter/BaseRikssymCountryFormFilter.html">BaseRikssymCountryFormFilter</a><ul>
+<li><a href="riks_sym/filter/RikssymCountryFormFilter.html">RikssymCountryFormFilter</a></li></ul></li>
+<li><a href="riks_sym/filter/BaseRikssymDataFormFilter.html">BaseRikssymDataFormFilter</a><ul>
+<li><a href="riks_sym/filter/RikssymDataFormFilter.html">RikssymDataFormFilter</a></li></ul></li>
+<li><a href="riks_sym/filter/BaseRikssymDatatypeFormFilter.html">BaseRikssymDatatypeFormFilter</a><ul>
+<li><a href="riks_sym/filter/RikssymDatatypeFormFilter.html">RikssymDatatypeFormFilter</a></li></ul></li>
+<li><a href="riks_sym/filter/BaseRikssymDocumentEntityFormFilter.html">BaseRikssymDocumentEntityFormFilter</a><ul>
+<li><a href="riks_sym/filter/RikssymDocumentEntityFormFilter.html">RikssymDocumentEntityFormFilter</a></li></ul></li>
+<li><a href="riks_sym/filter/BaseRikssymDocumentFormFilter.html">BaseRikssymDocumentFormFilter</a><ul>
+<li><a href="riks_sym/filter/RikssymDocumentFormFilter.html">RikssymDocumentFormFilter</a></li></ul></li>
+<li><a href="riks_sym/filter/BaseRikssymEntryFormFilter.html">BaseRikssymEntryFormFilter</a><ul>
+<li><a href="riks_sym/filter/RikssymEntryFormFilter.html">RikssymEntryFormFilter</a></li></ul></li>
+<li><a href="riks_sym/filter/BaseRikssymGeoregionFormFilter.html">BaseRikssymGeoregionFormFilter</a><ul>
+<li><a href="riks_sym/filter/RikssymGeoregionFormFilter.html">RikssymGeoregionFormFilter</a></li></ul></li>
+<li><a href="riks_sym/filter/BaseRikssymIndicatorFormFilter.html">BaseRikssymIndicatorFormFilter</a><ul>
+<li><a href="riks_sym/filter/RikssymIndicatorFormFilter.html">RikssymIndicatorFormFilter</a></li></ul></li>
+<li><a href="riks_sym/filter/BaseRikssymSourcesFormFilter.html">BaseRikssymSourcesFormFilter</a><ul>
+<li><a href="riks_sym/filter/RikssymSourcesFormFilter.html">RikssymSourcesFormFilter</a></li></ul></li>
+</ul></li>
+</ul>
+
+<h2>Root class sfFormPropel</h2>
+<ul>
+<li><a href="riks_sym/form/BaseFormPropel.html">BaseFormPropel</a><ul>
+<li><a href="riks_sym/form/BaseRikssymArrangementCountryForm.html">BaseRikssymArrangementCountryForm</a><ul>
+<li><a href="riks_sym/form/RikssymArrangementCountryForm.html">RikssymArrangementCountryForm</a></li></ul></li>
+<li><a href="riks_sym/form/BaseRikssymArrangementForm.html">BaseRikssymArrangementForm</a><ul>
+<li><a href="riks_sym/form/RikssymArrangementForm.html">RikssymArrangementForm</a></li></ul></li>
+<li><a href="riks_sym/form/BaseRikssymCountryForm.html">BaseRikssymCountryForm</a><ul>
+<li><a href="riks_sym/form/RikssymCountryForm.html">RikssymCountryForm</a></li></ul></li>
+<li><a href="riks_sym/form/BaseRikssymDataForm.html">BaseRikssymDataForm</a><ul>
+<li><a href="riks_sym/form/RikssymDataForm.html">RikssymDataForm</a></li></ul></li>
+<li><a href="riks_sym/form/BaseRikssymDatatypeForm.html">BaseRikssymDatatypeForm</a><ul>
+<li><a href="riks_sym/form/RikssymDatatypeForm.html">RikssymDatatypeForm</a></li></ul></li>
+<li><a href="riks_sym/form/BaseRikssymDocumentEntityForm.html">BaseRikssymDocumentEntityForm</a><ul>
+<li><a href="riks_sym/form/RikssymDocumentEntityForm.html">RikssymDocumentEntityForm</a></li></ul></li>
+<li><a href="riks_sym/form/BaseRikssymDocumentForm.html">BaseRikssymDocumentForm</a><ul>
+<li><a href="riks_sym/form/RikssymDocumentForm.html">RikssymDocumentForm</a></li></ul></li>
+<li><a href="riks_sym/form/BaseRikssymEntryForm.html">BaseRikssymEntryForm</a><ul>
+<li><a href="riks_sym/form/RikssymEntryForm.html">RikssymEntryForm</a></li></ul></li>
+<li><a href="riks_sym/form/BaseRikssymGeoregionForm.html">BaseRikssymGeoregionForm</a><ul>
+<li><a href="riks_sym/form/RikssymGeoregionForm.html">RikssymGeoregionForm</a></li></ul></li>
+<li><a href="riks_sym/form/BaseRikssymIndicatorForm.html">BaseRikssymIndicatorForm</a><ul>
+<li><a href="riks_sym/form/RikssymIndicatorForm.html">RikssymIndicatorForm</a></li></ul></li>
+<li><a href="riks_sym/form/BaseRikssymSourcesForm.html">BaseRikssymSourcesForm</a><ul>
+<li><a href="riks_sym/form/RikssymSourcesForm.html">RikssymSourcesForm</a></li></ul></li>
+</ul></li>
+</ul>
+
+	<p class="notes" id="credit">
+		Documentation generated on Sat, 10 Jan 2009 18:25:01 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.2</a>
+	</p>
+	</body>
+</html>

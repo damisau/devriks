@@ -1,0 +1,5694 @@
+RikssymIndicator:
+  RikssymIndicator_1:
+    name: 'Regional GDP in current prices (US Dollars)'
+    description:  'Description of Regional GDP in current prices'
+    classname:  'RikssymRegionalGDP'
+    ispublic: true
+  RikssymIndicator_2:
+    name: 'Regional Share in World GDP in current prices (US Dollars)'
+    description:  'Description of Regional Share of World GDP in current prices'
+    classname:  'RikssymRegionalGDPShare'
+    ispublic: true
+  RikssymIndicator_3:
+    name: 'Regional Population'
+    description:  'Description of Regional Population'
+    classname:  'RikssymRegionalPopulation'
+    ispublic: true
+  RikssymIndicator_4:
+    name: 'Regional Share of World Population'
+    description:  'Description of Regional Share in World Population'
+    classname:  'RikssymRegionalPopulationShare'
+    ispublic: true
+  RikssymIndicator_5:
+    name: 'Intra-Regional Trade Share'
+    description:  'Description of Intra-Regional Trade Share'
+    classname:  'RikssymIntraRegionalTradeShare'
+    ispublic: true
+  RikssymIndicator_6:
+    name: 'Symmetric Trade Introversion Index'
+    description:  'Description of Symmetric Trade Introversion Index'
+    classname:  'RikssymSymmetricTradeIntroversionIndex'
+    ispublic: true
+  RikssymIndicator_7:
+    name: 'Intra-Regional Trade Intensity Index'
+    description:  'Description of Intra-Regional Trade Intensity Index'
+    classname:  'RikssymIntraRegionalTradeIntensityIndex'
+    ispublic: true
+RikssymGeoregion:
+  RikssymGeoregion_1:
+    name: 'West Asia'
+  RikssymGeoregion_2:
+    name: Africa
+  RikssymGeoregion_3:
+    name: Europe
+RikssymArrangement:
+  RikssymArrangement_1:
+    name: 'African Union'
+  RikssymArrangement_2:
+    name: 'African, Caribbean and Pacific Group of States'
+  RikssymArrangement_3:
+    name: 'Andean Community'
+  RikssymArrangement_4:
+    name: 'Arab Maghreb Union'
+  RikssymArrangement_5:
+    name: 'Arab Organisation for Agricultural Development'
+  RikssymArrangement_6:
+    name: 'Asia-Pacific Economic Co-operation'
+  RikssymArrangement_7:
+    name: 'Association of Caribbean States'
+  RikssymArrangement_8:
+    name: 'Association of South Eastern Asian Nations'
+  RikssymArrangement_9:
+    name: 'Baltic Sea States Subregional Co-operation'
+  RikssymArrangement_10:
+    name: 'Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation'
+  RikssymArrangement_11:
+    name: 'Black Sea Economic Cooperation'
+  RikssymArrangement_12:
+    name: 'Caribbean Community'
+  RikssymArrangement_13:
+    name: 'Central African Customs and Economic Union'
+  RikssymArrangement_14:
+    name: 'Central African Economic and Monetary Community'
+  RikssymArrangement_15:
+    name: 'Central American Integration System'
+  RikssymArrangement_16:
+    name: 'Common Market for Eastern and Southern Africa'
+  RikssymArrangement_17:
+    name: 'Common Market of the South'
+  RikssymArrangement_18:
+    name: 'Community of Sahel-Saharan States'
+  RikssymArrangement_20:
+    name: 'Council of Europe'
+  RikssymArrangement_21:
+    name: 'Council of the Baltic States'
+  RikssymArrangement_22:
+    name: 'Cross Border Initiative'
+  RikssymArrangement_23:
+    name: 'East African Community'
+  RikssymArrangement_24:
+    name: 'Economic Co-operation Organisation'
+  RikssymArrangement_25:
+    name: 'Economic Community of Central African States'
+  RikssymArrangement_26:
+    name: 'Economic Community of West African States'
+  RikssymArrangement_27:
+    name: 'Economic Community of the Great Lakes Countries'
+  RikssymArrangement_28:
+    name: 'European Economic Area'
+  RikssymArrangement_29:
+    name: 'European Free Trade Association'
+  RikssymArrangement_30:
+    name: 'Free Trade Area of the Americas'
+  RikssymArrangement_31:
+    name: 'Group of Three'
+  RikssymArrangement_32:
+    name: 'Gulf Cooperation Council'
+  RikssymArrangement_33:
+    name: 'Indian Ocean Commission'
+  RikssymArrangement_34:
+    name: 'Indian Ocean Rim Association for Regional Cooperation'
+  RikssymArrangement_35:
+    name: 'Intergovernmental Authority on Development'
+  RikssymArrangement_36:
+    name: 'Intergovernmental Group of 24 on International Monetary Affairs'
+  RikssymArrangement_37:
+    name: 'Latin America Integration Association'
+  RikssymArrangement_38:
+    name: 'Latin American Economic System'
+  RikssymArrangement_39:
+    name: 'League of Arab States'
+  RikssymArrangement_40:
+    name: 'Mano River Union'
+  RikssymArrangement_41:
+    name: 'Mekong River Commission'
+  RikssymArrangement_42:
+    name: 'Nordic Council and The Nordic Council of Ministers'
+  RikssymArrangement_43:
+    name: 'North American Free Trade Agreement'
+  RikssymArrangement_44:
+    name: 'Organisation for Economic Cooperation and Development'
+  RikssymArrangement_45:
+    name: 'Organisation of African Unity'
+  RikssymArrangement_46:
+    name: 'Organisation of Arab Petroleum Exporting Countries'
+  RikssymArrangement_47:
+    name: 'Organisation of Eastern Caribbean States'
+  RikssymArrangement_48:
+    name: 'Organisation of Islamic Conference'
+  RikssymArrangement_49:
+    name: 'Organisation pour l''harmonisation du droit des affaires'
+  RikssymArrangement_50:
+    name: 'Organization of American States'
+  RikssymArrangement_51:
+    name: 'Permanent Interstate Committee for Drought Control in the Sahel'
+  RikssymArrangement_52:
+    name: 'Permanent Mechanism of Political Consultation and Coordination'
+  RikssymArrangement_53:
+    name: 'South Asian Association for Regional Co-operation'
+  RikssymArrangement_54:
+    name: 'Southern African Customs Union'
+  RikssymArrangement_55:
+    name: 'Southern African Development Community'
+  RikssymArrangement_56:
+    name: 'Stability Pact for South Eastern Europe'
+  RikssymArrangement_57:
+    name: 'West African Economic and Monetary Union'
+  RikssymArrangement_58:
+    name: 'Western European Union'
+  RikssymArrangement_59:
+    name: 'European Union'
+  RikssymArrangement_312:
+    name: Eurozone
+  RikssymArrangement_313:
+    name: 'EU - 15'
+RikssymCountry:
+  RikssymCountry_60:
+    name: Afghanistan
+  RikssymCountry_61:
+    name: Albania
+  RikssymCountry_62:
+    name: Algeria
+  RikssymCountry_63:
+    name: Andorra
+  RikssymCountry_64:
+    name: Angola
+  RikssymCountry_65:
+    name: Anguilla
+  RikssymCountry_66:
+    name: 'Antigua and Barbuda'
+  RikssymCountry_67:
+    name: Argentina
+  RikssymCountry_68:
+    name: Armenia
+  RikssymCountry_69:
+    name: Australia
+  RikssymCountry_70:
+    name: Austria
+  RikssymCountry_71:
+    name: Azerbaijan
+  RikssymCountry_72:
+    name: Bahamas
+  RikssymCountry_73:
+    name: Bahrain
+  RikssymCountry_74:
+    name: Bangladesh
+  RikssymCountry_75:
+    name: Barbados
+  RikssymCountry_76:
+    name: Belarus
+  RikssymCountry_77:
+    name: Belgium
+  RikssymCountry_78:
+    name: Belize
+  RikssymCountry_79:
+    name: Benin
+  RikssymCountry_80:
+    name: Bhutan
+  RikssymCountry_81:
+    name: Bolivia
+  RikssymCountry_82:
+    name: Botswana
+  RikssymCountry_83:
+    name: 'Bosnia and Herzegovina'
+  RikssymCountry_84:
+    name: Brazil
+  RikssymCountry_85:
+    name: 'British Virgin Islands'
+  RikssymCountry_86:
+    name: Brunei
+  RikssymCountry_87:
+    name: Bulgaria
+  RikssymCountry_88:
+    name: 'Burkina Faso'
+  RikssymCountry_89:
+    name: Myanmar
+  RikssymCountry_90:
+    name: Burundi
+  RikssymCountry_91:
+    name: Cambodia
+  RikssymCountry_92:
+    name: Cameroon
+  RikssymCountry_93:
+    name: Canada
+  RikssymCountry_94:
+    name: 'Cape Verde'
+  RikssymCountry_95:
+    name: 'Central African Republic'
+  RikssymCountry_96:
+    name: Chad
+  RikssymCountry_97:
+    name: Chile
+  RikssymCountry_98:
+    name: China
+  RikssymCountry_99:
+    name: Colombia
+  RikssymCountry_100:
+    name: Comoros
+  RikssymCountry_101:
+    name: 'Congo, Republic of'
+  RikssymCountry_102:
+    name: 'Cook Islands'
+  RikssymCountry_103:
+    name: 'Costa Rica'
+  RikssymCountry_104:
+    name: 'Cote d''Ivoire'
+  RikssymCountry_105:
+    name: Croatia
+  RikssymCountry_106:
+    name: Cuba
+  RikssymCountry_107:
+    name: Cyprus
+  RikssymCountry_108:
+    name: 'Czech Republic'
+  RikssymCountry_109:
+    name: 'Democratic Republic of the Congo'
+  RikssymCountry_110:
+    name: Denmark
+  RikssymCountry_111:
+    name: Djibouti
+  RikssymCountry_112:
+    name: Dominica
+  RikssymCountry_113:
+    name: 'Dominican Republic'
+  RikssymCountry_114:
+    name: 'East Timor'
+  RikssymCountry_115:
+    name: Ecuador
+  RikssymCountry_116:
+    name: Egypt
+  RikssymCountry_117:
+    name: 'El Salvador'
+  RikssymCountry_118:
+    name: Eritrea
+  RikssymCountry_119:
+    name: Estonia
+  RikssymCountry_120:
+    name: Ethiopia
+  RikssymCountry_121:
+    name: 'Falkland Islands'
+  RikssymCountry_122:
+    name: Fiji
+  RikssymCountry_123:
+    name: Finland
+  RikssymCountry_124:
+    name: France
+  RikssymCountry_125:
+    name: 'French Guiana'
+  RikssymCountry_126:
+    name: Gabon
+  RikssymCountry_127:
+    name: Gambia
+  RikssymCountry_128:
+    name: Georgia
+  RikssymCountry_129:
+    name: Germany
+  RikssymCountry_130:
+    name: Ghana
+  RikssymCountry_131:
+    name: Greece
+  RikssymCountry_132:
+    name: Greenland
+  RikssymCountry_133:
+    name: Grenada
+  RikssymCountry_134:
+    name: Guadeloupe
+  RikssymCountry_135:
+    name: Guatemala
+  RikssymCountry_136:
+    name: Guinea
+  RikssymCountry_137:
+    name: Guinea-Bissau
+  RikssymCountry_138:
+    name: 'Equatorial Guinea'
+  RikssymCountry_139:
+    name: Guyana
+  RikssymCountry_140:
+    name: Haiti
+  RikssymCountry_141:
+    name: Honduras
+  RikssymCountry_142:
+    name: 'Hong Kong'
+  RikssymCountry_143:
+    name: Hungary
+  RikssymCountry_144:
+    name: Iceland
+  RikssymCountry_145:
+    name: India
+  RikssymCountry_146:
+    name: Indonesia
+  RikssymCountry_147:
+    name: Iran
+  RikssymCountry_148:
+    name: Iraq
+  RikssymCountry_149:
+    name: Ireland
+  RikssymCountry_150:
+    name: Israel
+  RikssymCountry_151:
+    name: Italy
+  RikssymCountry_152:
+    name: Jamaica
+  RikssymCountry_153:
+    name: Japan
+  RikssymCountry_154:
+    name: Jordan
+  RikssymCountry_155:
+    name: Kazakhstan
+  RikssymCountry_156:
+    name: Kenya
+  RikssymCountry_157:
+    name: Kiribati
+  RikssymCountry_158:
+    name: 'Korea, North'
+  RikssymCountry_159:
+    name: 'Korea, South'
+  RikssymCountry_160:
+    name: Kuwait
+  RikssymCountry_161:
+    name: Kyrgyzstan
+  RikssymCountry_162:
+    name: Laos
+  RikssymCountry_163:
+    name: Latvia
+  RikssymCountry_164:
+    name: Lebanon
+  RikssymCountry_165:
+    name: Lesotho
+  RikssymCountry_166:
+    name: Liberia
+  RikssymCountry_167:
+    name: Libya
+  RikssymCountry_168:
+    name: Liechtenstein
+  RikssymCountry_169:
+    name: Lithuania
+  RikssymCountry_170:
+    name: Luxembourg
+  RikssymCountry_171:
+    name: 'Macedonia, Former Yugoslav Republic of'
+  RikssymCountry_172:
+    name: Madagascar
+  RikssymCountry_173:
+    name: Malawi
+  RikssymCountry_174:
+    name: Malaysia
+  RikssymCountry_175:
+    name: Maldives
+  RikssymCountry_176:
+    name: Mali
+  RikssymCountry_177:
+    name: Malta
+  RikssymCountry_178:
+    name: 'Marshall Islands'
+  RikssymCountry_179:
+    name: Martinique
+  RikssymCountry_180:
+    name: Mauritania
+  RikssymCountry_181:
+    name: Mauritius
+  RikssymCountry_182:
+    name: Mexico
+  RikssymCountry_183:
+    name: Micronesia
+  RikssymCountry_184:
+    name: Moldova
+  RikssymCountry_185:
+    name: Monaco
+  RikssymCountry_186:
+    name: Mongolia
+  RikssymCountry_187:
+    name: Montserrat
+  RikssymCountry_188:
+    name: Morocco
+  RikssymCountry_189:
+    name: Mozambique
+  RikssymCountry_190:
+    name: Namibia
+  RikssymCountry_191:
+    name: Nauru
+  RikssymCountry_192:
+    name: Nepal
+  RikssymCountry_193:
+    name: Netherlands
+  RikssymCountry_194:
+    name: 'Netherlands Antilles'
+  RikssymCountry_195:
+    name: 'New Caledonia'
+  RikssymCountry_196:
+    name: 'New Zealand'
+  RikssymCountry_197:
+    name: Nicaragua
+  RikssymCountry_198:
+    name: Niger
+  RikssymCountry_199:
+    name: Nigeria
+  RikssymCountry_200:
+    name: Niue
+  RikssymCountry_201:
+    name: Norway
+  RikssymCountry_202:
+    name: Oman
+  RikssymCountry_203:
+    name: Pakistan
+  RikssymCountry_204:
+    name: Palau
+  RikssymCountry_206:
+    name: Panama
+  RikssymCountry_207:
+    name: 'Papua New Guinea'
+  RikssymCountry_208:
+    name: Paraguay
+  RikssymCountry_209:
+    name: Peru
+  RikssymCountry_210:
+    name: Philippines
+  RikssymCountry_211:
+    name: Poland
+  RikssymCountry_212:
+    name: Portugal
+  RikssymCountry_213:
+    name: 'Puerto Rico'
+  RikssymCountry_214:
+    name: Qatar
+  RikssymCountry_215:
+    name: Reunion
+  RikssymCountry_216:
+    name: Romania
+  RikssymCountry_217:
+    name: 'Russian Federation'
+  RikssymCountry_218:
+    name: Rwanda
+  RikssymCountry_219:
+    name: 'Saint Kitts and Nevis'
+  RikssymCountry_220:
+    name: 'Saint Lucia'
+  RikssymCountry_221:
+    name: 'Saint Vincent and the Grenadines'
+  RikssymCountry_222:
+    name: 'San Marino'
+  RikssymCountry_223:
+    name: 'Sao Tome and Principe'
+  RikssymCountry_224:
+    name: 'Saudi Arabia'
+  RikssymCountry_225:
+    name: Senegal
+  RikssymCountry_226:
+    name: Seychelles
+  RikssymCountry_227:
+    name: 'Sierra Leone'
+  RikssymCountry_228:
+    name: Singapore
+  RikssymCountry_229:
+    name: Slovakia
+  RikssymCountry_230:
+    name: Slovenia
+  RikssymCountry_231:
+    name: 'Solomon Islands'
+  RikssymCountry_232:
+    name: Somalia
+  RikssymCountry_233:
+    name: 'South Africa'
+  RikssymCountry_234:
+    name: 'South Sandwich Islands'
+  RikssymCountry_235:
+    name: Spain
+  RikssymCountry_236:
+    name: 'Sri Lanka'
+  RikssymCountry_237:
+    name: Sudan
+  RikssymCountry_238:
+    name: Suriname
+  RikssymCountry_239:
+    name: Swaziland
+  RikssymCountry_240:
+    name: Sweden
+  RikssymCountry_241:
+    name: Switzerland
+  RikssymCountry_242:
+    name: Syria
+  RikssymCountry_243:
+    name: Taiwan
+  RikssymCountry_244:
+    name: Tajikistan
+  RikssymCountry_245:
+    name: Tanzania
+  RikssymCountry_246:
+    name: Thailand
+  RikssymCountry_247:
+    name: Togo
+  RikssymCountry_248:
+    name: Tonga
+  RikssymCountry_249:
+    name: 'Trinidad and Tobago'
+  RikssymCountry_250:
+    name: Tunisia
+  RikssymCountry_251:
+    name: Turkey
+  RikssymCountry_252:
+    name: Turkmenistan
+  RikssymCountry_253:
+    name: Tuvalu
+  RikssymCountry_254:
+    name: 'US Virgin Islands'
+  RikssymCountry_255:
+    name: Uganda
+  RikssymCountry_256:
+    name: Ukraine
+  RikssymCountry_257:
+    name: 'United Arab Emirates'
+  RikssymCountry_258:
+    name: 'United Kingdom'
+  RikssymCountry_259:
+    name: 'United States'
+  RikssymCountry_260:
+    name: Uruguay
+  RikssymCountry_261:
+    name: Uzbekistan
+  RikssymCountry_262:
+    name: Vanuatu
+  RikssymCountry_263:
+    name: 'Vatican City'
+  RikssymCountry_264:
+    name: Venezuela
+  RikssymCountry_265:
+    name: Vietnam
+  RikssymCountry_267:
+    name: Yemen
+  RikssymCountry_268:
+    name: 'Yugoslavia (Former)'
+  RikssymCountry_269:
+    name: Zambia
+  RikssymCountry_270:
+    name: Zimbabwe
+  RikssymCountry_272:
+    name: Aruba
+  RikssymCountry_273:
+    name: Bermuda
+  RikssymCountry_274:
+    name: 'Cayman Islands'
+  RikssymCountry_275:
+    name: 'Ethiopia (Former)'
+  RikssymCountry_276:
+    name: 'French Polynesia'
+  RikssymCountry_277:
+    name: Macao
+  RikssymCountry_278:
+    name: 'Occupied Palestinian Territory'
+  RikssymCountry_280:
+    name: Samoa
+  RikssymCountry_281:
+    name: 'Serbia and Montenegro'
+  RikssymCountry_282:
+    name: 'Turks and Caicos Islands'
+  RikssymCountry_283:
+    name: 'USSR (Former)'
+  RikssymCountry_285:
+    name: 'Yemen Democratic (Former)'
+  RikssymCountry_286:
+    name: Zanzibar
+  RikssymCountry_287:
+    name: Czechoslovakia
+  RikssymCountry_288:
+    name: 'Faeroe Islands'
+  RikssymCountry_289:
+    name: 'Former German Democratic Republic'
+  RikssymCountry_290:
+    name: 'Federal Republic of Germany'
+  RikssymCountry_291:
+    name: Gibraltar
+  RikssymCountry_292:
+    name: Yugoslavia
+  RikssymCountry_293:
+    name: 'Northern Mariana Islands'
+  RikssymCountry_294:
+    name: 'Saint Helena'
+  RikssymCountry_295:
+    name: Tokelau
+  RikssymCountry_296:
+    name: Unspecified
+  RikssymCountry_298:
+    name: 'Christmas Island'
+  RikssymCountry_299:
+    name: 'Western Sahara'
+  RikssymCountry_300:
+    name: 'Norfolk Island'
+  RikssymCountry_301:
+    name: 'Neutral Zone'
+  RikssymCountry_302:
+    name: 'Pacific Islands'
+  RikssymCountry_303:
+    name: 'Special Categories'
+  RikssymCountry_304:
+    name: 'Saint Pierre and Miquelon'
+  RikssymCountry_305:
+    name: Pitcairn
+  RikssymCountry_307:
+    name: 'Wallis and Futura Isl.'
+  RikssymCountry_308:
+    name: Mayotte
+  RikssymCountry_309:
+    name: 'British Indian Ocean Ter.'
+  RikssymCountry_310:
+    name: 'Free Zones'
+  RikssymCountry_311:
+    name: 'Cocos (Keeling) Islands'
+RikssymArrangementCountry:
+  RikssymArrangementCountry_350:
+    arrangement_id: RikssymArrangement_24
+    country_id: RikssymCountry_60
+  RikssymArrangementCountry_351:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_60
+  RikssymArrangementCountry_352:
+    arrangement_id: RikssymArrangement_11
+    country_id: RikssymCountry_61
+  RikssymArrangementCountry_353:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_61
+  RikssymArrangementCountry_354:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_61
+  RikssymArrangementCountry_355:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_61
+  RikssymArrangementCountry_356:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_62
+  RikssymArrangementCountry_357:
+    arrangement_id: RikssymArrangement_4
+    country_id: RikssymCountry_62
+  RikssymArrangementCountry_358:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_62
+  RikssymArrangementCountry_359:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_62
+  RikssymArrangementCountry_360:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_62
+  RikssymArrangementCountry_361:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_62
+  RikssymArrangementCountry_362:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_62
+  RikssymArrangementCountry_363:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_63
+  RikssymArrangementCountry_364:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_64
+  RikssymArrangementCountry_365:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_64
+  RikssymArrangementCountry_366:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_64
+  RikssymArrangementCountry_367:
+    arrangement_id: RikssymArrangement_25
+    country_id: RikssymCountry_64
+  RikssymArrangementCountry_368:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_64
+  RikssymArrangementCountry_369:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_64
+  RikssymArrangementCountry_370:
+    arrangement_id: RikssymArrangement_55
+    country_id: RikssymCountry_64
+  RikssymArrangementCountry_371:
+    arrangement_id: RikssymArrangement_47
+    country_id: RikssymCountry_65
+  RikssymArrangementCountry_372:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_66
+  RikssymArrangementCountry_373:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_66
+  RikssymArrangementCountry_374:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_66
+  RikssymArrangementCountry_375:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_66
+  RikssymArrangementCountry_376:
+    arrangement_id: RikssymArrangement_47
+    country_id: RikssymCountry_66
+  RikssymArrangementCountry_377:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_66
+  RikssymArrangementCountry_378:
+    arrangement_id: RikssymArrangement_17
+    country_id: RikssymCountry_67
+  RikssymArrangementCountry_379:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_67
+  RikssymArrangementCountry_380:
+    arrangement_id: RikssymArrangement_24
+    country_id: RikssymCountry_60
+  RikssymArrangementCountry_381:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_60
+  RikssymArrangementCountry_382:
+    arrangement_id: RikssymArrangement_11
+    country_id: RikssymCountry_61
+  RikssymArrangementCountry_383:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_61
+  RikssymArrangementCountry_384:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_61
+  RikssymArrangementCountry_385:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_61
+  RikssymArrangementCountry_386:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_62
+  RikssymArrangementCountry_387:
+    arrangement_id: RikssymArrangement_4
+    country_id: RikssymCountry_62
+  RikssymArrangementCountry_388:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_62
+  RikssymArrangementCountry_389:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_62
+  RikssymArrangementCountry_390:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_62
+  RikssymArrangementCountry_391:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_62
+  RikssymArrangementCountry_392:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_62
+  RikssymArrangementCountry_393:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_63
+  RikssymArrangementCountry_394:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_64
+  RikssymArrangementCountry_395:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_64
+  RikssymArrangementCountry_396:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_64
+  RikssymArrangementCountry_397:
+    arrangement_id: RikssymArrangement_25
+    country_id: RikssymCountry_64
+  RikssymArrangementCountry_398:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_64
+  RikssymArrangementCountry_399:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_64
+  RikssymArrangementCountry_400:
+    arrangement_id: RikssymArrangement_55
+    country_id: RikssymCountry_64
+  RikssymArrangementCountry_401:
+    arrangement_id: RikssymArrangement_47
+    country_id: RikssymCountry_65
+  RikssymArrangementCountry_402:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_66
+  RikssymArrangementCountry_403:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_66
+  RikssymArrangementCountry_404:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_66
+  RikssymArrangementCountry_405:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_66
+  RikssymArrangementCountry_406:
+    arrangement_id: RikssymArrangement_47
+    country_id: RikssymCountry_66
+  RikssymArrangementCountry_407:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_66
+  RikssymArrangementCountry_408:
+    arrangement_id: RikssymArrangement_17
+    country_id: RikssymCountry_67
+  RikssymArrangementCountry_409:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_67
+  RikssymArrangementCountry_410:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_67
+  RikssymArrangementCountry_411:
+    arrangement_id: RikssymArrangement_37
+    country_id: RikssymCountry_67
+  RikssymArrangementCountry_412:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_67
+  RikssymArrangementCountry_413:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_67
+  RikssymArrangementCountry_414:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_67
+  RikssymArrangementCountry_415:
+    arrangement_id: RikssymArrangement_11
+    country_id: RikssymCountry_68
+  RikssymArrangementCountry_416:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_68
+  RikssymArrangementCountry_417:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_69
+  RikssymArrangementCountry_418:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_69
+  RikssymArrangementCountry_419:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_69
+  RikssymArrangementCountry_420:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_70
+  RikssymArrangementCountry_421:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_70
+  RikssymArrangementCountry_422:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_70
+  RikssymArrangementCountry_423:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_70
+  RikssymArrangementCountry_424:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_70
+  RikssymArrangementCountry_425:
+    arrangement_id: RikssymArrangement_11
+    country_id: RikssymCountry_71
+  RikssymArrangementCountry_426:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_71
+  RikssymArrangementCountry_427:
+    arrangement_id: RikssymArrangement_24
+    country_id: RikssymCountry_71
+  RikssymArrangementCountry_428:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_71
+  RikssymArrangementCountry_429:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_72
+  RikssymArrangementCountry_430:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_72
+  RikssymArrangementCountry_431:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_72
+  RikssymArrangementCountry_432:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_72
+  RikssymArrangementCountry_433:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_72
+  RikssymArrangementCountry_434:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_72
+  RikssymArrangementCountry_435:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_73
+  RikssymArrangementCountry_436:
+    arrangement_id: RikssymArrangement_32
+    country_id: RikssymCountry_73
+  RikssymArrangementCountry_437:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_73
+  RikssymArrangementCountry_438:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_73
+  RikssymArrangementCountry_439:
+    arrangement_id: RikssymArrangement_10
+    country_id: RikssymCountry_74
+  RikssymArrangementCountry_440:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_74
+  RikssymArrangementCountry_441:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_74
+  RikssymArrangementCountry_442:
+    arrangement_id: RikssymArrangement_53
+    country_id: RikssymCountry_74
+  RikssymArrangementCountry_443:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_75
+  RikssymArrangementCountry_444:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_75
+  RikssymArrangementCountry_445:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_75
+  RikssymArrangementCountry_446:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_75
+  RikssymArrangementCountry_447:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_75
+  RikssymArrangementCountry_448:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_75
+  RikssymArrangementCountry_449:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_77
+  RikssymArrangementCountry_450:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_77
+  RikssymArrangementCountry_451:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_77
+  RikssymArrangementCountry_452:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_77
+  RikssymArrangementCountry_453:
+    arrangement_id: RikssymArrangement_58
+    country_id: RikssymCountry_77
+  RikssymArrangementCountry_454:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_78
+  RikssymArrangementCountry_455:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_78
+  RikssymArrangementCountry_456:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_78
+  RikssymArrangementCountry_457:
+    arrangement_id: RikssymArrangement_15
+    country_id: RikssymCountry_78
+  RikssymArrangementCountry_458:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_78
+  RikssymArrangementCountry_459:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_78
+  RikssymArrangementCountry_460:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_78
+  RikssymArrangementCountry_461:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_79
+  RikssymArrangementCountry_462:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_79
+  RikssymArrangementCountry_463:
+    arrangement_id: RikssymArrangement_26
+    country_id: RikssymCountry_79
+  RikssymArrangementCountry_464:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_79
+  RikssymArrangementCountry_465:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_79
+  RikssymArrangementCountry_466:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_79
+  RikssymArrangementCountry_467:
+    arrangement_id: RikssymArrangement_57
+    country_id: RikssymCountry_79
+  RikssymArrangementCountry_468:
+    arrangement_id: RikssymArrangement_10
+    country_id: RikssymCountry_80
+  RikssymArrangementCountry_469:
+    arrangement_id: RikssymArrangement_53
+    country_id: RikssymCountry_80
+  RikssymArrangementCountry_470:
+    arrangement_id: RikssymArrangement_3
+    country_id: RikssymCountry_81
+  RikssymArrangementCountry_471:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_81
+  RikssymArrangementCountry_472:
+    arrangement_id: RikssymArrangement_37
+    country_id: RikssymCountry_81
+  RikssymArrangementCountry_473:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_81
+  RikssymArrangementCountry_474:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_81
+  RikssymArrangementCountry_475:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_81
+  RikssymArrangementCountry_476:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_82
+  RikssymArrangementCountry_477:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_82
+  RikssymArrangementCountry_478:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_82
+  RikssymArrangementCountry_479:
+    arrangement_id: RikssymArrangement_54
+    country_id: RikssymCountry_82
+  RikssymArrangementCountry_480:
+    arrangement_id: RikssymArrangement_55
+    country_id: RikssymCountry_82
+  RikssymArrangementCountry_481:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_83
+  RikssymArrangementCountry_482:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_83
+  RikssymArrangementCountry_483:
+    arrangement_id: RikssymArrangement_17
+    country_id: RikssymCountry_84
+  RikssymArrangementCountry_484:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_84
+  RikssymArrangementCountry_485:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_84
+  RikssymArrangementCountry_486:
+    arrangement_id: RikssymArrangement_37
+    country_id: RikssymCountry_84
+  RikssymArrangementCountry_487:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_84
+  RikssymArrangementCountry_488:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_84
+  RikssymArrangementCountry_489:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_84
+  RikssymArrangementCountry_490:
+    arrangement_id: RikssymArrangement_47
+    country_id: RikssymCountry_85
+  RikssymArrangementCountry_491:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_86
+  RikssymArrangementCountry_492:
+    arrangement_id: RikssymArrangement_8
+    country_id: RikssymCountry_86
+  RikssymArrangementCountry_493:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_86
+  RikssymArrangementCountry_494:
+    arrangement_id: RikssymArrangement_11
+    country_id: RikssymCountry_87
+  RikssymArrangementCountry_495:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_87
+  RikssymArrangementCountry_496:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_87
+  RikssymArrangementCountry_497:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_88
+  RikssymArrangementCountry_498:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_88
+  RikssymArrangementCountry_499:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_88
+  RikssymArrangementCountry_500:
+    arrangement_id: RikssymArrangement_26
+    country_id: RikssymCountry_88
+  RikssymArrangementCountry_501:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_88
+  RikssymArrangementCountry_502:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_88
+  RikssymArrangementCountry_503:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_88
+  RikssymArrangementCountry_504:
+    arrangement_id: RikssymArrangement_51
+    country_id: RikssymCountry_88
+  RikssymArrangementCountry_505:
+    arrangement_id: RikssymArrangement_57
+    country_id: RikssymCountry_88
+  RikssymArrangementCountry_506:
+    arrangement_id: RikssymArrangement_8
+    country_id: RikssymCountry_89
+  RikssymArrangementCountry_507:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_90
+  RikssymArrangementCountry_508:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_90
+  RikssymArrangementCountry_509:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_90
+  RikssymArrangementCountry_510:
+    arrangement_id: RikssymArrangement_22
+    country_id: RikssymCountry_90
+  RikssymArrangementCountry_511:
+    arrangement_id: RikssymArrangement_25
+    country_id: RikssymCountry_90
+  RikssymArrangementCountry_512:
+    arrangement_id: RikssymArrangement_27
+    country_id: RikssymCountry_90
+  RikssymArrangementCountry_513:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_90
+  RikssymArrangementCountry_514:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_90
+  RikssymArrangementCountry_515:
+    arrangement_id: RikssymArrangement_8
+    country_id: RikssymCountry_91
+  RikssymArrangementCountry_516:
+    arrangement_id: RikssymArrangement_41
+    country_id: RikssymCountry_91
+  RikssymArrangementCountry_517:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_92
+  RikssymArrangementCountry_518:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_92
+  RikssymArrangementCountry_519:
+    arrangement_id: RikssymArrangement_13
+    country_id: RikssymCountry_92
+  RikssymArrangementCountry_520:
+    arrangement_id: RikssymArrangement_14
+    country_id: RikssymCountry_92
+  RikssymArrangementCountry_521:
+    arrangement_id: RikssymArrangement_25
+    country_id: RikssymCountry_92
+  RikssymArrangementCountry_522:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_92
+  RikssymArrangementCountry_523:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_92
+  RikssymArrangementCountry_524:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_92
+  RikssymArrangementCountry_525:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_93
+  RikssymArrangementCountry_526:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_93
+  RikssymArrangementCountry_527:
+    arrangement_id: RikssymArrangement_43
+    country_id: RikssymCountry_93
+  RikssymArrangementCountry_528:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_93
+  RikssymArrangementCountry_529:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_93
+  RikssymArrangementCountry_530:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_93
+  RikssymArrangementCountry_531:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_94
+  RikssymArrangementCountry_532:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_94
+  RikssymArrangementCountry_533:
+    arrangement_id: RikssymArrangement_26
+    country_id: RikssymCountry_94
+  RikssymArrangementCountry_534:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_94
+  RikssymArrangementCountry_535:
+    arrangement_id: RikssymArrangement_51
+    country_id: RikssymCountry_94
+  RikssymArrangementCountry_536:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_95
+  RikssymArrangementCountry_537:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_95
+  RikssymArrangementCountry_538:
+    arrangement_id: RikssymArrangement_13
+    country_id: RikssymCountry_95
+  RikssymArrangementCountry_539:
+    arrangement_id: RikssymArrangement_14
+    country_id: RikssymCountry_95
+  RikssymArrangementCountry_540:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_95
+  RikssymArrangementCountry_541:
+    arrangement_id: RikssymArrangement_25
+    country_id: RikssymCountry_95
+  RikssymArrangementCountry_542:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_95
+  RikssymArrangementCountry_543:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_95
+  RikssymArrangementCountry_544:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_96
+  RikssymArrangementCountry_545:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_96
+  RikssymArrangementCountry_546:
+    arrangement_id: RikssymArrangement_13
+    country_id: RikssymCountry_96
+  RikssymArrangementCountry_547:
+    arrangement_id: RikssymArrangement_14
+    country_id: RikssymCountry_96
+  RikssymArrangementCountry_548:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_96
+  RikssymArrangementCountry_549:
+    arrangement_id: RikssymArrangement_25
+    country_id: RikssymCountry_96
+  RikssymArrangementCountry_550:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_96
+  RikssymArrangementCountry_551:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_96
+  RikssymArrangementCountry_552:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_96
+  RikssymArrangementCountry_553:
+    arrangement_id: RikssymArrangement_51
+    country_id: RikssymCountry_96
+  RikssymArrangementCountry_554:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_97
+  RikssymArrangementCountry_555:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_97
+  RikssymArrangementCountry_556:
+    arrangement_id: RikssymArrangement_37
+    country_id: RikssymCountry_97
+  RikssymArrangementCountry_557:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_97
+  RikssymArrangementCountry_558:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_97
+  RikssymArrangementCountry_559:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_97
+  RikssymArrangementCountry_560:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_98
+  RikssymArrangementCountry_561:
+    arrangement_id: RikssymArrangement_3
+    country_id: RikssymCountry_99
+  RikssymArrangementCountry_562:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_99
+  RikssymArrangementCountry_563:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_99
+  RikssymArrangementCountry_564:
+    arrangement_id: RikssymArrangement_31
+    country_id: RikssymCountry_99
+  RikssymArrangementCountry_565:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_99
+  RikssymArrangementCountry_566:
+    arrangement_id: RikssymArrangement_37
+    country_id: RikssymCountry_99
+  RikssymArrangementCountry_567:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_99
+  RikssymArrangementCountry_568:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_99
+  RikssymArrangementCountry_569:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_99
+  RikssymArrangementCountry_570:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_100
+  RikssymArrangementCountry_571:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_100
+  RikssymArrangementCountry_572:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_100
+  RikssymArrangementCountry_573:
+    arrangement_id: RikssymArrangement_22
+    country_id: RikssymCountry_100
+  RikssymArrangementCountry_574:
+    arrangement_id: RikssymArrangement_33
+    country_id: RikssymCountry_100
+  RikssymArrangementCountry_575:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_100
+  RikssymArrangementCountry_576:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_100
+  RikssymArrangementCountry_577:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_100
+  RikssymArrangementCountry_578:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_100
+  RikssymArrangementCountry_579:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_100
+  RikssymArrangementCountry_580:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_101
+  RikssymArrangementCountry_581:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_101
+  RikssymArrangementCountry_582:
+    arrangement_id: RikssymArrangement_14
+    country_id: RikssymCountry_101
+  RikssymArrangementCountry_583:
+    arrangement_id: RikssymArrangement_25
+    country_id: RikssymCountry_101
+  RikssymArrangementCountry_584:
+    arrangement_id: RikssymArrangement_27
+    country_id: RikssymCountry_101
+  RikssymArrangementCountry_585:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_101
+  RikssymArrangementCountry_586:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_102
+  RikssymArrangementCountry_587:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_103
+  RikssymArrangementCountry_588:
+    arrangement_id: RikssymArrangement_15
+    country_id: RikssymCountry_103
+  RikssymArrangementCountry_589:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_103
+  RikssymArrangementCountry_590:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_103
+  RikssymArrangementCountry_591:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_103
+  RikssymArrangementCountry_592:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_103
+  RikssymArrangementCountry_593:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_104
+  RikssymArrangementCountry_594:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_104
+  RikssymArrangementCountry_595:
+    arrangement_id: RikssymArrangement_26
+    country_id: RikssymCountry_104
+  RikssymArrangementCountry_596:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_104
+  RikssymArrangementCountry_597:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_104
+  RikssymArrangementCountry_598:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_104
+  RikssymArrangementCountry_599:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_104
+  RikssymArrangementCountry_600:
+    arrangement_id: RikssymArrangement_57
+    country_id: RikssymCountry_104
+  RikssymArrangementCountry_601:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_105
+  RikssymArrangementCountry_602:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_105
+  RikssymArrangementCountry_603:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_106
+  RikssymArrangementCountry_604:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_106
+  RikssymArrangementCountry_605:
+    arrangement_id: RikssymArrangement_37
+    country_id: RikssymCountry_106
+  RikssymArrangementCountry_606:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_106
+  RikssymArrangementCountry_607:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_106
+  RikssymArrangementCountry_608:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_107
+  RikssymArrangementCountry_609:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_107
+  RikssymArrangementCountry_610:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_108
+  RikssymArrangementCountry_611:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_108
+  RikssymArrangementCountry_612:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_108
+  RikssymArrangementCountry_613:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_108
+  RikssymArrangementCountry_614:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_109
+  RikssymArrangementCountry_615:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_109
+  RikssymArrangementCountry_616:
+    arrangement_id: RikssymArrangement_13
+    country_id: RikssymCountry_109
+  RikssymArrangementCountry_617:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_109
+  RikssymArrangementCountry_618:
+    arrangement_id: RikssymArrangement_25
+    country_id: RikssymCountry_109
+  RikssymArrangementCountry_619:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_109
+  RikssymArrangementCountry_620:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_109
+  RikssymArrangementCountry_621:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_109
+  RikssymArrangementCountry_622:
+    arrangement_id: RikssymArrangement_55
+    country_id: RikssymCountry_109
+  RikssymArrangementCountry_623:
+    arrangement_id: RikssymArrangement_9
+    country_id: RikssymCountry_110
+  RikssymArrangementCountry_624:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_110
+  RikssymArrangementCountry_625:
+    arrangement_id: RikssymArrangement_21
+    country_id: RikssymCountry_110
+  RikssymArrangementCountry_626:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_110
+  RikssymArrangementCountry_627:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_110
+  RikssymArrangementCountry_628:
+    arrangement_id: RikssymArrangement_42
+    country_id: RikssymCountry_110
+  RikssymArrangementCountry_629:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_110
+  RikssymArrangementCountry_630:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_110
+  RikssymArrangementCountry_631:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_111
+  RikssymArrangementCountry_632:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_111
+  RikssymArrangementCountry_633:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_111
+  RikssymArrangementCountry_634:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_111
+  RikssymArrangementCountry_635:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_111
+  RikssymArrangementCountry_636:
+    arrangement_id: RikssymArrangement_35
+    country_id: RikssymCountry_111
+  RikssymArrangementCountry_637:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_111
+  RikssymArrangementCountry_638:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_111
+  RikssymArrangementCountry_639:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_111
+  RikssymArrangementCountry_640:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_111
+  RikssymArrangementCountry_641:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_112
+  RikssymArrangementCountry_642:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_112
+  RikssymArrangementCountry_643:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_112
+  RikssymArrangementCountry_644:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_112
+  RikssymArrangementCountry_645:
+    arrangement_id: RikssymArrangement_47
+    country_id: RikssymCountry_112
+  RikssymArrangementCountry_646:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_112
+  RikssymArrangementCountry_647:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_113
+  RikssymArrangementCountry_648:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_113
+  RikssymArrangementCountry_649:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_113
+  RikssymArrangementCountry_650:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_113
+  RikssymArrangementCountry_651:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_113
+  RikssymArrangementCountry_652:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_113
+  RikssymArrangementCountry_653:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_114
+  RikssymArrangementCountry_654:
+    arrangement_id: RikssymArrangement_3
+    country_id: RikssymCountry_115
+  RikssymArrangementCountry_655:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_115
+  RikssymArrangementCountry_656:
+    arrangement_id: RikssymArrangement_37
+    country_id: RikssymCountry_115
+  RikssymArrangementCountry_657:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_115
+  RikssymArrangementCountry_658:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_115
+  RikssymArrangementCountry_659:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_115
+  RikssymArrangementCountry_660:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_116
+  RikssymArrangementCountry_661:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_116
+  RikssymArrangementCountry_662:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_116
+  RikssymArrangementCountry_663:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_116
+  RikssymArrangementCountry_664:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_116
+  RikssymArrangementCountry_665:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_116
+  RikssymArrangementCountry_666:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_116
+  RikssymArrangementCountry_667:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_116
+  RikssymArrangementCountry_668:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_116
+  RikssymArrangementCountry_669:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_117
+  RikssymArrangementCountry_670:
+    arrangement_id: RikssymArrangement_15
+    country_id: RikssymCountry_117
+  RikssymArrangementCountry_671:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_117
+  RikssymArrangementCountry_672:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_117
+  RikssymArrangementCountry_673:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_117
+  RikssymArrangementCountry_674:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_117
+  RikssymArrangementCountry_675:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_118
+  RikssymArrangementCountry_676:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_118
+  RikssymArrangementCountry_677:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_118
+  RikssymArrangementCountry_678:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_118
+  RikssymArrangementCountry_679:
+    arrangement_id: RikssymArrangement_35
+    country_id: RikssymCountry_118
+  RikssymArrangementCountry_680:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_118
+  RikssymArrangementCountry_681:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_118
+  RikssymArrangementCountry_682:
+    arrangement_id: RikssymArrangement_9
+    country_id: RikssymCountry_119
+  RikssymArrangementCountry_683:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_119
+  RikssymArrangementCountry_684:
+    arrangement_id: RikssymArrangement_21
+    country_id: RikssymCountry_119
+  RikssymArrangementCountry_685:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_119
+  RikssymArrangementCountry_686:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_120
+  RikssymArrangementCountry_687:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_120
+  RikssymArrangementCountry_688:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_120
+  RikssymArrangementCountry_689:
+    arrangement_id: RikssymArrangement_35
+    country_id: RikssymCountry_120
+  RikssymArrangementCountry_690:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_120
+  RikssymArrangementCountry_691:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_120
+  RikssymArrangementCountry_692:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_120
+  RikssymArrangementCountry_693:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_122
+  RikssymArrangementCountry_694:
+    arrangement_id: RikssymArrangement_9
+    country_id: RikssymCountry_123
+  RikssymArrangementCountry_695:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_123
+  RikssymArrangementCountry_696:
+    arrangement_id: RikssymArrangement_21
+    country_id: RikssymCountry_123
+  RikssymArrangementCountry_697:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_123
+  RikssymArrangementCountry_698:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_123
+  RikssymArrangementCountry_699:
+    arrangement_id: RikssymArrangement_42
+    country_id: RikssymCountry_123
+  RikssymArrangementCountry_700:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_123
+  RikssymArrangementCountry_701:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_123
+  RikssymArrangementCountry_702:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_124
+  RikssymArrangementCountry_703:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_124
+  RikssymArrangementCountry_704:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_124
+  RikssymArrangementCountry_705:
+    arrangement_id: RikssymArrangement_33
+    country_id: RikssymCountry_124
+  RikssymArrangementCountry_706:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_124
+  RikssymArrangementCountry_707:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_124
+  RikssymArrangementCountry_708:
+    arrangement_id: RikssymArrangement_58
+    country_id: RikssymCountry_124
+  RikssymArrangementCountry_709:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_126
+  RikssymArrangementCountry_710:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_126
+  RikssymArrangementCountry_711:
+    arrangement_id: RikssymArrangement_13
+    country_id: RikssymCountry_126
+  RikssymArrangementCountry_712:
+    arrangement_id: RikssymArrangement_14
+    country_id: RikssymCountry_126
+  RikssymArrangementCountry_713:
+    arrangement_id: RikssymArrangement_25
+    country_id: RikssymCountry_126
+  RikssymArrangementCountry_714:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_126
+  RikssymArrangementCountry_715:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_126
+  RikssymArrangementCountry_716:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_126
+  RikssymArrangementCountry_717:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_126
+  RikssymArrangementCountry_718:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_127
+  RikssymArrangementCountry_719:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_127
+  RikssymArrangementCountry_720:
+    arrangement_id: RikssymArrangement_13
+    country_id: RikssymCountry_127
+  RikssymArrangementCountry_721:
+    arrangement_id: RikssymArrangement_14
+    country_id: RikssymCountry_127
+  RikssymArrangementCountry_722:
+    arrangement_id: RikssymArrangement_25
+    country_id: RikssymCountry_127
+  RikssymArrangementCountry_723:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_127
+  RikssymArrangementCountry_724:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_127
+  RikssymArrangementCountry_725:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_127
+  RikssymArrangementCountry_726:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_127
+  RikssymArrangementCountry_727:
+    arrangement_id: RikssymArrangement_11
+    country_id: RikssymCountry_128
+  RikssymArrangementCountry_728:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_128
+  RikssymArrangementCountry_730:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_129
+  RikssymArrangementCountry_731:
+    arrangement_id: RikssymArrangement_21
+    country_id: RikssymCountry_129
+  RikssymArrangementCountry_732:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_129
+  RikssymArrangementCountry_733:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_129
+  RikssymArrangementCountry_734:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_129
+  RikssymArrangementCountry_735:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_129
+  RikssymArrangementCountry_736:
+    arrangement_id: RikssymArrangement_58
+    country_id: RikssymCountry_129
+  RikssymArrangementCountry_737:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_130
+  RikssymArrangementCountry_738:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_130
+  RikssymArrangementCountry_739:
+    arrangement_id: RikssymArrangement_26
+    country_id: RikssymCountry_130
+  RikssymArrangementCountry_740:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_130
+  RikssymArrangementCountry_741:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_130
+  RikssymArrangementCountry_742:
+    arrangement_id: RikssymArrangement_11
+    country_id: RikssymCountry_131
+  RikssymArrangementCountry_743:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_131
+  RikssymArrangementCountry_744:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_131
+  RikssymArrangementCountry_745:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_131
+  RikssymArrangementCountry_746:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_131
+  RikssymArrangementCountry_747:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_131
+  RikssymArrangementCountry_748:
+    arrangement_id: RikssymArrangement_58
+    country_id: RikssymCountry_131
+  RikssymArrangementCountry_749:
+    arrangement_id: RikssymArrangement_42
+    country_id: RikssymCountry_132
+  RikssymArrangementCountry_750:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_133
+  RikssymArrangementCountry_751:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_133
+  RikssymArrangementCountry_752:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_133
+  RikssymArrangementCountry_753:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_133
+  RikssymArrangementCountry_754:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_133
+  RikssymArrangementCountry_755:
+    arrangement_id: RikssymArrangement_47
+    country_id: RikssymCountry_133
+  RikssymArrangementCountry_756:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_133
+  RikssymArrangementCountry_757:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_135
+  RikssymArrangementCountry_758:
+    arrangement_id: RikssymArrangement_15
+    country_id: RikssymCountry_135
+  RikssymArrangementCountry_759:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_135
+  RikssymArrangementCountry_760:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_135
+  RikssymArrangementCountry_761:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_135
+  RikssymArrangementCountry_762:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_135
+  RikssymArrangementCountry_763:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_136
+  RikssymArrangementCountry_764:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_136
+  RikssymArrangementCountry_765:
+    arrangement_id: RikssymArrangement_26
+    country_id: RikssymCountry_136
+  RikssymArrangementCountry_766:
+    arrangement_id: RikssymArrangement_40
+    country_id: RikssymCountry_136
+  RikssymArrangementCountry_767:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_136
+  RikssymArrangementCountry_768:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_136
+  RikssymArrangementCountry_769:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_136
+  RikssymArrangementCountry_770:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_137
+  RikssymArrangementCountry_771:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_137
+  RikssymArrangementCountry_772:
+    arrangement_id: RikssymArrangement_26
+    country_id: RikssymCountry_137
+  RikssymArrangementCountry_773:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_137
+  RikssymArrangementCountry_774:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_137
+  RikssymArrangementCountry_775:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_137
+  RikssymArrangementCountry_776:
+    arrangement_id: RikssymArrangement_51
+    country_id: RikssymCountry_137
+  RikssymArrangementCountry_777:
+    arrangement_id: RikssymArrangement_57
+    country_id: RikssymCountry_137
+  RikssymArrangementCountry_778:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_138
+  RikssymArrangementCountry_779:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_138
+  RikssymArrangementCountry_780:
+    arrangement_id: RikssymArrangement_13
+    country_id: RikssymCountry_138
+  RikssymArrangementCountry_781:
+    arrangement_id: RikssymArrangement_14
+    country_id: RikssymCountry_138
+  RikssymArrangementCountry_782:
+    arrangement_id: RikssymArrangement_25
+    country_id: RikssymCountry_138
+  RikssymArrangementCountry_783:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_138
+  RikssymArrangementCountry_784:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_138
+  RikssymArrangementCountry_785:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_139
+  RikssymArrangementCountry_786:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_139
+  RikssymArrangementCountry_787:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_139
+  RikssymArrangementCountry_788:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_139
+  RikssymArrangementCountry_789:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_139
+  RikssymArrangementCountry_790:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_139
+  RikssymArrangementCountry_791:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_139
+  RikssymArrangementCountry_792:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_140
+  RikssymArrangementCountry_793:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_140
+  RikssymArrangementCountry_794:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_140
+  RikssymArrangementCountry_795:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_140
+  RikssymArrangementCountry_796:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_140
+  RikssymArrangementCountry_797:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_140
+  RikssymArrangementCountry_798:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_141
+  RikssymArrangementCountry_799:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_141
+  RikssymArrangementCountry_800:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_141
+  RikssymArrangementCountry_801:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_141
+  RikssymArrangementCountry_802:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_141
+  RikssymArrangementCountry_803:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_142
+  RikssymArrangementCountry_804:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_143
+  RikssymArrangementCountry_805:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_143
+  RikssymArrangementCountry_806:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_143
+  RikssymArrangementCountry_807:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_143
+  RikssymArrangementCountry_808:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_144
+  RikssymArrangementCountry_809:
+    arrangement_id: RikssymArrangement_21
+    country_id: RikssymCountry_144
+  RikssymArrangementCountry_810:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_144
+  RikssymArrangementCountry_811:
+    arrangement_id: RikssymArrangement_29
+    country_id: RikssymCountry_144
+  RikssymArrangementCountry_812:
+    arrangement_id: RikssymArrangement_42
+    country_id: RikssymCountry_144
+  RikssymArrangementCountry_813:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_144
+  RikssymArrangementCountry_814:
+    arrangement_id: RikssymArrangement_10
+    country_id: RikssymCountry_145
+  RikssymArrangementCountry_815:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_145
+  RikssymArrangementCountry_816:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_145
+  RikssymArrangementCountry_817:
+    arrangement_id: RikssymArrangement_53
+    country_id: RikssymCountry_145
+  RikssymArrangementCountry_818:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_146
+  RikssymArrangementCountry_819:
+    arrangement_id: RikssymArrangement_8
+    country_id: RikssymCountry_146
+  RikssymArrangementCountry_820:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_146
+  RikssymArrangementCountry_821:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_146
+  RikssymArrangementCountry_822:
+    arrangement_id: RikssymArrangement_24
+    country_id: RikssymCountry_147
+  RikssymArrangementCountry_823:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_147
+  RikssymArrangementCountry_824:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_147
+  RikssymArrangementCountry_825:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_147
+  RikssymArrangementCountry_826:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_148
+  RikssymArrangementCountry_827:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_148
+  RikssymArrangementCountry_828:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_148
+  RikssymArrangementCountry_829:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_149
+  RikssymArrangementCountry_830:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_149
+  RikssymArrangementCountry_831:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_149
+  RikssymArrangementCountry_832:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_149
+  RikssymArrangementCountry_833:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_149
+  RikssymArrangementCountry_834:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_151
+  RikssymArrangementCountry_835:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_151
+  RikssymArrangementCountry_836:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_151
+  RikssymArrangementCountry_837:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_151
+  RikssymArrangementCountry_838:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_151
+  RikssymArrangementCountry_839:
+    arrangement_id: RikssymArrangement_58
+    country_id: RikssymCountry_151
+  RikssymArrangementCountry_840:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_152
+  RikssymArrangementCountry_841:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_152
+  RikssymArrangementCountry_842:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_152
+  RikssymArrangementCountry_843:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_152
+  RikssymArrangementCountry_844:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_152
+  RikssymArrangementCountry_845:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_152
+  RikssymArrangementCountry_846:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_153
+  RikssymArrangementCountry_847:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_153
+  RikssymArrangementCountry_848:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_153
+  RikssymArrangementCountry_849:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_154
+  RikssymArrangementCountry_850:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_154
+  RikssymArrangementCountry_851:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_154
+  RikssymArrangementCountry_852:
+    arrangement_id: RikssymArrangement_24
+    country_id: RikssymCountry_155
+  RikssymArrangementCountry_853:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_155
+  RikssymArrangementCountry_854:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_156
+  RikssymArrangementCountry_855:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_156
+  RikssymArrangementCountry_856:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_156
+  RikssymArrangementCountry_857:
+    arrangement_id: RikssymArrangement_22
+    country_id: RikssymCountry_156
+  RikssymArrangementCountry_858:
+    arrangement_id: RikssymArrangement_23
+    country_id: RikssymCountry_156
+  RikssymArrangementCountry_859:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_156
+  RikssymArrangementCountry_860:
+    arrangement_id: RikssymArrangement_35
+    country_id: RikssymCountry_156
+  RikssymArrangementCountry_861:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_156
+  RikssymArrangementCountry_862:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_156
+  RikssymArrangementCountry_863:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_157
+  RikssymArrangementCountry_864:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_158
+  RikssymArrangementCountry_865:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_159
+  RikssymArrangementCountry_866:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_159
+  RikssymArrangementCountry_867:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_160
+  RikssymArrangementCountry_868:
+    arrangement_id: RikssymArrangement_32
+    country_id: RikssymCountry_160
+  RikssymArrangementCountry_869:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_160
+  RikssymArrangementCountry_870:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_160
+  RikssymArrangementCountry_871:
+    arrangement_id: RikssymArrangement_24
+    country_id: RikssymCountry_161
+  RikssymArrangementCountry_872:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_161
+  RikssymArrangementCountry_873:
+    arrangement_id: RikssymArrangement_8
+    country_id: RikssymCountry_162
+  RikssymArrangementCountry_874:
+    arrangement_id: RikssymArrangement_41
+    country_id: RikssymCountry_162
+  RikssymArrangementCountry_875:
+    arrangement_id: RikssymArrangement_9
+    country_id: RikssymCountry_163
+  RikssymArrangementCountry_876:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_163
+  RikssymArrangementCountry_877:
+    arrangement_id: RikssymArrangement_21
+    country_id: RikssymCountry_163
+  RikssymArrangementCountry_878:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_163
+  RikssymArrangementCountry_879:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_164
+  RikssymArrangementCountry_880:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_164
+  RikssymArrangementCountry_881:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_164
+  RikssymArrangementCountry_882:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_164
+  RikssymArrangementCountry_883:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_165
+  RikssymArrangementCountry_884:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_165
+  RikssymArrangementCountry_885:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_165
+  RikssymArrangementCountry_886:
+    arrangement_id: RikssymArrangement_54
+    country_id: RikssymCountry_165
+  RikssymArrangementCountry_887:
+    arrangement_id: RikssymArrangement_55
+    country_id: RikssymCountry_165
+  RikssymArrangementCountry_888:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_166
+  RikssymArrangementCountry_889:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_166
+  RikssymArrangementCountry_890:
+    arrangement_id: RikssymArrangement_26
+    country_id: RikssymCountry_166
+  RikssymArrangementCountry_891:
+    arrangement_id: RikssymArrangement_40
+    country_id: RikssymCountry_166
+  RikssymArrangementCountry_892:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_166
+  RikssymArrangementCountry_893:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_167
+  RikssymArrangementCountry_894:
+    arrangement_id: RikssymArrangement_4
+    country_id: RikssymCountry_167
+  RikssymArrangementCountry_895:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_167
+  RikssymArrangementCountry_896:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_167
+  RikssymArrangementCountry_897:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_167
+  RikssymArrangementCountry_898:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_167
+  RikssymArrangementCountry_899:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_167
+  RikssymArrangementCountry_900:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_168
+  RikssymArrangementCountry_901:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_168
+  RikssymArrangementCountry_902:
+    arrangement_id: RikssymArrangement_29
+    country_id: RikssymCountry_168
+  RikssymArrangementCountry_903:
+    arrangement_id: RikssymArrangement_9
+    country_id: RikssymCountry_169
+  RikssymArrangementCountry_904:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_169
+  RikssymArrangementCountry_905:
+    arrangement_id: RikssymArrangement_21
+    country_id: RikssymCountry_169
+  RikssymArrangementCountry_906:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_169
+  RikssymArrangementCountry_907:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_170
+  RikssymArrangementCountry_908:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_170
+  RikssymArrangementCountry_909:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_170
+  RikssymArrangementCountry_910:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_170
+  RikssymArrangementCountry_911:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_170
+  RikssymArrangementCountry_912:
+    arrangement_id: RikssymArrangement_58
+    country_id: RikssymCountry_170
+  RikssymArrangementCountry_913:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_171
+  RikssymArrangementCountry_914:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_171
+  RikssymArrangementCountry_915:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_172
+  RikssymArrangementCountry_916:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_172
+  RikssymArrangementCountry_917:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_172
+  RikssymArrangementCountry_918:
+    arrangement_id: RikssymArrangement_22
+    country_id: RikssymCountry_172
+  RikssymArrangementCountry_919:
+    arrangement_id: RikssymArrangement_33
+    country_id: RikssymCountry_172
+  RikssymArrangementCountry_920:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_172
+  RikssymArrangementCountry_921:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_172
+  RikssymArrangementCountry_922:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_172
+  RikssymArrangementCountry_923:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_173
+  RikssymArrangementCountry_924:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_173
+  RikssymArrangementCountry_925:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_173
+  RikssymArrangementCountry_926:
+    arrangement_id: RikssymArrangement_22
+    country_id: RikssymCountry_173
+  RikssymArrangementCountry_927:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_173
+  RikssymArrangementCountry_928:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_173
+  RikssymArrangementCountry_929:
+    arrangement_id: RikssymArrangement_55
+    country_id: RikssymCountry_173
+  RikssymArrangementCountry_930:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_174
+  RikssymArrangementCountry_931:
+    arrangement_id: RikssymArrangement_8
+    country_id: RikssymCountry_174
+  RikssymArrangementCountry_932:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_174
+  RikssymArrangementCountry_933:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_174
+  RikssymArrangementCountry_934:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_175
+  RikssymArrangementCountry_935:
+    arrangement_id: RikssymArrangement_53
+    country_id: RikssymCountry_175
+  RikssymArrangementCountry_936:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_176
+  RikssymArrangementCountry_937:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_176
+  RikssymArrangementCountry_938:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_176
+  RikssymArrangementCountry_939:
+    arrangement_id: RikssymArrangement_26
+    country_id: RikssymCountry_176
+  RikssymArrangementCountry_940:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_176
+  RikssymArrangementCountry_941:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_176
+  RikssymArrangementCountry_942:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_176
+  RikssymArrangementCountry_943:
+    arrangement_id: RikssymArrangement_51
+    country_id: RikssymCountry_176
+  RikssymArrangementCountry_944:
+    arrangement_id: RikssymArrangement_57
+    country_id: RikssymCountry_176
+  RikssymArrangementCountry_945:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_177
+  RikssymArrangementCountry_946:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_177
+  RikssymArrangementCountry_947:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_178
+  RikssymArrangementCountry_948:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_180
+  RikssymArrangementCountry_949:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_180
+  RikssymArrangementCountry_950:
+    arrangement_id: RikssymArrangement_4
+    country_id: RikssymCountry_180
+  RikssymArrangementCountry_951:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_180
+  RikssymArrangementCountry_952:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_180
+  RikssymArrangementCountry_953:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_180
+  RikssymArrangementCountry_954:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_180
+  RikssymArrangementCountry_955:
+    arrangement_id: RikssymArrangement_51
+    country_id: RikssymCountry_180
+  RikssymArrangementCountry_956:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_181
+  RikssymArrangementCountry_957:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_181
+  RikssymArrangementCountry_958:
+    arrangement_id: RikssymArrangement_22
+    country_id: RikssymCountry_181
+  RikssymArrangementCountry_959:
+    arrangement_id: RikssymArrangement_33
+    country_id: RikssymCountry_181
+  RikssymArrangementCountry_960:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_181
+  RikssymArrangementCountry_961:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_181
+  RikssymArrangementCountry_962:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_181
+  RikssymArrangementCountry_963:
+    arrangement_id: RikssymArrangement_55
+    country_id: RikssymCountry_181
+  RikssymArrangementCountry_964:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_182
+  RikssymArrangementCountry_965:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_182
+  RikssymArrangementCountry_966:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_182
+  RikssymArrangementCountry_967:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_182
+  RikssymArrangementCountry_968:
+    arrangement_id: RikssymArrangement_37
+    country_id: RikssymCountry_182
+  RikssymArrangementCountry_969:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_182
+  RikssymArrangementCountry_970:
+    arrangement_id: RikssymArrangement_43
+    country_id: RikssymCountry_182
+  RikssymArrangementCountry_971:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_182
+  RikssymArrangementCountry_972:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_182
+  RikssymArrangementCountry_973:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_182
+  RikssymArrangementCountry_974:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_183
+  RikssymArrangementCountry_975:
+    arrangement_id: RikssymArrangement_11
+    country_id: RikssymCountry_184
+  RikssymArrangementCountry_976:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_184
+  RikssymArrangementCountry_977:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_184
+  RikssymArrangementCountry_978:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_187
+  RikssymArrangementCountry_979:
+    arrangement_id: RikssymArrangement_47
+    country_id: RikssymCountry_187
+  RikssymArrangementCountry_980:
+    arrangement_id: RikssymArrangement_4
+    country_id: RikssymCountry_188
+  RikssymArrangementCountry_981:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_188
+  RikssymArrangementCountry_982:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_188
+  RikssymArrangementCountry_983:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_188
+  RikssymArrangementCountry_984:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_188
+  RikssymArrangementCountry_985:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_189
+  RikssymArrangementCountry_986:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_189
+  RikssymArrangementCountry_987:
+    arrangement_id: RikssymArrangement_22
+    country_id: RikssymCountry_189
+  RikssymArrangementCountry_988:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_189
+  RikssymArrangementCountry_989:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_189
+  RikssymArrangementCountry_990:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_189
+  RikssymArrangementCountry_991:
+    arrangement_id: RikssymArrangement_55
+    country_id: RikssymCountry_189
+  RikssymArrangementCountry_992:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_190
+  RikssymArrangementCountry_993:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_190
+  RikssymArrangementCountry_994:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_190
+  RikssymArrangementCountry_995:
+    arrangement_id: RikssymArrangement_22
+    country_id: RikssymCountry_190
+  RikssymArrangementCountry_996:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_190
+  RikssymArrangementCountry_997:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_190
+  RikssymArrangementCountry_998:
+    arrangement_id: RikssymArrangement_54
+    country_id: RikssymCountry_190
+  RikssymArrangementCountry_999:
+    arrangement_id: RikssymArrangement_55
+    country_id: RikssymCountry_190
+  RikssymArrangementCountry_1000:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_191
+  RikssymArrangementCountry_1001:
+    arrangement_id: RikssymArrangement_10
+    country_id: RikssymCountry_192
+  RikssymArrangementCountry_1002:
+    arrangement_id: RikssymArrangement_53
+    country_id: RikssymCountry_192
+  RikssymArrangementCountry_1003:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_193
+  RikssymArrangementCountry_1004:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_193
+  RikssymArrangementCountry_1005:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_193
+  RikssymArrangementCountry_1006:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_193
+  RikssymArrangementCountry_1007:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_193
+  RikssymArrangementCountry_1008:
+    arrangement_id: RikssymArrangement_58
+    country_id: RikssymCountry_193
+  RikssymArrangementCountry_1009:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_196
+  RikssymArrangementCountry_1010:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_196
+  RikssymArrangementCountry_1011:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_197
+  RikssymArrangementCountry_1012:
+    arrangement_id: RikssymArrangement_15
+    country_id: RikssymCountry_197
+  RikssymArrangementCountry_1013:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_197
+  RikssymArrangementCountry_1014:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_197
+  RikssymArrangementCountry_1015:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_197
+  RikssymArrangementCountry_1016:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_197
+  RikssymArrangementCountry_1017:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_198
+  RikssymArrangementCountry_1018:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_198
+  RikssymArrangementCountry_1019:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_198
+  RikssymArrangementCountry_1020:
+    arrangement_id: RikssymArrangement_26
+    country_id: RikssymCountry_198
+  RikssymArrangementCountry_1021:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_198
+  RikssymArrangementCountry_1022:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_198
+  RikssymArrangementCountry_1023:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_198
+  RikssymArrangementCountry_1024:
+    arrangement_id: RikssymArrangement_51
+    country_id: RikssymCountry_198
+  RikssymArrangementCountry_1025:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_199
+  RikssymArrangementCountry_1026:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_199
+  RikssymArrangementCountry_1027:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_199
+  RikssymArrangementCountry_1028:
+    arrangement_id: RikssymArrangement_26
+    country_id: RikssymCountry_199
+  RikssymArrangementCountry_1029:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_199
+  RikssymArrangementCountry_1030:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_199
+  RikssymArrangementCountry_1031:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_199
+  RikssymArrangementCountry_1032:
+    arrangement_id: RikssymArrangement_57
+    country_id: RikssymCountry_199
+  RikssymArrangementCountry_1033:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_200
+  RikssymArrangementCountry_1034:
+    arrangement_id: RikssymArrangement_9
+    country_id: RikssymCountry_201
+  RikssymArrangementCountry_1035:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_201
+  RikssymArrangementCountry_1036:
+    arrangement_id: RikssymArrangement_21
+    country_id: RikssymCountry_201
+  RikssymArrangementCountry_1037:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_201
+  RikssymArrangementCountry_1038:
+    arrangement_id: RikssymArrangement_29
+    country_id: RikssymCountry_201
+  RikssymArrangementCountry_1039:
+    arrangement_id: RikssymArrangement_42
+    country_id: RikssymCountry_201
+  RikssymArrangementCountry_1040:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_201
+  RikssymArrangementCountry_1041:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_201
+  RikssymArrangementCountry_1042:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_202
+  RikssymArrangementCountry_1043:
+    arrangement_id: RikssymArrangement_27
+    country_id: RikssymCountry_202
+  RikssymArrangementCountry_1044:
+    arrangement_id: RikssymArrangement_32
+    country_id: RikssymCountry_202
+  RikssymArrangementCountry_1045:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_202
+  RikssymArrangementCountry_1046:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_202
+  RikssymArrangementCountry_1047:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_202
+  RikssymArrangementCountry_1048:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_203
+  RikssymArrangementCountry_1049:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_203
+  RikssymArrangementCountry_1050:
+    arrangement_id: RikssymArrangement_24
+    country_id: RikssymCountry_203
+  RikssymArrangementCountry_1051:
+    arrangement_id: RikssymArrangement_53
+    country_id: RikssymCountry_203
+  RikssymArrangementCountry_1052:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_204
+  RikssymArrangementCountry_1053:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_206
+  RikssymArrangementCountry_1054:
+    arrangement_id: RikssymArrangement_15
+    country_id: RikssymCountry_206
+  RikssymArrangementCountry_1055:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_206
+  RikssymArrangementCountry_1056:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_206
+  RikssymArrangementCountry_1057:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_206
+  RikssymArrangementCountry_1058:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_206
+  RikssymArrangementCountry_1059:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_207
+  RikssymArrangementCountry_1060:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_207
+  RikssymArrangementCountry_1061:
+    arrangement_id: RikssymArrangement_17
+    country_id: RikssymCountry_208
+  RikssymArrangementCountry_1062:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_208
+  RikssymArrangementCountry_1063:
+    arrangement_id: RikssymArrangement_37
+    country_id: RikssymCountry_208
+  RikssymArrangementCountry_1064:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_208
+  RikssymArrangementCountry_1065:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_208
+  RikssymArrangementCountry_1066:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_208
+  RikssymArrangementCountry_1067:
+    arrangement_id: RikssymArrangement_3
+    country_id: RikssymCountry_209
+  RikssymArrangementCountry_1068:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_209
+  RikssymArrangementCountry_1069:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_209
+  RikssymArrangementCountry_1070:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_209
+  RikssymArrangementCountry_1071:
+    arrangement_id: RikssymArrangement_37
+    country_id: RikssymCountry_209
+  RikssymArrangementCountry_1072:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_209
+  RikssymArrangementCountry_1073:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_209
+  RikssymArrangementCountry_1074:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_209
+  RikssymArrangementCountry_1075:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_210
+  RikssymArrangementCountry_1076:
+    arrangement_id: RikssymArrangement_8
+    country_id: RikssymCountry_210
+  RikssymArrangementCountry_1077:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_210
+  RikssymArrangementCountry_1078:
+    arrangement_id: RikssymArrangement_9
+    country_id: RikssymCountry_211
+  RikssymArrangementCountry_1079:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_211
+  RikssymArrangementCountry_1080:
+    arrangement_id: RikssymArrangement_21
+    country_id: RikssymCountry_211
+  RikssymArrangementCountry_1081:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_211
+  RikssymArrangementCountry_1082:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_211
+  RikssymArrangementCountry_1083:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_211
+  RikssymArrangementCountry_1084:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_212
+  RikssymArrangementCountry_1085:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_212
+  RikssymArrangementCountry_1086:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_212
+  RikssymArrangementCountry_1087:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_212
+  RikssymArrangementCountry_1088:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_212
+  RikssymArrangementCountry_1089:
+    arrangement_id: RikssymArrangement_58
+    country_id: RikssymCountry_212
+  RikssymArrangementCountry_1090:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_214
+  RikssymArrangementCountry_1091:
+    arrangement_id: RikssymArrangement_32
+    country_id: RikssymCountry_214
+  RikssymArrangementCountry_1092:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_214
+  RikssymArrangementCountry_1093:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_214
+  RikssymArrangementCountry_1094:
+    arrangement_id: RikssymArrangement_11
+    country_id: RikssymCountry_216
+  RikssymArrangementCountry_1095:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_216
+  RikssymArrangementCountry_1096:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_216
+  RikssymArrangementCountry_1097:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_217
+  RikssymArrangementCountry_1098:
+    arrangement_id: RikssymArrangement_9
+    country_id: RikssymCountry_217
+  RikssymArrangementCountry_1099:
+    arrangement_id: RikssymArrangement_11
+    country_id: RikssymCountry_217
+  RikssymArrangementCountry_1100:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_217
+  RikssymArrangementCountry_1101:
+    arrangement_id: RikssymArrangement_21
+    country_id: RikssymCountry_217
+  RikssymArrangementCountry_1102:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_217
+  RikssymArrangementCountry_1103:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_218
+  RikssymArrangementCountry_1104:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_218
+  RikssymArrangementCountry_1105:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_218
+  RikssymArrangementCountry_1106:
+    arrangement_id: RikssymArrangement_22
+    country_id: RikssymCountry_218
+  RikssymArrangementCountry_1107:
+    arrangement_id: RikssymArrangement_25
+    country_id: RikssymCountry_218
+  RikssymArrangementCountry_1108:
+    arrangement_id: RikssymArrangement_27
+    country_id: RikssymCountry_218
+  RikssymArrangementCountry_1109:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_218
+  RikssymArrangementCountry_1110:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_218
+  RikssymArrangementCountry_1111:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_219
+  RikssymArrangementCountry_1112:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_219
+  RikssymArrangementCountry_1113:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_219
+  RikssymArrangementCountry_1114:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_219
+  RikssymArrangementCountry_1115:
+    arrangement_id: RikssymArrangement_47
+    country_id: RikssymCountry_219
+  RikssymArrangementCountry_1116:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_219
+  RikssymArrangementCountry_1117:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_220
+  RikssymArrangementCountry_1118:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_220
+  RikssymArrangementCountry_1119:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_220
+  RikssymArrangementCountry_1120:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_220
+  RikssymArrangementCountry_1121:
+    arrangement_id: RikssymArrangement_47
+    country_id: RikssymCountry_220
+  RikssymArrangementCountry_1122:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_220
+  RikssymArrangementCountry_1123:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_221
+  RikssymArrangementCountry_1124:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_221
+  RikssymArrangementCountry_1125:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_221
+  RikssymArrangementCountry_1126:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_221
+  RikssymArrangementCountry_1127:
+    arrangement_id: RikssymArrangement_47
+    country_id: RikssymCountry_221
+  RikssymArrangementCountry_1128:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_221
+  RikssymArrangementCountry_1129:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_222
+  RikssymArrangementCountry_1130:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_223
+  RikssymArrangementCountry_1131:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_223
+  RikssymArrangementCountry_1132:
+    arrangement_id: RikssymArrangement_25
+    country_id: RikssymCountry_223
+  RikssymArrangementCountry_1133:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_223
+  RikssymArrangementCountry_1134:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_224
+  RikssymArrangementCountry_1135:
+    arrangement_id: RikssymArrangement_32
+    country_id: RikssymCountry_224
+  RikssymArrangementCountry_1136:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_224
+  RikssymArrangementCountry_1137:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_224
+  RikssymArrangementCountry_1138:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_225
+  RikssymArrangementCountry_1139:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_225
+  RikssymArrangementCountry_1140:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_225
+  RikssymArrangementCountry_1141:
+    arrangement_id: RikssymArrangement_26
+    country_id: RikssymCountry_225
+  RikssymArrangementCountry_1142:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_225
+  RikssymArrangementCountry_1143:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_225
+  RikssymArrangementCountry_1144:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_225
+  RikssymArrangementCountry_1145:
+    arrangement_id: RikssymArrangement_51
+    country_id: RikssymCountry_225
+  RikssymArrangementCountry_1146:
+    arrangement_id: RikssymArrangement_57
+    country_id: RikssymCountry_225
+  RikssymArrangementCountry_1147:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_226
+  RikssymArrangementCountry_1148:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_226
+  RikssymArrangementCountry_1149:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_226
+  RikssymArrangementCountry_1150:
+    arrangement_id: RikssymArrangement_22
+    country_id: RikssymCountry_226
+  RikssymArrangementCountry_1151:
+    arrangement_id: RikssymArrangement_33
+    country_id: RikssymCountry_226
+  RikssymArrangementCountry_1152:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_226
+  RikssymArrangementCountry_1153:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_226
+  RikssymArrangementCountry_1154:
+    arrangement_id: RikssymArrangement_55
+    country_id: RikssymCountry_226
+  RikssymArrangementCountry_1155:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_227
+  RikssymArrangementCountry_1156:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_227
+  RikssymArrangementCountry_1157:
+    arrangement_id: RikssymArrangement_26
+    country_id: RikssymCountry_227
+  RikssymArrangementCountry_1158:
+    arrangement_id: RikssymArrangement_40
+    country_id: RikssymCountry_227
+  RikssymArrangementCountry_1159:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_227
+  RikssymArrangementCountry_1160:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_227
+  RikssymArrangementCountry_1161:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_228
+  RikssymArrangementCountry_1162:
+    arrangement_id: RikssymArrangement_8
+    country_id: RikssymCountry_228
+  RikssymArrangementCountry_1163:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_228
+  RikssymArrangementCountry_1164:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_229
+  RikssymArrangementCountry_1165:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_229
+  RikssymArrangementCountry_1166:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_229
+  RikssymArrangementCountry_1167:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_229
+  RikssymArrangementCountry_1168:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_230
+  RikssymArrangementCountry_1169:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_230
+  RikssymArrangementCountry_1170:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_230
+  RikssymArrangementCountry_1171:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_231
+  RikssymArrangementCountry_1172:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_232
+  RikssymArrangementCountry_1173:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_232
+  RikssymArrangementCountry_1174:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_232
+  RikssymArrangementCountry_1175:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_232
+  RikssymArrangementCountry_1176:
+    arrangement_id: RikssymArrangement_35
+    country_id: RikssymCountry_232
+  RikssymArrangementCountry_1177:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_232
+  RikssymArrangementCountry_1178:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_232
+  RikssymArrangementCountry_1179:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_232
+  RikssymArrangementCountry_1180:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_233
+  RikssymArrangementCountry_1181:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_233
+  RikssymArrangementCountry_1182:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_233
+  RikssymArrangementCountry_1183:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_233
+  RikssymArrangementCountry_1184:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_233
+  RikssymArrangementCountry_1185:
+    arrangement_id: RikssymArrangement_54
+    country_id: RikssymCountry_233
+  RikssymArrangementCountry_1186:
+    arrangement_id: RikssymArrangement_55
+    country_id: RikssymCountry_233
+  RikssymArrangementCountry_1187:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_235
+  RikssymArrangementCountry_1188:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_235
+  RikssymArrangementCountry_1189:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_235
+  RikssymArrangementCountry_1190:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_235
+  RikssymArrangementCountry_1191:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_235
+  RikssymArrangementCountry_1192:
+    arrangement_id: RikssymArrangement_58
+    country_id: RikssymCountry_235
+  RikssymArrangementCountry_1193:
+    arrangement_id: RikssymArrangement_10
+    country_id: RikssymCountry_236
+  RikssymArrangementCountry_1194:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_236
+  RikssymArrangementCountry_1195:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_236
+  RikssymArrangementCountry_1196:
+    arrangement_id: RikssymArrangement_53
+    country_id: RikssymCountry_236
+  RikssymArrangementCountry_1197:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_237
+  RikssymArrangementCountry_1198:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_237
+  RikssymArrangementCountry_1199:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_237
+  RikssymArrangementCountry_1200:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_237
+  RikssymArrangementCountry_1201:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_237
+  RikssymArrangementCountry_1202:
+    arrangement_id: RikssymArrangement_35
+    country_id: RikssymCountry_237
+  RikssymArrangementCountry_1203:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_237
+  RikssymArrangementCountry_1204:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_237
+  RikssymArrangementCountry_1205:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_237
+  RikssymArrangementCountry_1206:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_237
+  RikssymArrangementCountry_1207:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_238
+  RikssymArrangementCountry_1208:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_238
+  RikssymArrangementCountry_1209:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_238
+  RikssymArrangementCountry_1210:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_238
+  RikssymArrangementCountry_1211:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_238
+  RikssymArrangementCountry_1212:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_238
+  RikssymArrangementCountry_1213:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_238
+  RikssymArrangementCountry_1214:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_239
+  RikssymArrangementCountry_1215:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_239
+  RikssymArrangementCountry_1216:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_239
+  RikssymArrangementCountry_1217:
+    arrangement_id: RikssymArrangement_22
+    country_id: RikssymCountry_239
+  RikssymArrangementCountry_1218:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_239
+  RikssymArrangementCountry_1219:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_239
+  RikssymArrangementCountry_1220:
+    arrangement_id: RikssymArrangement_54
+    country_id: RikssymCountry_239
+  RikssymArrangementCountry_1221:
+    arrangement_id: RikssymArrangement_55
+    country_id: RikssymCountry_239
+  RikssymArrangementCountry_1222:
+    arrangement_id: RikssymArrangement_9
+    country_id: RikssymCountry_240
+  RikssymArrangementCountry_1223:
+    arrangement_id: RikssymArrangement_21
+    country_id: RikssymCountry_240
+  RikssymArrangementCountry_1224:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_240
+  RikssymArrangementCountry_1225:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_240
+  RikssymArrangementCountry_1226:
+    arrangement_id: RikssymArrangement_42
+    country_id: RikssymCountry_240
+  RikssymArrangementCountry_1227:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_240
+  RikssymArrangementCountry_1228:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_240
+  RikssymArrangementCountry_1229:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_241
+  RikssymArrangementCountry_1230:
+    arrangement_id: RikssymArrangement_29
+    country_id: RikssymCountry_241
+  RikssymArrangementCountry_1231:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_241
+  RikssymArrangementCountry_1232:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_241
+  RikssymArrangementCountry_1233:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_242
+  RikssymArrangementCountry_1234:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_242
+  RikssymArrangementCountry_1235:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_242
+  RikssymArrangementCountry_1236:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_242
+  RikssymArrangementCountry_1237:
+    arrangement_id: RikssymArrangement_24
+    country_id: RikssymCountry_244
+  RikssymArrangementCountry_1238:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_244
+  RikssymArrangementCountry_1239:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_245
+  RikssymArrangementCountry_1240:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_245
+  RikssymArrangementCountry_1241:
+    arrangement_id: RikssymArrangement_22
+    country_id: RikssymCountry_245
+  RikssymArrangementCountry_1242:
+    arrangement_id: RikssymArrangement_23
+    country_id: RikssymCountry_245
+  RikssymArrangementCountry_1243:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_245
+  RikssymArrangementCountry_1244:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_245
+  RikssymArrangementCountry_1245:
+    arrangement_id: RikssymArrangement_55
+    country_id: RikssymCountry_245
+  RikssymArrangementCountry_1246:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_246
+  RikssymArrangementCountry_1247:
+    arrangement_id: RikssymArrangement_8
+    country_id: RikssymCountry_246
+  RikssymArrangementCountry_1248:
+    arrangement_id: RikssymArrangement_10
+    country_id: RikssymCountry_246
+  RikssymArrangementCountry_1249:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_246
+  RikssymArrangementCountry_1250:
+    arrangement_id: RikssymArrangement_41
+    country_id: RikssymCountry_246
+  RikssymArrangementCountry_1251:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_247
+  RikssymArrangementCountry_1252:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_247
+  RikssymArrangementCountry_1253:
+    arrangement_id: RikssymArrangement_26
+    country_id: RikssymCountry_247
+  RikssymArrangementCountry_1254:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_247
+  RikssymArrangementCountry_1255:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_247
+  RikssymArrangementCountry_1256:
+    arrangement_id: RikssymArrangement_49
+    country_id: RikssymCountry_247
+  RikssymArrangementCountry_1257:
+    arrangement_id: RikssymArrangement_57
+    country_id: RikssymCountry_247
+  RikssymArrangementCountry_1258:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_248
+  RikssymArrangementCountry_1259:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_249
+  RikssymArrangementCountry_1260:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_249
+  RikssymArrangementCountry_1261:
+    arrangement_id: RikssymArrangement_12
+    country_id: RikssymCountry_249
+  RikssymArrangementCountry_1262:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_249
+  RikssymArrangementCountry_1263:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_249
+  RikssymArrangementCountry_1264:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_249
+  RikssymArrangementCountry_1265:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_249
+  RikssymArrangementCountry_1266:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_250
+  RikssymArrangementCountry_1267:
+    arrangement_id: RikssymArrangement_4
+    country_id: RikssymCountry_250
+  RikssymArrangementCountry_1268:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_250
+  RikssymArrangementCountry_1269:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_250
+  RikssymArrangementCountry_1270:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_250
+  RikssymArrangementCountry_1271:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_250
+  RikssymArrangementCountry_1272:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_250
+  RikssymArrangementCountry_1273:
+    arrangement_id: RikssymArrangement_11
+    country_id: RikssymCountry_251
+  RikssymArrangementCountry_1274:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_251
+  RikssymArrangementCountry_1275:
+    arrangement_id: RikssymArrangement_24
+    country_id: RikssymCountry_251
+  RikssymArrangementCountry_1276:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_251
+  RikssymArrangementCountry_1277:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_251
+  RikssymArrangementCountry_1278:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_251
+  RikssymArrangementCountry_1279:
+    arrangement_id: RikssymArrangement_24
+    country_id: RikssymCountry_252
+  RikssymArrangementCountry_1280:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_252
+  RikssymArrangementCountry_1281:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_253
+  RikssymArrangementCountry_1282:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_255
+  RikssymArrangementCountry_1283:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_255
+  RikssymArrangementCountry_1284:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_255
+  RikssymArrangementCountry_1285:
+    arrangement_id: RikssymArrangement_22
+    country_id: RikssymCountry_255
+  RikssymArrangementCountry_1286:
+    arrangement_id: RikssymArrangement_23
+    country_id: RikssymCountry_255
+  RikssymArrangementCountry_1287:
+    arrangement_id: RikssymArrangement_35
+    country_id: RikssymCountry_255
+  RikssymArrangementCountry_1288:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_255
+  RikssymArrangementCountry_1289:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_255
+  RikssymArrangementCountry_1290:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_255
+  RikssymArrangementCountry_1291:
+    arrangement_id: RikssymArrangement_11
+    country_id: RikssymCountry_256
+  RikssymArrangementCountry_1292:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_256
+  RikssymArrangementCountry_1293:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_257
+  RikssymArrangementCountry_1294:
+    arrangement_id: RikssymArrangement_32
+    country_id: RikssymCountry_257
+  RikssymArrangementCountry_1295:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_257
+  RikssymArrangementCountry_1296:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_257
+  RikssymArrangementCountry_1297:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_257
+  RikssymArrangementCountry_1298:
+    arrangement_id: RikssymArrangement_20
+    country_id: RikssymCountry_258
+  RikssymArrangementCountry_1299:
+    arrangement_id: RikssymArrangement_28
+    country_id: RikssymCountry_258
+  RikssymArrangementCountry_1300:
+    arrangement_id: RikssymArrangement_59
+    country_id: RikssymCountry_258
+  RikssymArrangementCountry_1301:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_258
+  RikssymArrangementCountry_1302:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_258
+  RikssymArrangementCountry_1303:
+    arrangement_id: RikssymArrangement_58
+    country_id: RikssymCountry_258
+  RikssymArrangementCountry_1304:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_259
+  RikssymArrangementCountry_1305:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_259
+  RikssymArrangementCountry_1306:
+    arrangement_id: RikssymArrangement_43
+    country_id: RikssymCountry_259
+  RikssymArrangementCountry_1307:
+    arrangement_id: RikssymArrangement_44
+    country_id: RikssymCountry_259
+  RikssymArrangementCountry_1308:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_259
+  RikssymArrangementCountry_1309:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_259
+  RikssymArrangementCountry_1310:
+    arrangement_id: RikssymArrangement_17
+    country_id: RikssymCountry_260
+  RikssymArrangementCountry_1311:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_260
+  RikssymArrangementCountry_1312:
+    arrangement_id: RikssymArrangement_37
+    country_id: RikssymCountry_260
+  RikssymArrangementCountry_1313:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_260
+  RikssymArrangementCountry_1314:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_260
+  RikssymArrangementCountry_1315:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_260
+  RikssymArrangementCountry_1316:
+    arrangement_id: RikssymArrangement_24
+    country_id: RikssymCountry_261
+  RikssymArrangementCountry_1317:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_261
+  RikssymArrangementCountry_1318:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_262
+  RikssymArrangementCountry_1319:
+    arrangement_id: RikssymArrangement_17
+    country_id: RikssymCountry_264
+  RikssymArrangementCountry_1320:
+    arrangement_id: RikssymArrangement_7
+    country_id: RikssymCountry_264
+  RikssymArrangementCountry_1321:
+    arrangement_id: RikssymArrangement_30
+    country_id: RikssymCountry_264
+  RikssymArrangementCountry_1322:
+    arrangement_id: RikssymArrangement_31
+    country_id: RikssymCountry_264
+  RikssymArrangementCountry_1323:
+    arrangement_id: RikssymArrangement_36
+    country_id: RikssymCountry_264
+  RikssymArrangementCountry_1324:
+    arrangement_id: RikssymArrangement_37
+    country_id: RikssymCountry_264
+  RikssymArrangementCountry_1325:
+    arrangement_id: RikssymArrangement_38
+    country_id: RikssymCountry_264
+  RikssymArrangementCountry_1326:
+    arrangement_id: RikssymArrangement_50
+    country_id: RikssymCountry_264
+  RikssymArrangementCountry_1327:
+    arrangement_id: RikssymArrangement_52
+    country_id: RikssymCountry_264
+  RikssymArrangementCountry_1328:
+    arrangement_id: RikssymArrangement_6
+    country_id: RikssymCountry_265
+  RikssymArrangementCountry_1329:
+    arrangement_id: RikssymArrangement_8
+    country_id: RikssymCountry_265
+  RikssymArrangementCountry_1330:
+    arrangement_id: RikssymArrangement_41
+    country_id: RikssymCountry_265
+  RikssymArrangementCountry_1331:
+    arrangement_id: RikssymArrangement_5
+    country_id: RikssymCountry_267
+  RikssymArrangementCountry_1332:
+    arrangement_id: RikssymArrangement_34
+    country_id: RikssymCountry_267
+  RikssymArrangementCountry_1333:
+    arrangement_id: RikssymArrangement_39
+    country_id: RikssymCountry_267
+  RikssymArrangementCountry_1334:
+    arrangement_id: RikssymArrangement_48
+    country_id: RikssymCountry_267
+  RikssymArrangementCountry_1335:
+    arrangement_id: RikssymArrangement_56
+    country_id: RikssymCountry_268
+  RikssymArrangementCountry_1336:
+    arrangement_id: RikssymArrangement_1
+    country_id: RikssymCountry_269
+  RikssymArrangementCountry_1337:
+    arrangement_id: RikssymArrangement_2
+    country_id: RikssymCountry_269
+  RikssymArrangementCountry_1338:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_269
+  RikssymArrangementCountry_1339:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_181
+  RikssymArrangementCountry_1340:
+    arrangement_id: RikssymArrangement_22
+    country_id: RikssymCountry_269
+  RikssymArrangementCountry_1341:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_269
+  RikssymArrangementCountry_1342:
+    arrangement_id: RikssymArrangement_46
+    country_id: RikssymCountry_269
+  RikssymArrangementCountry_1343:
+    arrangement_id: RikssymArrangement_55
+    country_id: RikssymCountry_269
+  RikssymArrangementCountry_1344:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_270
+  RikssymArrangementCountry_1345:
+    arrangement_id: RikssymArrangement_22
+    country_id: RikssymCountry_270
+  RikssymArrangementCountry_1346:
+    arrangement_id: RikssymArrangement_45
+    country_id: RikssymCountry_270
+  RikssymArrangementCountry_1347:
+    arrangement_id: RikssymArrangement_31
+    country_id: RikssymCountry_182
+  RikssymArrangementCountry_1348:
+    arrangement_id: RikssymArrangement_55
+    country_id: RikssymCountry_172
+  RikssymArrangementCountry_1349:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_79
+  RikssymArrangementCountry_1350:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_104
+  RikssymArrangementCountry_1351:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_127
+  RikssymArrangementCountry_1352:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_130
+  RikssymArrangementCountry_1353:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_137
+  RikssymArrangementCountry_1354:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_166
+  RikssymArrangementCountry_1355:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_227
+  RikssymArrangementCountry_1356:
+    arrangement_id: RikssymArrangement_18
+    country_id: RikssymCountry_247
+  RikssymArrangementCountry_1357:
+    arrangement_id: RikssymArrangement_16
+    country_id: RikssymCountry_189
+  RikssymArrangementCountry_1358:
+    arrangement_id: RikssymArrangement_312
+    country_id: RikssymCountry_77
+  RikssymArrangementCountry_1359:
+    arrangement_id: RikssymArrangement_312
+    country_id: RikssymCountry_129
+  RikssymArrangementCountry_1360:
+    arrangement_id: RikssymArrangement_312
+    country_id: RikssymCountry_123
+  RikssymArrangementCountry_1361:
+    arrangement_id: RikssymArrangement_312
+    country_id: RikssymCountry_124
+  RikssymArrangementCountry_1362:
+    arrangement_id: RikssymArrangement_312
+    country_id: RikssymCountry_131
+  RikssymArrangementCountry_1363:
+    arrangement_id: RikssymArrangement_312
+    country_id: RikssymCountry_149
+  RikssymArrangementCountry_1364:
+    arrangement_id: RikssymArrangement_312
+    country_id: RikssymCountry_151
+  RikssymArrangementCountry_1365:
+    arrangement_id: RikssymArrangement_312
+    country_id: RikssymCountry_170
+  RikssymArrangementCountry_1366:
+    arrangement_id: RikssymArrangement_312
+    country_id: RikssymCountry_193
+  RikssymArrangementCountry_1367:
+    arrangement_id: RikssymArrangement_312
+    country_id: RikssymCountry_70
+  RikssymArrangementCountry_1368:
+    arrangement_id: RikssymArrangement_312
+    country_id: RikssymCountry_212
+  RikssymArrangementCountry_1369:
+    arrangement_id: RikssymArrangement_312
+    country_id: RikssymCountry_235
+  RikssymArrangementCountry_1370:
+    arrangement_id: RikssymArrangement_313
+    country_id: RikssymCountry_77
+  RikssymArrangementCountry_1371:
+    arrangement_id: RikssymArrangement_313
+    country_id: RikssymCountry_110
+  RikssymArrangementCountry_1372:
+    arrangement_id: RikssymArrangement_313
+    country_id: RikssymCountry_129
+  RikssymArrangementCountry_1373:
+    arrangement_id: RikssymArrangement_313
+    country_id: RikssymCountry_258
+  RikssymArrangementCountry_1374:
+    arrangement_id: RikssymArrangement_313
+    country_id: RikssymCountry_123
+  RikssymArrangementCountry_1375:
+    arrangement_id: RikssymArrangement_313
+    country_id: RikssymCountry_124
+  RikssymArrangementCountry_1376:
+    arrangement_id: RikssymArrangement_313
+    country_id: RikssymCountry_131
+  RikssymArrangementCountry_1377:
+    arrangement_id: RikssymArrangement_313
+    country_id: RikssymCountry_149
+  RikssymArrangementCountry_1378:
+    arrangement_id: RikssymArrangement_313
+    country_id: RikssymCountry_151
+  RikssymArrangementCountry_1379:
+    arrangement_id: RikssymArrangement_313
+    country_id: RikssymCountry_170
+  RikssymArrangementCountry_1380:
+    arrangement_id: RikssymArrangement_313
+    country_id: RikssymCountry_193
+  RikssymArrangementCountry_1381:
+    arrangement_id: RikssymArrangement_313
+    country_id: RikssymCountry_70
+  RikssymArrangementCountry_1382:
+    arrangement_id: RikssymArrangement_313
+    country_id: RikssymCountry_212
+  RikssymArrangementCountry_1383:
+    arrangement_id: RikssymArrangement_313
+    country_id: RikssymCountry_240
+  RikssymArrangementCountry_1384:
+    arrangement_id: RikssymArrangement_313
+    country_id: RikssymCountry_235
+RikssymDocument:
+  RikssymDocument_1:
+    title_short:
+    title_long: Acuerdo de Alcance Parcial de Complementación Económica entre los Gobiernos de las Repúblicas de Colombia, Ecuador, Perú y Venezuela, Países Miembros de la comunidad Andina, y el Gobierno de la República Federativa del Brasil
+    type:
+    date_signed: 1999
+    date_force: 0
+    filename: Andean-Brazil-AcuerdodeAlcanceParcialdeComplementacionEconomica-1999-ES.pdf
+    language: Spanish
+
+  RikssymDocument_2:
+    title_short:
+    title_long: Acuerdo de Complementación Económica Chile - Colombia
+    type:
+    date_signed: 1993
+    date_force: 0
+    filename: Chile-Colombia-AcuerdoDeComplementacionEconomica-1993-ES.pdf
+    language: Spanish
+    
+  RikssymDocument_3:
+
+    title_short:
+    title_long: Acuerdo de Complementación Económica Chile - Venezuela ACE No 23
+    type:
+    date_signed: 1998
+    date_force: 0
+    filename: Chile-Venezuela-AcuerdoDeComplementacionEconomica-1998-ES.pdf
+    language: Spanish
+  RikssymDocument_4:
+
+    title_short:
+    title_long: Acuerdo de Complementación Económica entre Chile y Perú para la Conformación de una Zona de Libre Comercio
+    type:
+    date_signed: 1998
+    date_force: 0
+    filename: Chile-Peru-AcuerdoDeComplementacionEconomica-1998-ES.pdf
+    language: Spanish
+  RikssymDocument_5:
+
+    title_short:
+    title_long: Acuerdo de Complementación Económica Mercosur - Chile
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Chile-Mercosur-AcuerdoDeComplementacionEconomica-1996-ES.pdf
+    language: Spanish
+  RikssymDocument_6:
+
+    title_short:
+    title_long: Acuerdo de Complementación Económica Nº 3 6
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Mercosur-Bolivia-AcuerdoDeComplementacionEconomica-1996-ES.pdf
+    language: Spanish
+  RikssymDocument_7:
+
+    title_short:
+    title_long: Acuerdo Marco para la Creación de la Zona de Libre Comercio entre la Comunidad Andina y el MERCOSUR
+    type:
+    date_signed: 1998
+    date_force: 0
+    filename: Andean-Mercosur-AcuerdoMarcoParaLaCreacionDeLaZonaDeLibreComercio-1998-ES.pdf
+    language: Spanish
+  RikssymDocument_8:
+
+    title_short:
+    title_long: African Economic Community Treaty
+    type:
+    date_signed: 1991
+    date_force: 0
+    filename: AfricanEconomicCommunity-Treaty-1991-EN.pdf
+    language: English
+  RikssymDocument_9:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN JAPAN AND THE UNITED MEXICAN STATES FOR THE STRENGTHENING OF THE ECONOMIC PARTNERSHIP
+    type:
+    date_signed: 2004
+    date_force: 0
+    filename: Mexico-Japan-AgreementStrenghteningOfTheEconomicPartnership-2004-EN.pdf
+    language: English
+  RikssymDocument_10:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN NEW ZEALAND AND SINGAPORE ON A CLOSER ECONOMIC PARTNERSHIP
+    type:
+    date_signed: 2000
+    date_force: 0
+    filename: NewZealand-Singapore-AgreementOnACloserEconomicPartnership-2000-EN.pdf
+    language: English
+  RikssymDocument_11:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE CZECH REPUBLIC AND THE STATE OF ISRAEL
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: CzechRepublic-Israel-Agreement-1996-EN.pdf
+    language: English
+  RikssymDocument_12:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE EFTA STATES AND ISRAEL
+    type:
+    date_signed: 1993
+    date_force: 0
+    filename: EFTA-Israel-Agreement-1992-EN.pdf
+    language: English
+  RikssymDocument_13:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE EFTA STATES AND ROMANIA
+    type:
+    date_signed: 1992
+    date_force: 0
+    filename: EFTA-Romania-Agreement-1992-EN.pdf
+    language: English
+  RikssymDocument_14:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE EFTA STATES AND SINGAPORE
+    type:
+    date_signed: 2002
+    date_force: 0
+    filename: EFTA-Singapore-Agreement-2002-EN.pdf
+    language: English
+  RikssymDocument_15:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE EFTA STATES AND THE REPUBLIC OF BULGARIA
+    type:
+    date_signed: 1993
+    date_force: 0
+    filename: EFTA-Bulgaria-Agreement-1993-EN.pdf
+    language: English
+  RikssymDocument_16:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE EFTA STATES AND THE REPUBLIC OF CROATIA
+    type:
+    date_signed: 2001
+    date_force: 0
+    filename: EFTA-Croatia-Agreement-2001-EN.pdf
+    language: English
+  RikssymDocument_17:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE EFTA STATES AND THE REPUBLIC OF ESTONIA
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: EFTA-Estonia-Agreement-1995-EN.pdf
+    language: English
+  RikssymDocument_18:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE EFTA STATES AND THE REPUBLIC OF HUNGARY
+    type:
+    date_signed: 1993
+    date_force: 0
+    filename: EFTA-Hungary-Agreement-1993-EN.pdf
+    language: English
+  RikssymDocument_19:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE EFTA STATES AND THE REPUBLIC OF LATVIA
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: EFTA-Latvia-Agreement-1995-EN.pdf
+    language: English
+  RikssymDocument_20:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE EFTA STATES AND THE REPUBLIC OF POLAND
+    type:
+    date_signed: 1992
+    date_force: 0
+    filename: EFTA-Poland-Agreement-1992-EN.pdf
+    language: English
+  RikssymDocument_21:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE EFTA STATES AND THE REPUBLIC OF SLOVENIA
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: EFTA-Slovenia-Agreement-1995-EN.pdf
+    language: English
+  RikssymDocument_22:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE EFTA STATES AND TURKEY
+    type:
+    date_signed: 1991
+    date_force: 0
+    filename: EFTA-Turkey-Agreement-1991-EN.pdf
+    language: English
+  RikssymDocument_23:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE EUROPEAN ECONOMIC COMMUNITY AND MALTA
+    type:
+    date_signed: 1970
+    date_force: 0
+    filename: EC-Malta-Agreement-1970-EN.pdf
+    language: English
+  RikssymDocument_24:
+
+    title_short:
+    title_long: AGREEMENT between the European Economic Community and the Kingdom of Norway
+    type:
+    date_signed: 1973
+    date_force: 0
+    filename: EC-Norway-Agreement-1973-EN.pdf
+    language: English
+  RikssymDocument_25:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE EUROPEAN ECONOMIC COMMUNITY AND THE SWISS CONFEDERATION
+    type:
+    date_signed: 1973
+    date_force: 0
+    filename: EC-Switzerland-Leichten-Agreement-EN.pdf
+    language: English
+  RikssymDocument_26:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE GOVERNMENT OF THE HASHEMITE KINGDOM OF JORDAN AND THE GOVERNMENT OF THE REPUBLIC OF SINGAPORE ON THE ESTABLISHMENT OF A FREE TRADE AREA
+    type:
+    date_signed: 2004
+    date_force: 0
+    filename: Singapore-Jordan-FTA-2004-EN.pdf
+    language: English
+  RikssymDocument_27:
+
+    title_short:
+    title_long: Agreement between the Government of the Republic of Estonia and the Government of Denmark and the Home Government of the Faroe Islands
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: Estonia-FaroeIslands-Agreement-1997-EN.pdf
+    language: English
+  RikssymDocument_28:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE REPUBLIC OF SINGAPORE AND JAPAN FOR A NEW-AGE ECONOMIC PARTNERSHIP
+    type:
+    date_signed: 2002
+    date_force: 0
+    filename: japan-chile-Agreement-2007-EN.pdf
+    language: English
+  RikssymDocument_29:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE REPUBLIC OF TURKEY AND THE STATE OF ISRAEL
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Israel-Turkey-Agreement-1996-EN.pdf
+    language: English
+  RikssymDocument_30:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE SLOVAK REPUBLIC AND THE STATE OF ISRAEL
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Israel-Slovakia-Agreement-1996-EN.pdf
+    language: English
+  RikssymDocument_31:
+
+    title_short:
+    title_long: AGREEMENT BETWEEN THE UNITED STATES OF AMERICA AND THE HASHEMITE KINGDOM OF JORDAN ON THE ESTABLISHMENT OF A FREE-TRADE AREA
+    type:
+    date_signed: 2000
+    date_force: 0
+    filename: UnitedStates-Jordan-FTA-2000-EN.pdf
+    language: English
+  RikssymDocument_32:
+
+    title_short:
+    title_long: AGREEMENT establishing an Association between the European Economic Community and the Republic of Cyprus
+    type:
+    date_signed: 1972
+    date_force: 0
+    filename: EC-Cyprus-AssociationAgreement-1972-EN.pdf
+    language: English
+  RikssymDocument_33:
+
+    title_short:
+    title_long: AGREEMENT ESTABLISHING THE CUSTOMS UNION BETWEEN THE CZECH REPUBLIC AND THE SLOVAK REPUBLIC
+    type:
+    date_signed: 1992
+    date_force: 0
+    filename: CzechRepublic-Slovakia-AgreementEstablishingTheCustomsUnion-1992-EN.pdf
+    language: English
+  RikssymDocument_34:
+
+    title_short:
+    title_long: AGREEMENT ESTABLISHING THE FREE TRADE AREA BETWEEN THE CARIBBEAN COMMUNITY AND THE DOMINICAN REPUBLIC
+    type:
+    date_signed: 1998
+    date_force: 0
+    filename: CARICOM-DominicanRepublic-FTA-1998-EN.pdf
+    language: English
+  RikssymDocument_35:
+
+    title_short:
+    title_long: AGREEMENT FREE TRADE BETWEEN BULGARIA AND THE FORMER YUGOSLAV REPUBLIC OF MACEDONIA
+    type:
+    date_signed: 1999
+    date_force: 0
+    filename: Bulgaria-Macedonia-FTA-1999-EN.pdf
+    language: English
+  RikssymDocument_36:
+
+    title_short:
+    title_long: AGREEMENT FREE TRADE BETWEEN GEORGIA AND AZERBAIJAN
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Georgia-Azerbaijan-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_37:
+
+    title_short:
+    title_long: AGREEMENT FREE TRADE BETWEEN GEORGIA AND KAZAKSTAN
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: Georgia-Kazakstan-FTA-1997-EN.pdf
+    language: English
+  RikssymDocument_38:
+
+    title_short:
+    title_long: AGREEMENT FREE TRADE BETWEEN ISRAEL AND POLAND
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: Israel-Poland-FTA-1997-EN.pdf
+    language: English
+  RikssymDocument_39:
+
+    title_short:
+    title_long: AGREEMENT FREE TRADE BETWEEN POLAND AND LATVIA
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: Latvia-Poland-FTA-EN.pdf
+    language: English
+  RikssymDocument_40:
+
+    title_short:
+    title_long: &quot;AGREEMENT FREE TRADE BETWEEN THE EUROPEAN COMMUNITIES AND THEIR MEMBER STATES
+    type:
+    date_signed: 1991
+    date_force: 0
+    filename: EC-Hungary-FTA-1991-EN.pdf
+    language: English
+  RikssymDocument_41:
+
+    title_short: &quot;AGREEMENT FREE TRADE BETWEEN THE EUROPEAN COMMUNITY
+    title_long:
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: EC-FaroeIslands-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_42:
+
+    title_short:
+    title_long: AGREEMENT FREE TRADE BETWEEN THE EUROPEAN ECONOMIC COMMUNITY AND THE PRINCIPALITY OF ANDORRA
+    type:
+    date_signed: 1990
+    date_force: 0
+    filename: EC-Andorra-FTA-EN.pdf
+    language: English
+  RikssymDocument_43:
+
+    title_short:
+    title_long: AGREEMENT FREE TRADE BETWEEN THE EUROPEAN ECONOMIC COMMUNITY AND TURKEY
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: EC-Turkey-FTA-1995-EN.pdf
+    language: English
+  RikssymDocument_44:
+
+    title_short:
+    title_long: AGREEMENT FREE TRADE BETWEEN THE FORMER YUGOSLAV REPUBLIC OF MACEDONIA AND SLOVENIA
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Slovenia-Macedonia-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_45:
+
+    title_short:
+    title_long: AGREEMENT FREE TRADE BETWEEN THE GOVERNMENT OF THE HASHEMITE KINGDOM OG JORDAN AND THE GOVERNMENT OF THE ARAB REPUBLIC OF EGYPT
+    type:
+    date_signed: 1998
+    date_force: 0
+    filename: Jordan-Egypt-FTA-1998-EN.pdf
+    language: English
+  RikssymDocument_46:
+
+    title_short:
+    title_long: AGREEMENT FREE TRADE BETWEEN THE REPUBLIC OF KOREA AND CHILE
+    type:
+    date_signed: 2003
+    date_force: 0
+    filename: Chile-Korea-FTA-2003-EN.pdf
+    language: English
+  RikssymDocument_47:
+
+    title_short:
+    title_long: AGREEMENT FREE TRADE BETWEEN THE REPUBLIC OF POLAND, AND THE GOVERNMENT OF DENMARK AND THE HOME GOVERNMENT OF THE FAROE ISLANDS
+    type:
+    date_signed: 1998
+    date_force: 0
+    filename: FaroeIslands-Poland-FTA-1998-EN.pdf
+    language: English
+  RikssymDocument_48:
+
+    title_short:
+    title_long: AGREEMENT FREE-TRADE BETWEEN EFTA AND MOROCCO
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: EFTA-Morocco-FTA-1997-EN.pdf
+    language: English
+  RikssymDocument_49:
+
+    title_short:
+    title_long: AGREEMENT OF FREE TRADE BETWEEN THE CABINET OF MINISTERS OF THE KYRGYZ REPUBLIC AND THE GOVERNEMENT OF THE REPUBLIC OF ARMENIA
+    type:
+    date_signed: 1994
+    date_force: 0
+    filename: Armenia-Kyrgyzstan-FTA-1994-EN.pdf
+    language: English
+  RikssymDocument_50:
+
+    title_short:
+    title_long: AGREEMENT ON ACCESSION OF ROMANIA TO THE CENTRAL EUROPEAN FREE TRADE AGREEMENT WITH Czech Republic, the Republic of Hungary, the Republic of Poland, the Slovak Republic and the Republic of Slovenia the one side and Romania on the other side
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: CEFTA-Romania-AgreementOnAccession-1997-EN.pdf
+    language: English
+  RikssymDocument_51:
+
+    title_short:
+    title_long: AGREEMENT ON ACCESSION OF THE REPUBLIC OF BULGARIA TO THE CENTRAL EUROPEAN FREE TRADE AGREEMENT
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: CEFTA-Bulgaria-AgreementOnAccession-EN.pdf
+    language: English
+  RikssymDocument_52:
+
+    title_short:
+    title_long: AGREEMENT ON ACCESSION OF THE REPUBLIC OF CROATIA TO THE CENTRAL EUROPEAN FREE TRADE AGREEMENT
+    type:
+    date_signed: 2002
+    date_force: 0
+    filename: CEFTA-Croatia-AgreementOnAccession-2002-EN.pdf
+    language: English
+  RikssymDocument_53:
+
+    title_short:
+    title_long: AGREEMENT ON FOUNDATION OF EURASIAN ECONOMIC COMMUNITY
+    type:
+    date_signed: 2000
+    date_force: 0
+    filename: EAEC-AgreementOnFoundation-2000-EN.pdf
+    language: English
+  RikssymDocument_54:
+
+    title_short:
+    title_long: AGREEMENT ON FREE TRADE AND TRADE-RELATED MATTERS BETWEEN THE EUROPEAN COMMUNITY, THE EUROPEAN ATOMIC ENERGY COMMUNITY AND THE EUROPEAN COAL AND STEEL COMMUNITY, OF THE ONE PART, AND THE REPUBLIC OF ESTONIA, OF THE OTHER PART
+    type:
+    date_signed: 0
+    date_force: 0
+    filename: EC-Estonia-FTA-EN.pdf
+    language: English
+  RikssymDocument_55:
+
+    title_short:
+    title_long: AGREEMENT ON FREE TRADE BETWEEN GOVERNMENT OF THE KYRGYZ REPUBLIC AND THE GOVERNMENT OF THE REPUBLIC OF KAZAKHSTAN
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: Kazakhstan-Kyrgyzstan-FTA-1995-EN.pdf
+    language: English
+  RikssymDocument_56:
+
+    title_short:
+    title_long: AGREEMENT ON FREE TRADE BETWEEN THE CABINET OF MINISTERS OF THE KYRGYZ REPUBLIC AND THE GOVERNMENT OF UKRAINE
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: Kyrgyzstan-Ukraine-FTA-1995-EN.pdf
+    language: English
+  RikssymDocument_57:
+
+    title_short:
+    title_long: AGREEMENT ON FREE TRADE BETWEEN THE GOVERNMENT OF GEORGIA AND THE GOVERNMENT OF TURKMENISTAN
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Georgia-Turkmenistan-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_58:
+
+    title_short:
+    title_long: AGREEMENT ON FREE TRADE BETWEEN THE GOVERNMENT OF THE KYRGYZ REPUBLIC AND THE GOVERNMENT OF THE REPUBLIC OF MOLDOVA
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: Kyrgyzstan-Moldova-FTA-1995-EN.pdf
+    language: English
+  RikssymDocument_59:
+
+    title_short:
+    title_long: AGREEMENT ON FREE TRADE BETWEEN THE GOVERNMENT OF THE REPUBLIC OF GEORGIA AND THE GOVERNMENT OF THE REPUBLIC OF ARMENIA
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: Armenia-Georgia-FTA-1995-EN.pdf
+    language: English
+  RikssymDocument_60:
+
+    title_short:
+    title_long: AGREEMENT ON FREE TRADE BETWEEN THE GOVERNMENT OF THE REPUBLIC OF GEORGIA AND THE GOVERNMENT OF THE RUSSIAN FEDERATION
+    type:
+    date_signed: 1994
+    date_force: 0
+    filename: Georgia-RussianFederation-FTA-1994-EN.pdf
+    language: English
+  RikssymDocument_61:
+
+    title_short:
+    title_long: AGREEMENT ON FREE TRADE BETWEEN THE GOVERNMENT OF THE REPUBLIC OF GEORGIA AND THE GOVERNMENT OF UKRAINE
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: Georgia-Ukraine-FTA-1995-EN.pdf
+    language: English
+  RikssymDocument_62:
+
+    title_short:
+    title_long: AGREEMENT ON FREE TRADE BETWEEN THE GOVERNMENT OF THE REPUBLIC OF KYRGYZSTAN AND THE GOVERNMENT OF THE RUSSIAN FEDERATION
+    type:
+    date_signed: 1994
+    date_force: 0
+    filename: Kyrgyzstan-RussianFed-FTA-1994-EN.pdf
+    language: English
+  RikssymDocument_63:
+
+    title_short:
+    title_long: AGREEMENT ON FREE TRADE BETWEEN THE REPUBLIC OF TURKEY AND REPUBLIC OF CROATIA
+    type:
+    date_signed: 2002
+    date_force: 0
+    filename: Croatia-Turkey-FTA-2002-EN.pdf
+    language: English
+  RikssymDocument_64:
+
+    title_short:
+    title_long: AGREEMENT ON SAARC PREFERENTIAL TRADING ARRANGEMENT (SAPTA)
+    type:
+    date_signed: 1993
+    date_force: 0
+    filename: SAPTA-Agreement-1993-EN.pdf
+    language: English
+  RikssymDocument_65:
+
+    title_short:
+    title_long: AGREEMENT ON THE ABOLITION OF NON-TARIFF BARRIERS TO TRADE BETWEEN THE REPUBLIC OF ESTONIA, THE REPUBLIC OF LATVIA AND THE REPUBLIC OF LITHUANIA
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: BAFTA-AgreementOnTheAbolitionOfNonTariffBarriersToTrade-1997-EN.pdf
+    language: English
+  RikssymDocument_66:
+
+    title_short:
+    title_long: AGREEMENT ON THE COMMON EFFECTIVE PREFERENTIAL TARIFF SCHEME FOR THE ASEAN FREE TRADE AREA
+    type:
+    date_signed: 1992
+    date_force: 0
+    filename: ASEAN-AgreementOnTheCommonEffectivePreferentialTariffScheme-1992-EN.pdf
+    language: English
+  RikssymDocument_67:
+
+    title_short:
+    title_long: AGREEMENT ON THE ESTABLISHMENT OF A FREE TRADE AREA BETWEEN THE GOVERNMENT OF ISRAEL AND THE GOVERNMENT OF THE UNITED STATES OF AMERICA
+    type:
+    date_signed: 1985
+    date_force: 0
+    filename: UnitedStates-Israel-FTA-1985-EN.pdf
+    language: English
+  RikssymDocument_68:
+
+    title_short:
+    title_long: AGREEMENT ON TRADE AND COMMERCIAL RELATIONS BETWEEN THE GOVERNMENT OF AUSTRALIA AND THE GOVERNMENT OF PAPUA NEW GUINEA
+    type:
+    date_signed: 1976
+    date_force: 0
+    filename: Australia-PapuaNewGuinea-AgreementOnTradeAndCommercialRelations-1976-EN.pdf
+    language: English
+  RikssymDocument_69:
+
+    title_short:
+    title_long: AGREEMENT ON TRADE RELATIONS BETWEEN THE REPUBLIC OF ALBANIA AND THE UNITED STATES OF AMERICA
+    type:
+    date_signed: 1992
+    date_force: 0
+    filename: UnitedStates-Albania-AgreementOnTradeRelations-1992-EN.pdf
+    language: English
+  RikssymDocument_70:
+
+    title_short:
+    title_long: AGREEMENT ON TRADE, ECONOMIC AND TECHNICAL COOPERATION BETWEEN THE CARIBBEAN COMMUNITY (CARICOM) AND THE GOVERNMENT OF THE REPUBLIC OF VENEZUELA
+    type:
+    date_signed: 1992
+    date_force: 0
+    filename: CARICOM-Venezuela-AgreementOnTradeEconomicAndTechnicalCooperation-1992-EN.pdf
+    language: English
+  RikssymDocument_71:
+
+    title_short:
+    title_long: AGREEMENT TRADE BETWEEN THE COUNCIL OF THE EUROPEAN UNION AND THE DEMOCRATIC REPUBLIC OF ALGERIA
+    type:
+    date_signed: 2002
+    date_force: 0
+    filename: EC-Algeria-TradeAgreement-2002-EN.pdf
+    language: English
+  RikssymDocument_72:
+
+    title_short:
+    title_long: AUSTRALIA NEW ZEALAND CLOSER ECONOMIC RELATIONS TRADE AGREEMENT
+    type:
+    date_signed: 1983
+    date_force: 0
+    filename: Australia-NewZealand-CER-TradeAgreementOnCloserEconomicRelations-1983-EN.pdf
+    language: English
+  RikssymDocument_73:
+
+    title_short:
+    title_long: Canada-Chile Free Trade Agreement
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Chile-Canada-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_74:
+
+    title_short:
+    title_long: CENTRAL EUROPEAN FREE TRADE AGREEMENT - ACCESSION OF THE REPUBLIC OF SLOVENIA
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: CEFTA-Slovenia-AgreementOnAccession-1995-EN.pdf
+    language: English
+  RikssymDocument_75:
+
+    title_short:
+    title_long: CENTRAL EUROPEAN FREE TRADE AGREEMENT BETWEEN The Czech Republic, The Republic of Hungary The Republic of Poland and The Slovak Republic
+    type:
+    date_signed: 1992
+    date_force: 0
+    filename: CEFTA-FTA-1992-EN.pdf
+    language: English
+  RikssymDocument_76:
+
+    title_short:
+    title_long: CLOSER ECONOMIC PARTNERSHIP ARRANGEMENT BETWEEN CHINA AND MACAO, CHINA*
+    type:
+    date_signed: 2003
+    date_force: 0
+    filename: China-Macao-CEPA-2003-EN.pdf
+    language: English
+  RikssymDocument_77:
+
+    title_short:
+    title_long: Codification of the Andean Subregional Integration Agreement (Cartagena Agreement)
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Cartagena-CodificationOfTheAndeanSubregionalIntegrationAgreement-1996-EN.pdf
+    language: English
+  RikssymDocument_78:
+
+    title_short:
+    title_long: CONSOLIDATED VERSION OF THE TREATY ESTABLISHING THE EUROPEAN COMMUNITY
+    type:
+    date_signed: 1957
+    date_force: 0
+    filename: EC-Treaty-1957-EN.pdf
+    language: English
+  RikssymDocument_79:
+
+    title_short:
+    title_long: Convention Establishing the Association of Caribbean States
+    type:
+    date_signed: 1994
+    date_force: 0
+    filename: CaribbeanStates-Convention-1994-EN.pdf
+    language: English
+  RikssymDocument_80:
+
+    title_short:
+    title_long: CONVENTION ESTABLISHING THE EUROPEAN FREE TRADE ASSOCIATION
+    type:
+    date_signed: 1960
+    date_force: 0
+    filename: EFTA-Convention-1960-EN.pdf
+    language: English
+  RikssymDocument_81:
+
+    title_short:
+    title_long: Cooperation Agreement between the European Economic Community and the Arab Republic of Egypt
+    type:
+    date_signed: 1977
+    date_force: 0
+    filename: EC-Egypt-CooperationAgreement-1977-EN.pdf
+    language: English
+  RikssymDocument_82:
+
+    title_short:
+    title_long: DECRETO de promulgación del Tratado de Libre Comercio entre los Estados Unidos Mexicanos y la República de Costa Rica.
+    type:
+    date_signed: 1994
+    date_force: 0
+    filename: Mexico-CostaRica-DecretoDePromulgacionDelTratadoDeLibreComercio-1994-ES.pdf
+    language: Spanish
+  RikssymDocument_83:
+
+    title_short:
+    title_long: DECRETO Promulgatorio del Tratado de Libre Comercio entre los Estados Unidos Mexicanos y las Repúblicas de El Salvador, Guatemala y Honduras, firmado en la Ciudad de México, el veintinueve de junio de dos mil.
+    type:
+    date_signed: 0
+    date_force: 0
+    filename: Mexico-TrianguloNorte-DecretoPromulgatorioDelTratadoDeLibreComercio-ES.pdf
+    language: Spanish
+  RikssymDocument_84:
+
+    title_short:
+    title_long: ENLARGEMENT OF THE EUROPEAN UNION
+    type:
+    date_signed: 2005
+    date_force: 0
+    filename: EU-Enlargement-EN.pdf
+    language: English
+  RikssymDocument_85:
+
+    title_short:
+    title_long: ESTABLISHMENT OF A FREE TRADE AREA
+    type:
+    date_signed: 2004
+    date_force: 0
+    filename: UnitedStates-Australia-Agreement-2004-EN.pdf
+    language: English
+  RikssymDocument_86:
+
+    title_short:
+    title_long: EURO-MEDITERRANEAN AGREEMENT
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: EC-Israel-EuroMediterraneanAgreement-1995-EN.pdf
+    language: English
+  RikssymDocument_87:
+
+    title_short:
+    title_long: EURO-MEDITERRANEAN AGREEMENT
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: EC-Jordan-EuroMediterraneanAgreement-1997-EN.pdf
+    language: English
+  RikssymDocument_88:
+
+    title_short:
+    title_long: EURO-MEDITERRANEAN AGREEMENT
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: EC-Morocco-EuroMediterraneanAgreement-1996-EN.pdf
+    language: English
+  RikssymDocument_89:
+
+    title_short:
+    title_long: EURO-MEDITERRANEAN AGREEMENT
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: EC-Tunisia-EuroMediterraneanAgreement-1995-EN.pdf
+    language: English
+  RikssymDocument_90:
+
+    title_short:
+    title_long: EUROPE AGREEMENT establishing an association between the European Communities and their Member States, of the one part, and the Republic of Bulgaria, of the other part
+    type:
+    date_signed: 0
+    date_force: 0
+    filename: EC-Bulgaria-EuropeAgreement-EN.pdf
+    language: English
+  RikssymDocument_91:
+
+    title_short:
+    title_long: EUROPE AGREEMENT establishing an association between the European Communities and their Member States, of the one part, and the Republic of Poland, of the other part
+    type:
+    date_signed: 1991
+    date_force: 0
+    filename: EC-Poland-EuropeAgreement-1991-EN.pdf
+    language: English
+  RikssymDocument_92:
+
+    title_short:
+    title_long: EUROPE AGREEMENT establishing an association between the European Economic Communities and their Member States, of the one part, and Romania, of the other part
+    type:
+    date_signed: 1993
+    date_force: 0
+    filename: EC-Romania-EuropeAgreement-1993-EN.pdf
+    language: English
+  RikssymDocument_93:
+
+    title_short:
+    title_long: FIRST AGREEMENT ON TRADE NEGOTIATIONS AMONG DEVELOPING MEMBER COUNTRIES OF THE ECONOMIC AND SOCIAL COMMISSION FOR ASIA AND THE PACIFIC (BANGKOK AGREEMENT)
+    type:
+    date_signed: 1975
+    date_force: 0
+    filename: Asia-Pacific-BangkokAgreementOnTradeNegotiations-EN.pdf
+    language: English
+  RikssymDocument_94:
+
+    title_short:
+    title_long: FRAMEWORK AGREEMENT FOR ESTABLISHING FREE TRADE AREA BETWEEN THE REPUBLIC OF INDIA AND THE KINGDOM OF THAILAND
+    type:
+    date_signed: 2003
+    date_force: 0
+    filename: India-Thailand-FrameworkAgreementForFreeTradeArea-2003-EN.pdf
+    language: English
+  RikssymDocument_95:
+
+    title_short:
+    title_long: FRAMEWORK AGREEMENT ON COMPREHENSIVE ECONOMIC CO-OPERATION BETWEEN THE ASSOCIATION OF SOUTH EAST ASIAN NATIONS AND THE PEOPLE’S REPUBLIC OF CHINA
+    type:
+    date_signed: 2002
+    date_force: 0
+    filename: asean-china fa.pdf
+    language: English
+  RikssymDocument_96:
+
+    title_short:
+    title_long: FRAMEWORK AGREEMENT ON COMPREHENSIVE ECONOMIC COOPERATION BETWEEN THE REPUBLIC OF INDIA AND THE ASSOCIATION OF SOUTH EAST ASIAN NATIONS
+    type:
+    date_signed: 2003
+    date_force: 0
+    filename: ASEAN-India-FrameworkAgreementOnComprehensiveEconomicCooperation-2003-EN.pdf
+    language: English
+  RikssymDocument_97:
+
+    title_short:
+    title_long: FRAMEWORK FOR COMPREHENSIVE ECONOMIC PARTNERSHIP BETWEEN THE ASSOCIATION OF SOUTHEAST ASIAN NATIONS AND JAPAN
+    type:
+    date_signed: 2003
+    date_force: 0
+    filename: ASEAN-Japan-FrameworkForComprehensiveEconomicPartnership-2003-EN.pdf
+    language: English
+  RikssymDocument_98:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEEN THE EUROPEAN COMMUNITIES AND MEXICO
+    type:
+    date_signed: 2000
+    date_force: 0
+    filename: EC-Mexico-FTA-EN.pdf
+    language: English
+  RikssymDocument_99:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN AGREEMENT ON TRADE, ECONOMIC AND TECHNICAL COOPERATION BETWEEN THE CARIBBEAN COMMUNITY (CARICOM) AND THE GOVERNMENT OF THE REPUBLIC OF COLOMBIA
+    type:
+    date_signed: 1994
+    date_force: 0
+    filename: CARICOM-Columbia-AgreementOnTradeEconomicAndTechnicalCooperation-1994-EN.pdf
+    language: English
+  RikssymDocument_100:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN AZERBAIJAN, ARMENIA, BELARUS, GEORGIA, MOLDOVA, KAZAKHSTAN, THE RUSSIAN FEDERATION, UKRAINE, UZBEKISTAN, AJIKISTAN AND THE KYRGYZ REPUBLIC
+    type:
+    date_signed: 1994
+    date_force: 0
+    filename: CIS-FTA-1994-EN.pdf
+    language: English
+  RikssymDocument_101:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN BULGARIA AND ESTONIA
+    type:
+    date_signed: 2001
+    date_force: 0
+    filename: Bulgaria-Estonia-FTA-2001-EN.pdf
+    language: English
+  RikssymDocument_102:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN CHILE AND COSTA RICA
+    type:
+    date_signed: 1999
+    date_force: 0
+    filename: Chile-CostaRica-FTA-1999-EN.pdf
+    language: English
+  RikssymDocument_103:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN CHILE AND EL SALVADOR
+    type:
+    date_signed: 1999
+    date_force: 0
+    filename: Chile-ElSalvador-FTA-1999-EN.pdf
+    language: English
+  RikssymDocument_104:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN CHILE AND MEXICO
+    type:
+    date_signed: 2001
+    date_force: 0
+    filename: Chile-Mexico-FTA-EN.pdf
+    language: English
+  RikssymDocument_105:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN CROATIA AND BOSNIA AND HERZEGOVINA
+    type:
+    date_signed: 2000
+    date_force: 0
+    filename: BosniaHerzegovina - Croatia-FTA-2000-EN.pdf
+    language: English
+  RikssymDocument_106:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN CROATIA AND SLOVENIA
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: Croatia-Slovenia-FTA-1997-EN.pdf
+    language: English
+  RikssymDocument_107:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN ESTONIA AND UKRAINE
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: Estonia-Ukraine-FTA-1995-EN.pdf
+    language: English
+  RikssymDocument_108:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN HIS MAJESTY’S GOVERNMENT OF NEPAL AND THE GOVERNMENT OF INDIA
+    type:
+    date_signed: 1991
+    date_force: 0
+    filename: India-Nepal-FTA-1991-EN.pdf
+    language: English
+  RikssymDocument_109:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN HUNGARY AND ESTONIA
+    type:
+    date_signed: 1998
+    date_force: 0
+    filename: Estonia-Hungary-FTA-1998-EN.pdf
+    language: English
+  RikssymDocument_110:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN HUNGARY AND ISRAEL
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: Hungary-Israel-FTA-1997-EN.pdf
+    language: English
+  RikssymDocument_111:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN HUNGARY AND LATVIA
+    type:
+    date_signed: 1999
+    date_force: 0
+    filename: Hungary-Latvia-FTA-1999-EN.pdf
+    language: English
+  RikssymDocument_112:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN HUNGARY AND LITHUANIA
+    type:
+    date_signed: 1998
+    date_force: 0
+    filename: Hungary-Lithuania-FTA-1998-EN.pdf
+    language: English
+  RikssymDocument_113:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN ISRAEL AND MEXICO
+    type:
+    date_signed: 2000
+    date_force: 0
+    filename: Israel-Mexico-FTA-2000-EN.pdf
+    language: English
+  RikssymDocument_114:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN LATVIA AND SLOVENIA
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Latvia-Slovenia-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_115:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN LATVIA AND THE EUROPEAN COMMUNITIES
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: EC-Latvia-FTA-EN.pdf
+    language: English
+  RikssymDocument_116:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN LITHUANIA AND THE EUROPEAN COMMUNITIES
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: EC-Lithuania-FTA-EN.pdf
+    language: English
+  RikssymDocument_117:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN POLAND AND THE REPUBLIC OF LITHUANIA
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Lithuania-Poland-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_118:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN ROMANIA AND THE REPUBLIC OF MOLDOVA
+    type:
+    date_signed: 1994
+    date_force: 0
+    filename: Moldova-Romania-FTA-1994-EN.pdf
+    language: English
+  RikssymDocument_119:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN SINGAPORE AND AUSTRALIA (SAFTA)
+    type:
+    date_signed: 2003
+    date_force: 0
+    filename: Singapore-Australia-FTA-2003-EN.pdf
+    language: English
+  RikssymDocument_120:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE CARIBBEAN COMMUNITY (CARICOM) AND THE GOVERNMENT OF THE REPUBLIC OF COSTA RICA
+    type:
+    date_signed: 2004
+    date_force: 0
+    filename: CARICOM-CostaRica-Agreement-2004-EN.pdf
+    language: English
+  RikssymDocument_121:
+
+    title_short:
+    title_long: Free Trade Agreement between The council of ministers of the Republic of Albania and the United Nations Interim Administration Mission in Kosovo (UNMIK) Provisional institutes of self Government in Kosovo
+    type:
+    date_signed: 0
+    date_force: 0
+    filename: Albania-UNMIK-FTA-EN.pdf
+    language: English
+  RikssymDocument_122:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE CZECH REPUBLIC AND THE REPUBLIC OF ESTONIA
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: CzechRepublic-Estonia-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_123:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE CZECH REPUBLIC AND THE REPUBLIC OF LATVIA
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: CzechRepublic-Latvia-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_124:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE CZECH REPUBLIC AND THE REPUBLIC OF LITHUANIA
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: CzechRepublic-Lithuania-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_125:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE EFTA STATES AND THE CZECH REPUBLIC
+    type:
+    date_signed: 1992
+    date_force: 0
+    filename: EFTA-CzechRepublic-FTA-1992-EN.pdf
+    language: English
+  RikssymDocument_126:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE EFTA STATES AND THE REPUBLIC OF CHILE
+    type:
+    date_signed: 2003
+    date_force: 0
+    filename: EFTA-Chile-FTA-2003-EN.pdf
+    language: English
+  RikssymDocument_127:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE EFTA STATES AND THE REPUBLIC OF LITHUANIA
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: EFTA-Lithuania-FTA-1995-EN.pdf
+    language: English
+  RikssymDocument_128:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE EFTA STATES AND THE REPUBLIC OF MACEDONIA
+    type:
+    date_signed: 2000
+    date_force: 0
+    filename: EFTA-Macedonia-FTA-2000-EN.pdf
+    language: English
+  RikssymDocument_129:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE EFTA STATES AND THE SLOVAK REPUBLIC
+    type:
+    date_signed: 1992
+    date_force: 0
+    filename: EFTA-Slovakia-FTA-1992-EN.pdf
+    language: English
+  RikssymDocument_130:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE EFTA STATES AND THE UNITED MEXICAN STATES
+    type:
+    date_signed: 2000
+    date_force: 0
+    filename: EFTA-Mexico-FTA-2000-EN.pdf
+    language: English
+  RikssymDocument_131:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE EUROPEAN COMMUNITY AND OCTFREE TRADE AGREEMENT BETWEEN THE EUROPEAN COMMUNITY AND OCT
+    type:
+    date_signed: 2001
+    date_force: 0
+    filename: EC-OCT-FTA-2001-EN.pdf
+    language: English
+  RikssymDocument_132:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE EUROPEAN COMMUNITY AND THE SYRIAN ARAB REPUBIC
+    type:
+    date_signed: 1977
+    date_force: 0
+    filename: EC-Syria-FTA-1977-EN.pdf
+    language: English
+  RikssymDocument_133:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE EUROPEAN ECONOMIC COMMUNITY AND THE LEBANESE REPUBLIC
+    type:
+    date_signed: 1977
+    date_force: 0
+    filename: EC-Lebanon-FTA-1977-EN.pdf
+    language: English
+  RikssymDocument_134:
+
+    title_short:
+    title_long: Free Trade Agreement between The Government of Albania and the Government Macedonia
+    type:
+    date_signed: 0
+    date_force: 0
+    filename: Albania-Macedonia-FTA-EN.pdf
+    language: English
+  RikssymDocument_135:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE GOVERNMENT OF CANADA AND THE GOVERNMENT OF THE STATE OF ISRAEL
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: Canada-CostaRica-FTA-EN.pdf
+    language: English
+  RikssymDocument_136:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN The Government of Canada, the Government of the United Mexican States and the Government of the United States of America
+    type:
+    date_signed: 0
+    date_force: 0
+    filename: Canada-Israel-FTA-EN.pdf
+    language: English
+  RikssymDocument_137:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE GOVERNMENT OF ICELAND AND THE FAROE ISLANDS (GOVERNMENT OF DENMARK
+    type:
+    date_signed: 1992
+    date_force: 0
+    filename: FaroeIslands-Iceland-FTA-1992-EN.pdf
+    language: English
+  RikssymDocument_138:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE GOVERNMENT OF REPUBLIC OF ARMENIA AND THE GOVERNMENT OF REPUBLIC OF MOLDOVA
+    type:
+    date_signed: 1993
+    date_force: 0
+    filename: Armenia-Moldova-FTA-1993-EN.pdf
+    language: English
+  RikssymDocument_139:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE GOVERNMENT OF REPUBLIC OF ARMENIA AND THE GOVERNMENT OF RUSSIAN FEDERATION O
+    type:
+    date_signed: 1992
+    date_force: 0
+    filename: Armenia-Russian Federation-FTA-1992-EN.pdf
+    language: English
+  RikssymDocument_140:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE GOVERNMENT OF REPUBLIC OF ARMENIA AND THE GOVERNMENT OF TURKMENISTAN
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: Armenia-Turkmenistan-FTA-1995-EN.pdf
+    language: English
+  RikssymDocument_141:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE GOVERNMENT OF REPUBLIC OF ARMENIA AND THE GOVERNMENT OF UKRAINE
+    type:
+    date_signed: 1994
+    date_force: 0
+    filename: Armenia-Ukraine-FTA-1994-EN.pdf
+    language: English
+  RikssymDocument_142:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE GOVERNMENT OF THE REPUBLIC OF ARMENIA AND THE GOVERNMENT OF THE REPUBLIC OF KAZAKHSTAN
+    type:
+    date_signed: 1999
+    date_force: 0
+    filename: armenia-kazachstan-FTA-1999-EN.pdf
+    language: English
+  RikssymDocument_143:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE GOVERNMENT OF THE REPUBLIC OF BULGARIA AND THE GOVERNMENT OF THE STATE OF ISRAEL
+    type:
+    date_signed: 2001
+    date_force: 0
+    filename: Bulgaria-Israel-FTA-2001-EN.pdf
+    language: English
+  RikssymDocument_144:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE KINGDOM OF MOROCCO AND THE REPUBLIC OF TURKEY
+    type:
+    date_signed: 0
+    date_force: 0
+    filename: Morocco-Turkey-FTA-EN.pdf
+    language: English
+  RikssymDocument_145:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE KYRGYZ REPUBLIC AND UZBEKISTAN
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Kyrgyzstan-Uzbekistan-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_146:
+
+    title_short:
+    title_long: Free Trade Agreement between The Republic of Albania and Bosnia and Herzegovina
+    type:
+    date_signed: 2002
+    date_force: 0
+    filename: Albania-BosniaHerzegovina-FTA-2002-EN.pdf
+    language: English
+  RikssymDocument_147:
+
+    title_short:
+    title_long: Free Trade Agreement between The Republic of Albania and Republic of Bulgaria
+    type:
+    date_signed: 2000
+    date_force: 0
+    filename: Albania-Bulgaria-FTA-EN.pdf
+    language: English
+  RikssymDocument_148:
+
+    title_short:
+    title_long: Free Trade Agreement between The Republic of Albania and Romania
+    type:
+    date_signed: 0
+    date_force: 0
+    filename: Albania-Romania-FTA-EN.pdf
+    language: English
+  RikssymDocument_149:
+
+    title_short:
+    title_long: Free Trade Agreement between The Republic of Albania and Serbia and Montenegro
+    type:
+    date_signed: 0
+    date_force: 0
+    filename: Albania-SerbiaMontenegro-FTA-EN.pdf
+    language: English
+  RikssymDocument_150:
+
+    title_short:
+    title_long: Free Trade Agreement between The Republic of Albania and The Republic of Croatia
+    type:
+    date_signed: 2002
+    date_force: 0
+    filename: Albania-Croatia-FTA-2002-EN.pdf
+    language: English
+  RikssymDocument_151:
+
+    title_short:
+    title_long: Free Trade Agreement between The Republic of Albania the Republic of Moldova
+    type:
+    date_signed: 2003
+    date_force: 0
+    filename: Albania-Moldova-FTA-2003-EN.pdf
+    language: English
+  RikssymDocument_152:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF BULGARIA AND SERBIA AND MONTENEGRO
+    type:
+    date_signed: 2003
+    date_force: 0
+    filename: Bulgaria-SerbiaMontenegro-FTA-2003-EN.pdf
+    language: English
+  RikssymDocument_153:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF BULGARIA AND THE REPUBLIC OF LATVIA
+    type:
+    date_signed: 2002
+    date_force: 0
+    filename: Bulgaria-Latvia-FTA-2002-EN.pdf
+    language: English
+  RikssymDocument_154:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF BULGARIA AND THE REPUBLIC OF LITHUANIA
+    type:
+    date_signed: 2001
+    date_force: 0
+    filename: Bulgaria-Lithuania-FTA-2001-EN.pdf
+    language: English
+  RikssymDocument_155:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF BULGARIA AND THE REPUBLIC OF MOLDOVA
+    type:
+    date_signed: 2004
+    date_force: 0
+    filename: Bulgaria-Moldova-FTA-2004-EN.pdf
+    language: English
+  RikssymDocument_156:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF CROATIA AND THE REPUBLIC OF LITHUANIA
+    type:
+    date_signed: 0
+    date_force: 0
+    filename: Croatia-Lithuania-FTA-EN.pdf
+    language: English
+  RikssymDocument_157:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF CROATIA AND THE REPUBLIC OF MACEDONIA
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: Croatia-Macedonia-FTA-1997-EN.pdf
+    language: English
+  RikssymDocument_158:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF ESTONIA AND THE REPUBLIC OF LATVIA AND THE REPUBLIC OF LITHUANIA ON TRADE IN AGRICULTURAL PRODUCTS
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: BAFTA-Ag-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_159:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF ESTONIA AND THE REPUBLIC OF SLOVENIA
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Estonia-Slovenia-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_160:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF ESTONIA, THE REPUBLIC OF LATVIA AND THE REPUBLIC OF LITHUANIA
+    type:
+    date_signed: 1993
+    date_force: 0
+    filename: BAFTA-Indus-FTA-1993-EN.pdf
+    language: English
+  RikssymDocument_161:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF INDIA AND THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA
+    type:
+    date_signed: 1998
+    date_force: 0
+    filename: india-sri lanka-FTA-1998-EN.pdf
+    language: English
+  RikssymDocument_162:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF MACEDONIA AND BOSNIA HERZEGOVINA
+    type:
+    date_signed: 2002
+    date_force: 0
+    filename: BosniaHerzegovina-Macedonia-FTA-2002-EN.pdf
+    language: English
+  RikssymDocument_163:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF MOLDOVA AND THE REPUBLIC OF CROATIA
+    type:
+    date_signed: 2004
+    date_force: 0
+    filename: Croatia-Moldova-FTA-2004-EN.pdf
+    language: English
+  RikssymDocument_164:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF SLOVENIA AND BOSNIA AND HERZEGOVINA
+    type:
+    date_signed: 2001
+    date_force: 0
+    filename: BosniaHerzegovina-Slovenia-FTA-2001-EN.pdf
+    language: English
+  RikssymDocument_165:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF SLOVENIA AND THE REPUBLIC OF LITHUANIA
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Lithuania-Slovenia-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_166:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF TURKEY AND BOSNIA AND HERZEGOVINA
+    type:
+    date_signed: 2002
+    date_force: 0
+    filename: Turkey-BosniaHerzegovina-FTA-2002-EN.pdf
+    language: English
+  RikssymDocument_167:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN The Republic of Turkey and the Republic of Bulgaria
+    type:
+    date_signed: 1998
+    date_force: 0
+    filename: Bulgaria-Turkey-FTA-1998-EN.pdf
+    language: English
+  RikssymDocument_168:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF TURKEY AND THE REPUBLIC OF LATVIA
+    type:
+    date_signed: 1998
+    date_force: 0
+    filename: Latvia-Turkey-FTA-1998-EN.pdf
+    language: English
+  RikssymDocument_169:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF TURKEY AND THE REPUBLIC OF MACEDONIA
+    type:
+    date_signed: 1999
+    date_force: 0
+    filename: Macedonia-Turkey-FTA-1999-EN.pdf
+    language: English
+  RikssymDocument_170:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE REPUBLIC OF TURKEY AND THE REPUBLIC OF SLOVENIA
+    type:
+    date_signed: 1998
+    date_force: 0
+    filename: Slovenia-Turkey-FTA-1998-EN.pdf
+    language: English
+  RikssymDocument_171:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE SLOVAK REPUBLIC AND THE REPUBLIC OF ESTONIA
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Estonia-Slovakia-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_172:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE SLOVAK REPUBLIC AND THE REPUBLIC OF LATVIA
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Latvia-Slovakia-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_173:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE SLOVAK REPUBLIC AND THE REPUBLIC OF LITHUANIA
+    type:
+    date_signed: 1996
+    date_force: 0
+    filename: Lithuania-Slovakia-FTA-1996-EN.pdf
+    language: English
+  RikssymDocument_174:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE SLOVAK REPUBLIC AND THE REPUBLIC OF TURKEY
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: Slovakia-Turkey-FTA-1997-EN.pdf
+    language: English
+  RikssymDocument_175:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN THE STATE OF ISRAEL AND THE REPUBLIC OF SLOVENIA
+    type:
+    date_signed: 1998
+    date_force: 0
+    filename: Israel-Slovenia-FTA-1998-EN.pdf
+    language: English
+  RikssymDocument_176:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN TURKEY AND ESTONIA
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: Estonia-Turkey-FTA-1997-EN.pdf
+    language: English
+  RikssymDocument_177:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN TURKEY AND HUNGARY
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: Hungary-Turkey-FTA-1997-EN.pdf
+    language: English
+  RikssymDocument_178:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN TURKEY AND LITHUANIA
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: Lithuania-Turkey-FTA-1997-EN.pdf
+    language: English
+  RikssymDocument_179:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN TURKEY AND POLAND
+    type:
+    date_signed: 1999
+    date_force: 0
+    filename: Poland-Turkey-FTA-1999-EN.pdf
+    language: English
+  RikssymDocument_180:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN TURKEY AND ROMANIA
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: Romania-Turkey-FTA-1997-EN.pdf
+    language: English
+  RikssymDocument_181:
+
+    title_short:
+    title_long: FREE TRADE AGREEMENT BETWEEN TURKEY AND THE CZECH REPUBLIC
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: CzechRepublic-Turkey-FTA-1997-EN.pdf
+    language: English
+  RikssymDocument_182:
+
+    title_short:
+    title_long: FREE TRADE AREA BETWEEN THE EFTA STATES AND JORDAN
+    type:
+    date_signed: 2001
+    date_force: 0
+    filename: EFTA-Jordan-FTA-2001-EN.pdf
+    language: English
+  RikssymDocument_183:
+
+    title_short:
+    title_long: FREE TRADE BETWEEN NORWAY AND THE FAROE ISLANDS
+    type:
+    date_signed: 1992
+    date_force: 0
+    filename: FaroeIslands-Norway-FTA-EN.pdf
+    language: English
+  RikssymDocument_184:
+
+    title_short:
+    title_long: FREE TRADE BETWEEN THE FAROE ISLANDS AND SWITZERLAND THE SWISS GOVERNMENT
+    type:
+    date_signed: 1993
+    date_force: 0
+    filename: FaroeIslands-Switzerland-FTA-EN.pdf
+    language: English
+  RikssymDocument_185:
+
+    title_short:
+    title_long: SOUTHERN COMMON MARKET (MERCOSUR) AGREEMENT
+    type:
+    date_signed: 1991
+    date_force: 0
+    filename: MERCOSUR-Agreement-1991-EN.pdf
+    language: English
+  RikssymDocument_186:
+
+    title_short:
+    title_long: GENERAL TREATY ON CENTRAL AMERICAN ECONOMIC INTEGRATION BETWEEN GUATEMALA, EL SALVADOR, HONDURAS AND NICARAGUA SIGNED AT MANAGUA
+    type:
+    date_signed: 1960
+    date_force: 0
+    filename: Guatemala-ElSalvador-Honduras-Nicaragua-TreatyOnCentralAmericanEconomicIntegration-1960-EN.pdf
+    language: English
+  RikssymDocument_187:
+
+    title_short:
+    title_long: INTERIM AGREEMENT
+    type:
+    date_signed: 2001
+    date_force: 0
+    filename: EC-Croatia-InterimAgreementOnTrade-2001-EN.pdf
+    language: English
+  RikssymDocument_188:
+
+    title_short:
+    title_long: INTERIM AGREEMENT BETWEEN THE EFTA STATES AND THE PALESTINE LIBERATION ORGANIZATION FOR THE BENEFIT OF THE PALESTINIAN AUTHORITY
+    type:
+    date_signed: 1998
+    date_force: 0
+    filename: EFTA-PLO-InterimAgreement-1998-EN.pdf
+    language: English
+  RikssymDocument_189:
+
+    title_short:
+    title_long: INTERIM AGREEMENT BETWEEN THE EUROPEAN COMMUNITY AND THE REPUBLIC OF SLOVENIA
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: EC-Slovenia-InterimAgreementOnTrade-EN.pdf
+    language: English
+  RikssymDocument_190:
+
+    title_short:
+    title_long: INTERIM AGREEMENT on trade and trade-related matters between the European Community, of the one part, and the Republic of Lebanon, of the other part
+    type:
+    date_signed: 2002
+    date_force: 0
+    filename: EC-Lebanon-InterimAgreementOnTrade-2002-EN.pdf
+    language: English
+  RikssymDocument_191:
+
+    title_short:
+    title_long: MAINLAND/HONG KONG CLOSER ECONOMIC PARTNERSHIP ARRANGEMENT (CEPA)
+    type:
+    date_signed: 2003
+    date_force: 0
+    filename: China-HongKong-CEPA-2003-EN.pdf
+    language: English
+  RikssymDocument_192:
+
+    title_short:
+    title_long: REGULATION (EEC) No 2842/72 OF THE COUNCIL of 19 December 1972 concluding an Agreement between the European Economic Community and the Republic of Iceland and adopting provisions for its implementation
+    type:
+    date_signed: 1972
+    date_force: 0
+    filename: EC-Iceland-Regulation-1972-EN.pdf
+    language: English
+  RikssymDocument_193:
+
+    title_short:
+    title_long: South Pacific Regional Trade and Economic Cooperation Agreement [SPARTECA]
+    type:
+    date_signed: 1980
+    date_force: 0
+    filename: SPARTECA-AgreementOnRegionalTradeAndEconomicCooperation-1980-EN.pdf
+    language: English
+  RikssymDocument_194:
+
+    title_short:
+    title_long: Stabilisation and Association Agreement
+    type:
+    date_signed: 2001
+    date_force: 0
+    filename: EC-Macedonia-StabilisationAndAssociatonAgreement-2001-EN.pdf
+    language: English
+  RikssymDocument_195:
+
+    title_short:
+    title_long: Thailand-Australia Free Trade Agreement
+    type:
+    date_signed: 2004
+    date_force: 0
+    filename: Australia-Thailand-FTA-2004-EN.pdf
+    language: English
+  RikssymDocument_196:
+
+    title_short:
+    title_long: THAILAND-NEW ZEALAND CLOSER ECONOMIC PARTNERSHIP AGREEMENT
+    type:
+    date_signed: 2005
+    date_force: 0
+    filename: NewZealand-Thailand-AgreementOnACloserEconomicPartnership-2005-EN.pdf
+    language: English
+  RikssymDocument_197:
+
+    title_short:
+    title_long: THE COMMON MARKET FOR EASTERN AND SOUTHERN AFRICA
+    type:
+    date_signed: 0
+    date_force: 0
+    filename: COMESA-EN.pdf
+    language: English
+  RikssymDocument_198:
+
+    title_short:
+    title_long: THE DOMINICAN REPUBLIC – CENTRAL AMERICA – UNITED STATES FREE TRADE AGREEMENT
+    type:
+    date_signed: 2004
+    date_force: 0
+    filename: UnitedStates-DominicanRepublic(CAFTA)-FTA-2004-EN.pdf
+    language: English
+  RikssymDocument_199:
+
+    title_short:
+    title_long: THE ESTABLISHMENT OF THE EAST AFRICAN  UNION
+    type:
+    date_signed: 2004
+    date_force: 0
+    filename: EastAfricanCommunity-Protocol-2004-EN.pdf
+    language:
+  RikssymDocument_200:
+
+    title_short:
+    title_long: THE UNIFIED ECONOMIC AGREEMENT BETWEEN THE COUNTRIES OF THE GULF COOPERATION COUNCIL
+    type:
+    date_signed: 1981
+    date_force: 0
+    filename: GCC-UnifiedEconomicAgreement-1981-EN.pdf
+    language: English
+  RikssymDocument_201:
+
+    title_short:
+    title_long: TRADE AGREEMENT FREE TRADE BETWEEN EUROPEAN COMMUNITIES AND THEIR MEMBER STATES AND THE CZECH REPUBLIC
+    type:
+    date_signed: 0
+    date_force: 0
+    filename: EC-CzechRepublic-FTA-EN.pdf
+    language:
+  RikssymDocument_202:
+
+    title_short:
+    title_long: TRADE, DEVELOPMENT AND CO-OPERATION AGREEMENT BETWEEN THE EUROPEAN COMMUNITY AND SOUTH AFRICA
+    type:
+    date_signed: 2000
+    date_force: 0
+    filename: EC-South Africa-AgreementOnTradeDevelopmentAndCooperation-1999-EN.pdf
+    language: English
+  RikssymDocument_203:
+
+    title_short:
+    title_long: Tratado Comercial entre la República de Panamá y la República Dominicana
+    type:
+    date_signed: 1985
+    date_force: 0
+    filename: DominicanRepublic-Panama-TratadoComercial-1985-ES.pdf
+    language: Spanish
+  RikssymDocument_204:
+
+    title_short:
+    title_long: TRATADO DE LIBRE COMERCIO ENTRE LOS ESTADOS UNIDOS MEXICANOS Y LA REPUBLICA DE NICARAGUA
+    type:
+    date_signed: 1997
+    date_force: 0
+    filename: Mexico-Nicaragua-TratadoDeLibreComercio-ES.pdf
+    language: Spanish
+  RikssymDocument_205:
+
+    title_short:
+    title_long: &quot;Tratado de Libre Comercio entre los Gobiernos de Centroamérica y el Gobierno de la República
+    type:
+    date_signed: 0
+    date_force: 0
+    filename: Chile-CentralAmerica-TratadoDeLibreComercio-ES.pdf
+    language: Spanish
+  RikssymDocument_206:
+
+    title_short:
+    title_long: Tratado de Libre Comercio México-Bolivia
+    type:
+    date_signed: 0
+    date_force: 0
+    filename: Mexico-Bolivia-TratadoDeLibreComercio-ES.pdf
+    language: Spanish
+  RikssymDocument_207:
+
+    title_short:
+    title_long: Tratado de Libre Comercio y de Intercambio Preferencial entre las Repúblicas de Panamá y HondurasTratado de Libre Comercio y de Intercambio Preferencial entre las Repúblicas de Panamá y Honduras
+    type:
+    date_signed: 1973
+    date_force: 0
+    filename: Panama-Honduras-TratadoDeLibreComercioYDeIntercambioPreferencial-1973-ES.pdf
+    language: Spanish
+  RikssymDocument_208:
+
+    title_short:
+    title_long: TREATY BETWEEN THE REPUBLIS OF PANAMA AND THE REPUBLIC OF EL SALVADOR ON FREE TRADE AND PREFERENTIAL TREATMENT
+    type:
+    date_signed: 1986
+    date_force: 0
+    filename: ElSalvador-Panama-Treaty-1986-EN.pdf
+    language: English
+  RikssymDocument_209:
+
+    title_short:
+    title_long: TREATY ESTABLISHING THE CARIBBEAN COMMUNITY
+    type:
+    date_signed: 1973
+    date_force: 0
+    filename: CARICOM-Treaty-1973-EN.pdf
+    language: English
+  RikssymDocument_210:
+
+    title_short:
+    title_long: Treaty of Montevideo - Instrument Establishing the Latin American Integration Association (ALADI)
+    type:
+    date_signed: 1980
+    date_force: 0
+    filename: LAIA-ALADI-Treaty-1980-EN.pdf
+    language: English
+  RikssymDocument_211:
+
+    title_short:
+    title_long: TREATY ON FREE TRADE AND PREFERENTIAL TRADE PRACTICES BETWEEN THE REPUBLICS OF PANAMA AND COSTA RICA
+    type:
+    date_signed: 1993
+    date_force: 0
+    filename: CostaRica-Panama-TreatyOnFreeTradeAndPreferentialTradePractices-1973-EN.pdf
+    language: English
+  RikssymDocument_212:
+
+    title_short:
+    title_long: Treaty on Free Trade Between the Republic of Colombia, the Republic of Venezuela and the United Mexican States
+    type:
+    date_signed: 1995
+    date_force: 0
+    filename: Mexico-Colombia-Venezuela-TreatyOnFreeTrade-EN ES.pdf
+    language: Eng. / Span.
+  RikssymDocument_213:
+
+    title_short:
+    title_long: UNITED STATES – CHILE FREE TRADE AGREEMENT
+    type:
+    date_signed: 0
+    date_force: 0
+    filename: UnitedStates-Chile-FTA-EN.pdf
+    language: English
+  RikssymDocument_214:
+
+    title_short:
+    title_long: UNITED STATES – MOROCCO FREE TRADE AGREEMENT
+    type:
+    date_signed: 2004
+    date_force: 0
+    filename: UnitedStates-Morocco-FTA-2004-EN.pdf
+    language: English
+  RikssymDocument_215:
+
+    title_short:
+    title_long: UNITED STATES – SINGAPORE FREE TRADE AGREEMENT
+    type:
+    date_signed: 2003
+    date_force: 0
+    filename: UnitedStates-Singapore-FTA-2003-EN.pdf
+    language: English

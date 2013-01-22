@@ -1,0 +1,1742 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class sfWebRequest</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class sfWebRequest</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+											<a href="#sec-consts">Constants</a>
+						
+			</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_frontend---prod---config---config_core_compile.yml.php.html">/frontend/prod/config/config_core_compile.yml.php</a> (line <span class="field">2446</span>)
+		</p>
+		
+				
+		<pre><a href="../default/sfRequest.html">sfRequest</a>
+   |
+   --sfWebRequest</pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+															<a href="#sec-consts">Constants</a>
+							
+					</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																																																																																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$acceptableContentTypes" title="details" class="var-name">$acceptableContentTypes</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$charsets" title="details" class="var-name">$charsets</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$format" title="details" class="var-name">$format</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$formats" title="details" class="var-name">$formats</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$getParameters" title="details" class="var-name">$getParameters</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$languages" title="details" class="var-name">$languages</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$pathInfoArray" title="details" class="var-name">$pathInfoArray</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$postParameters" title="details" class="var-name">$postParameters</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$relativeUrlRoot" title="details" class="var-name">$relativeUrlRoot</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$requestParameters" title="details" class="var-name">$requestParameters</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-consts">Constants</a>
+							
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																												<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#getFiles" title="details" class="method-name">getFiles</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$key</span> = <span class="var-default">null</span>])
+									</div>
+																																																																																																																																																																																																																																																																																																
+												<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#addRequestParameters" title="details" class="method-name">addRequestParameters</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$parameters</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#checkCSRFProtection" title="details" class="method-name">checkCSRFProtection</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#fixParameters" title="details" class="method-name">fixParameters</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getAcceptableContentTypes" title="details" class="method-name">getAcceptableContentTypes</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getCharsets" title="details" class="method-name">getCharsets</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getCookie" title="details" class="method-name">getCookie</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$defaultValue</span> = <span class="var-default">null</span>])
+									</div>
+																								<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getFormat" title="details" class="method-name">getFormat</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$mimeType</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getForwardedFor" title="details" class="method-name">getForwardedFor</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getGetParameter" title="details" class="method-name">getGetParameter</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$default</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getGetParameters" title="details" class="method-name">getGetParameters</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getHost" title="details" class="method-name">getHost</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getHttpHeader" title="details" class="method-name">getHttpHeader</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$prefix</span> = <span class="var-default">'http'</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getLanguages" title="details" class="method-name">getLanguages</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getMethodName" title="details" class="method-name">getMethodName</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getMimeType" title="details" class="method-name">getMimeType</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$format</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getPathInfo" title="details" class="method-name">getPathInfo</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getPathInfoArray" title="details" class="method-name">getPathInfoArray</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getPathInfoPrefix" title="details" class="method-name">getPathInfoPrefix</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getPostParameter" title="details" class="method-name">getPostParameter</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$default</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getPostParameters" title="details" class="method-name">getPostParameters</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getPreferredCulture" title="details" class="method-name">getPreferredCulture</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$cultures</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getReferer" title="details" class="method-name">getReferer</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getRelativeUrlRoot" title="details" class="method-name">getRelativeUrlRoot</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getRemoteAddress" title="details" class="method-name">getRemoteAddress</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getRequestContext" title="details" class="method-name">getRequestContext</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getRequestFormat" title="details" class="method-name">getRequestFormat</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getRequestParameters" title="details" class="method-name">getRequestParameters</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getScriptName" title="details" class="method-name">getScriptName</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getUri" title="details" class="method-name">getUri</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getUriPrefix" title="details" class="method-name">getUriPrefix</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getUrlParameter" title="details" class="method-name">getUrlParameter</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$default</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#initialize" title="details" class="method-name">initialize</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$dispatcher</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$parameters</span> = <span class="var-default">array()</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$attributes</span> = <span class="var-default">array()</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$options</span> = <span class="var-default">array()</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isAbsUri" title="details" class="method-name">isAbsUri</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isMethod" title="details" class="method-name">isMethod</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$method</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isSecure" title="details" class="method-name">isSecure</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#isXmlHttpRequest" title="details" class="method-name">isXmlHttpRequest</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#parseRequestParameters" title="details" class="method-name">parseRequestParameters</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setFormat" title="details" class="method-name">setFormat</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$format</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$mimeTypes</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setRelativeUrlRoot" title="details" class="method-name">setRelativeUrlRoot</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setRequestFormat" title="details" class="method-name">setRequestFormat</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$format</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#splitHttpAcceptHeader" title="details" class="method-name">splitHttpAcceptHeader</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$header</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-consts">Constants</a>
+							
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$acceptableContentTypes" id="$acceptableContentTypes"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$acceptableContentTypes</span>
+			 = <span class="var-default"> null</span>			(line <span class="line-number">2451</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$charsets" id="$charsets"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$charsets</span>
+			 = <span class="var-default"> null</span>			(line <span class="line-number">2450</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$format" id="$format"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$format</span>
+						(line <span class="line-number">2458</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$formats" id="$formats"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$formats</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">2457</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$getParameters" id="$getParameters"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$getParameters</span>
+			 = <span class="var-default"> null</span>			(line <span class="line-number">2454</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$languages" id="$languages"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$languages</span>
+			 = <span class="var-default"> null</span>			(line <span class="line-number">2449</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$pathInfoArray" id="$pathInfoArray"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$pathInfoArray</span>
+			 = <span class="var-default"> null</span>			(line <span class="line-number">2452</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$postParameters" id="$postParameters"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$postParameters</span>
+			 = <span class="var-default"> null</span>			(line <span class="line-number">2455</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$relativeUrlRoot" id="$relativeUrlRoot"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$relativeUrlRoot</span>
+			 = <span class="var-default"> null</span>			(line <span class="line-number">2453</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$requestParameters" id="$requestParameters"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$requestParameters</span>
+			 = <span class="var-default"> null</span>			(line <span class="line-number">2456</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+							<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../default/sfRequest.html">sfRequest</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/sfRequest.html#var$attributeHolder">sfRequest::$attributeHolder</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/sfRequest.html#var$dispatcher">sfRequest::$dispatcher</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/sfRequest.html#var$method">sfRequest::$method</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/sfRequest.html#var$options">sfRequest::$options</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/sfRequest.html#var$parameterHolder">sfRequest::$parameterHolder</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																			<a href="#sec-consts">Constants</a>
+							
+										<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodgetFiles" id="getFiles"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getFiles</span> (line <span class="line-number">2847</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getFiles
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$key</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$key</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+<a name="methodaddRequestParameters" id="addRequestParameters"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">addRequestParameters</span> (line <span class="line-number">2613</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			addRequestParameters
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$parameters</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$parameters</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcheckCSRFProtection" id="checkCSRFProtection"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">checkCSRFProtection</span> (line <span class="line-number">2898</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			checkCSRFProtection
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodfixParameters" id="fixParameters"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">fixParameters</span> (line <span class="line-number">2923</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			fixParameters
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetAcceptableContentTypes" id="getAcceptableContentTypes"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getAcceptableContentTypes</span> (line <span class="line-number">2715</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getAcceptableContentTypes
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetCharsets" id="getCharsets"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCharsets</span> (line <span class="line-number">2702</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getCharsets
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetCookie" id="getCookie"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCookie</span> (line <span class="line-number">2742</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getCookie
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$defaultValue</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$name</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$defaultValue</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetFormat" id="getFormat"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getFormat</span> (line <span class="line-number">2820</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getFormat
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$mimeType</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mimeType</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetForwardedFor" id="getForwardedFor"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getForwardedFor</span> (line <span class="line-number">2889</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getForwardedFor
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetGetParameter" id="getGetParameter"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getGetParameter</span> (line <span class="line-number">2851</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getGetParameter
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$default</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$name</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$default</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetGetParameters" id="getGetParameters"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getGetParameters</span> (line <span class="line-number">2601</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getGetParameters
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetHost" id="getHost"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getHost</span> (line <span class="line-number">2624</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getHost
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetHttpHeader" id="getHttpHeader"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getHttpHeader</span> (line <span class="line-number">2732</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getHttpHeader
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$prefix</span> = <span class="var-default">'http'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$name</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$prefix</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetLanguages" id="getLanguages"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getLanguages</span> (line <span class="line-number">2660</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getLanguages
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetMethodName" id="getMethodName"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getMethodName</span> (line <span class="line-number">2638</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getMethodName
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetMimeType" id="getMimeType"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getMimeType</span> (line <span class="line-number">2816</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getMimeType
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$format</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$format</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetPathInfo" id="getPathInfo"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPathInfo</span> (line <span class="line-number">2555</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getPathInfo
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetPathInfoArray" id="getPathInfoArray"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPathInfoArray</span> (line <span class="line-number">2800</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getPathInfoArray
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetPathInfoPrefix" id="getPathInfoPrefix"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPathInfoPrefix</span> (line <span class="line-number">2591</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getPathInfoPrefix
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetPostParameter" id="getPostParameter"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPostParameter</span> (line <span class="line-number">2862</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getPostParameter
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$default</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$name</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$default</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetPostParameters" id="getPostParameters"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPostParameters</span> (line <span class="line-number">2605</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getPostParameters
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetPreferredCulture" id="getPreferredCulture"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPreferredCulture</span> (line <span class="line-number">2646</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getPreferredCulture
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$cultures</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$cultures</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetReferer" id="getReferer"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getReferer</span> (line <span class="line-number">2619</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getReferer
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetRelativeUrlRoot" id="getRelativeUrlRoot"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getRelativeUrlRoot</span> (line <span class="line-number">2762</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getRelativeUrlRoot
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetRemoteAddress" id="getRemoteAddress"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getRemoteAddress</span> (line <span class="line-number">2884</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getRemoteAddress
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetRequestContext" id="getRequestContext"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getRequestContext</span> (line <span class="line-number">2911</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getRequestContext
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetRequestFormat" id="getRequestFormat"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getRequestFormat</span> (line <span class="line-number">2839</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getRequestFormat
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetRequestParameters" id="getRequestParameters"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getRequestParameters</span> (line <span class="line-number">2609</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getRequestParameters
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetScriptName" id="getScriptName"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getScriptName</span> (line <span class="line-number">2629</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getScriptName
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetUri" id="getUri"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getUri</span> (line <span class="line-number">2513</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getUri
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetUriPrefix" id="getUriPrefix"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getUriPrefix</span> (line <span class="line-number">2531</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getUriPrefix
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetUrlParameter" id="getUrlParameter"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getUrlParameter</span> (line <span class="line-number">2873</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getUrlParameter
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$default</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$name</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$default</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinitialize" id="initialize"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">initialize</span> (line <span class="line-number">2459</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			initialize
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$dispatcher</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$parameters</span> = <span class="var-default">array()</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$attributes</span> = <span class="var-default">array()</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$options</span> = <span class="var-default">array()</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">sfEventDispatcher</span>
+				<span class="var-name">$dispatcher</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$parameters</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$attributes</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$options</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/sfRequest.html#methodinitialize">sfRequest::initialize()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodisAbsUri" id="isAbsUri"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">isAbsUri</span> (line <span class="line-number">2526</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isAbsUri
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisMethod" id="isMethod"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isMethod</span> (line <span class="line-number">2634</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isMethod
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$method</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$method</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodisSecure" id="isSecure"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">isSecure</span> (line <span class="line-number">2751</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isSecure
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisXmlHttpRequest" id="isXmlHttpRequest"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isXmlHttpRequest</span> (line <span class="line-number">2728</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			isXmlHttpRequest
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodparseRequestParameters" id="parseRequestParameters"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">parseRequestParameters</span> (line <span class="line-number">2907</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			parseRequestParameters
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodsetFormat" id="setFormat"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setFormat</span> (line <span class="line-number">2831</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setFormat
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$format</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$mimeTypes</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$format</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mimeTypes</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetRelativeUrlRoot" id="setRelativeUrlRoot"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setRelativeUrlRoot</span> (line <span class="line-number">2777</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setRelativeUrlRoot
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$value</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetRequestFormat" id="setRequestFormat"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setRequestFormat</span> (line <span class="line-number">2835</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setRequestFormat
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$format</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$format</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsplitHttpAcceptHeader" id="splitHttpAcceptHeader"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">splitHttpAcceptHeader</span> (line <span class="line-number">2781</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			splitHttpAcceptHeader
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$header</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$header</span>			</li>
+				</ul>
+		
+			
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../default/sfRequest.html">sfRequest</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../default/sfRequest.html#method__construct">sfRequest::__construct()</a></span><br>
+													<span class="method-name"><a href="../default/sfRequest.html#methodextractParameters">sfRequest::extractParameters()</a></span><br>
+													<span class="method-name"><a href="../default/sfRequest.html#methodgetAttribute">sfRequest::getAttribute()</a></span><br>
+													<span class="method-name"><a href="../default/sfRequest.html#methodgetAttributeHolder">sfRequest::getAttributeHolder()</a></span><br>
+													<span class="method-name"><a href="../default/sfRequest.html#methodgetMethod">sfRequest::getMethod()</a></span><br>
+													<span class="method-name"><a href="../default/sfRequest.html#methodgetParameter">sfRequest::getParameter()</a></span><br>
+													<span class="method-name"><a href="../default/sfRequest.html#methodgetParameterHolder">sfRequest::getParameterHolder()</a></span><br>
+													<span class="method-name"><a href="../default/sfRequest.html#methodhasAttribute">sfRequest::hasAttribute()</a></span><br>
+													<span class="method-name"><a href="../default/sfRequest.html#methodhasParameter">sfRequest::hasParameter()</a></span><br>
+													<span class="method-name"><a href="../default/sfRequest.html#methodinitialize">sfRequest::initialize()</a></span><br>
+													<span class="method-name"><a href="../default/sfRequest.html#methodsetAttribute">sfRequest::setAttribute()</a></span><br>
+													<span class="method-name"><a href="../default/sfRequest.html#methodsetMethod">sfRequest::setMethod()</a></span><br>
+													<span class="method-name"><a href="../default/sfRequest.html#methodsetParameter">sfRequest::setParameter()</a></span><br>
+													<span class="method-name"><a href="../default/sfRequest.html#method__call">sfRequest::__call()</a></span><br>
+													<span class="method-name"><a href="../default/sfRequest.html#method__clone">sfRequest::__clone()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+	<a name="sec-consts"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Constants</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+														| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+										<h4>Inherited Constants</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../default/sfRequest.html">sfRequest</a></span></p>
+					<blockquote>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/sfRequest.html#constDELETE">sfRequest::DELETE</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/sfRequest.html#constGET">sfRequest::GET</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/sfRequest.html#constHEAD">sfRequest::HEAD</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/sfRequest.html#constPOST">sfRequest::POST</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/sfRequest.html#constPUT">sfRequest::PUT</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 19 Dec 2008 11:29:14 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.2</a>
+	</p>
+	</div></body>
+</html>

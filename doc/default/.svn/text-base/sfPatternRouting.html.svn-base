@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class sfPatternRouting</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class sfPatternRouting</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_frontend---prod---config---config_core_compile.yml.php.html">/frontend/prod/config/config_core_compile.yml.php</a> (line <span class="field">2937</span>)
+		</p>
+		
+				
+		<pre><a href="../default/sfRouting.html">sfRouting</a>
+   |
+   --sfPatternRouting</pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																																								<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$cacheChanged" title="details" class="var-name">$cacheChanged</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$cacheData" title="details" class="var-name">$cacheData</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$currentInternalUri" title="details" class="var-name">$currentInternalUri</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$currentRouteName" title="details" class="var-name">$currentRouteName</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$routes" title="details" class="var-name">$routes</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																				<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#flattenRoutes" title="details" class="method-name">flattenRoutes</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$routes</span>)
+									</div>
+																																																																																																																																																																
+												<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#appendRoute" title="details" class="method-name">appendRoute</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$route</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#clearRoutes" title="details" class="method-name">clearRoutes</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#configureRoute" title="details" class="method-name">configureRoute</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$route</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#connect" title="details" class="method-name">connect</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$route</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#findRoute" title="details" class="method-name">findRoute</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$url</span>)
+									</div>
+																								<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#generate" title="details" class="method-name">generate</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$params</span> = <span class="var-default">array()</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$absolute</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getCurrentInternalUri" title="details" class="method-name">getCurrentInternalUri</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$withRouteName</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getCurrentRouteName" title="details" class="method-name">getCurrentRouteName</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getRoutes" title="details" class="method-name">getRoutes</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getRouteThatMatchesParameters" title="details" class="method-name">getRouteThatMatchesParameters</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$parameters</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getRouteThatMatchesUrl" title="details" class="method-name">getRouteThatMatchesUrl</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$url</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#hasRouteName" title="details" class="method-name">hasRouteName</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#hasRoutes" title="details" class="method-name">hasRoutes</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#initialize" title="details" class="method-name">initialize</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$dispatcher</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$cache</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$options</span> = <span class="var-default">array()</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#insertRouteBefore" title="details" class="method-name">insertRouteBefore</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$pivot</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$route</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#loadConfiguration" title="details" class="method-name">loadConfiguration</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#normalizeUrl" title="details" class="method-name">normalizeUrl</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$url</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#parse" title="details" class="method-name">parse</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$url</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#prependRoute" title="details" class="method-name">prependRoute</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$route</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setDefaultParameter" title="details" class="method-name">setDefaultParameter</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$key</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setDefaultParameters" title="details" class="method-name">setDefaultParameters</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$parameters</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setRoutes" title="details" class="method-name">setRoutes</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$routes</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#shutdown" title="details" class="method-name">shutdown</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#updateCurrentInternalUri" title="details" class="method-name">updateCurrentInternalUri</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$parameters</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$cacheChanged" id="$cacheChanged"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$cacheChanged</span>
+						(line <span class="line-number">2944</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$cacheData" id="$cacheData"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$cacheData</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">2943</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$currentInternalUri" id="$currentInternalUri"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$currentInternalUri</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">2941</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$currentRouteName" id="$currentRouteName"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$currentRouteName</span>
+			 = <span class="var-default"> null</span>			(line <span class="line-number">2940</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$routes" id="$routes"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$routes</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">2942</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+							<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../default/sfRouting.html">sfRouting</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/sfRouting.html#var$cache">sfRouting::$cache</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/sfRouting.html#var$defaultParameters">sfRouting::$defaultParameters</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/sfRouting.html#var$dispatcher">sfRouting::$dispatcher</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../default/sfRouting.html#var$options">sfRouting::$options</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodflattenRoutes" id="flattenRoutes"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method flattenRoutes</span> (line <span class="line-number">3169</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			flattenRoutes
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$routes</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$routes</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+<a name="methodappendRoute" id="appendRoute"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">appendRoute</span> (line <span class="line-number">3029</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			appendRoute
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$route</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$name</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$route</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodclearRoutes" id="clearRoutes"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">clearRoutes</span> (line <span class="line-number">3009</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			clearRoutes
+		</span>
+				()
+			</div>
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/sfRouting.html#methodclearRoutes">sfRouting::clearRoutes()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodconfigureRoute" id="configureRoute"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">configureRoute</span> (line <span class="line-number">3066</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			configureRoute
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$route</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">sfRoute</span>
+				<span class="var-name">$route</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodconnect" id="connect"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">connect</span> (line <span class="line-number">3052</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			connect
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$route</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$name</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$route</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfindRoute" id="findRoute"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">findRoute</span> (line <span class="line-number">3150</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			findRoute
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$url</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$url</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgenerate" id="generate"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">generate</span> (line <span class="line-number">3087</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			generate
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$params</span> = <span class="var-default">array()</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$absolute</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$name</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$params</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$absolute</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/sfRouting.html#methodgenerate">sfRouting::generate()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodgetCurrentInternalUri" id="getCurrentInternalUri"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCurrentInternalUri</span> (line <span class="line-number">2985</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getCurrentInternalUri
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$withRouteName</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$withRouteName</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/sfRouting.html#methodgetCurrentInternalUri">sfRouting::getCurrentInternalUri()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodgetCurrentRouteName" id="getCurrentRouteName"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCurrentRouteName</span> (line <span class="line-number">2989</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getCurrentRouteName
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetRoutes" id="getRoutes"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getRoutes</span> (line <span class="line-number">2993</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getRoutes
+		</span>
+				()
+			</div>
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/sfRouting.html#methodgetRoutes">sfRouting::getRoutes()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodgetRouteThatMatchesParameters" id="getRouteThatMatchesParameters"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getRouteThatMatchesParameters</span> (line <span class="line-number">3197</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getRouteThatMatchesParameters
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$parameters</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$parameters</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetRouteThatMatchesUrl" id="getRouteThatMatchesUrl"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getRouteThatMatchesUrl</span> (line <span class="line-number">3185</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getRouteThatMatchesUrl
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$url</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$url</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodhasRouteName" id="hasRouteName"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">hasRouteName</span> (line <span class="line-number">3017</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			hasRouteName
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$name</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodhasRoutes" id="hasRoutes"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">hasRoutes</span> (line <span class="line-number">3005</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			hasRoutes
+		</span>
+				()
+			</div>
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/sfRouting.html#methodhasRoutes">sfRouting::hasRoutes()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodinitialize" id="initialize"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">initialize</span> (line <span class="line-number">2945</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			initialize
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$dispatcher</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$cache</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$options</span> = <span class="var-default">array()</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">sfEventDispatcher</span>
+				<span class="var-name">$dispatcher</span>			</li>
+					<li>
+				<span class="var-type">sfCache</span>
+				<span class="var-name">$cache</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$options</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/sfRouting.html#methodinitialize">sfRouting::initialize()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodinsertRouteBefore" id="insertRouteBefore"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">insertRouteBefore</span> (line <span class="line-number">3033</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			insertRouteBefore
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$pivot</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$route</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$pivot</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$name</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$route</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodloadConfiguration" id="loadConfiguration"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">loadConfiguration</span> (line <span class="line-number">2966</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			loadConfiguration
+		</span>
+				()
+			</div>
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/sfRouting.html#methodloadConfiguration">sfRouting::loadConfiguration()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodnormalizeUrl" id="normalizeUrl"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">normalizeUrl</span> (line <span class="line-number">3208</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			normalizeUrl
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$url</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$url</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodparse" id="parse"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">parse</span> (line <span class="line-number">3120</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			parse
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$url</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$url</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/sfRouting.html#methodparse">sfRouting::parse()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodprependRoute" id="prependRoute"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">prependRoute</span> (line <span class="line-number">3021</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			prependRoute
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$route</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$name</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$route</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetDefaultParameter" id="setDefaultParameter"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setDefaultParameter</span> (line <span class="line-number">3071</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setDefaultParameter
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$key</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$key</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$value</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/sfRouting.html#methodsetDefaultParameter">sfRouting::setDefaultParameter()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodsetDefaultParameters" id="setDefaultParameters"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setDefaultParameters</span> (line <span class="line-number">3079</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setDefaultParameters
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$parameters</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$parameters</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/sfRouting.html#methodsetDefaultParameters">sfRouting::setDefaultParameters()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodsetRoutes" id="setRoutes"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setRoutes</span> (line <span class="line-number">2997</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setRoutes
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$routes</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$routes</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/sfRouting.html#methodsetRoutes">sfRouting::setRoutes()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodshutdown" id="shutdown"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">shutdown</span> (line <span class="line-number">3221</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			shutdown
+		</span>
+				()
+			</div>
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/sfRouting.html#methodshutdown">sfRouting::shutdown()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodupdateCurrentInternalUri" id="updateCurrentInternalUri"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">updateCurrentInternalUri</span> (line <span class="line-number">3136</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			updateCurrentInternalUri
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$name</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$parameters</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$name</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$parameters</span>			</li>
+				</ul>
+		
+			
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../default/sfRouting.html">sfRouting</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../default/sfRouting.html#method__construct">sfRouting::__construct()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodclearRoutes">sfRouting::clearRoutes()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodfilterParametersEvent">sfRouting::filterParametersEvent()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodfixGeneratedUrl">sfRouting::fixGeneratedUrl()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodgenerate">sfRouting::generate()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodgetCache">sfRouting::getCache()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodgetCurrentInternalUri">sfRouting::getCurrentInternalUri()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodgetDefaultParameter">sfRouting::getDefaultParameter()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodgetDefaultParameters">sfRouting::getDefaultParameters()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodgetOptions">sfRouting::getOptions()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodgetRoutes">sfRouting::getRoutes()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodhasRoutes">sfRouting::hasRoutes()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodinitialize">sfRouting::initialize()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodlistenToChangeCultureEvent">sfRouting::listenToChangeCultureEvent()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodloadConfiguration">sfRouting::loadConfiguration()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodmergeArrays">sfRouting::mergeArrays()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodparse">sfRouting::parse()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodsetDefaultParameter">sfRouting::setDefaultParameter()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodsetDefaultParameters">sfRouting::setDefaultParameters()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodsetRoutes">sfRouting::setRoutes()</a></span><br>
+													<span class="method-name"><a href="../default/sfRouting.html#methodshutdown">sfRouting::shutdown()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 19 Dec 2008 11:29:13 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.2</a>
+	</p>
+	</div></body>
+</html>

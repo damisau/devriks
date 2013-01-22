@@ -1,0 +1,86 @@
+<?php
+/* 
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+*/
+class RikssymRegionalGDP extends RikssymIndicator {
+    public $decimals = 0;
+    public $unitSymbol = "";
+
+    public function __construct() {
+
+    }
+
+    public function prepareQuery() {
+        $countryIds = $this->entity->getCountryIds();
+        $gdpCriteria = new Criteria();
+        $gdpCriteria->clearSelectColumns();
+        $gdpCriteria->addSelectColumn(RikssymDataPeer::PERIOD);
+        $gdpCriteria->addAsColumn("value", "SUM(".RikssymDataPeer::VALUE.")");
+        $gdpCriteria->add(RikssymDataPeer::TYPE_ID, "18", CRITERIA::EQUAL);
+        $gdpCriteria->add(RikssymDataPeer::PERIOD, $this->years, CRITERIA::IN);
+        $gdpCriteria->add(RikssymDataPeer::REPORTER_ID, $countryIds, CRITERIA::IN);
+
+        $gdpCriteria->addGroupByColumn(RikssymDataPeer::PERIOD);
+        $gdpCriteria->addAscendingOrderByColumn(RikssymDataPeer::PERIOD);
+        $stmt = RikssymDataPeer::doSelectStmt($gdpCriteria);
+        while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+            $this->values[$row['PERIOD']] =  $row['value'];
+        }
+//        $gdpCriteria = new Criteria();
+//        $gdpCriteria->clearSelectColumns();
+//        $gdpCriteria->addSelectColumn(RikssymDataPeer::PERIOD);
+//        $gdpCriteria->addAsColumn("value", "SUM(".RikssymDataPeer::VALUE.")");
+//        $gdpCriteria->add(RikssymDataPeer::TYPE_ID, "18", CRITERIA::EQUAL);
+//        $gdpCriteria->add(RikssymDataPeer::PERIOD, $this->years, CRITERIA::IN);
+//        $gdpCriteria->addJoin(RikssymDataPeer::REPORTER_ID,
+//                RikssymArrangementCountryPeer::COUNTRY_ID,
+//                CRITERIA::LEFT_JOIN);
+//
+//        $gdpCriteria->add(RikssymArrangementCountryPeer::ARRANGEMENT_ID,
+//                $this->entity->getId(), CRITERIA::EQUAL);
+//
+//        $gdpCriteria->addGroupByColumn(RikssymDataPeer::PERIOD);
+//        $gdpCriteria->addAscendingOrderByColumn(RikssymDataPeer::PERIOD);
+//        $stmt = RikssymDataPeer::doSelectStmt($gdpCriteria);
+//        while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+//            $this->values[$row['PERIOD']] =  $row['value'];
+//        }
+    }
+
+//    public function prepareCustomQuery() {
+//        $countryIds = $this->entity->getCountryIds();
+//        $gdpCriteria = new Criteria();
+//        $gdpCriteria->clearSelectColumns();
+//        $gdpCriteria->addSelectColumn(RikssymDataPeer::PERIOD);
+//        $gdpCriteria->addAsColumn("value", "SUM(".RikssymDataPeer::VALUE.")");
+//        $gdpCriteria->add(RikssymDataPeer::TYPE_ID, "18", CRITERIA::EQUAL);
+//        $gdpCriteria->add(RikssymDataPeer::PERIOD, $this->years, CRITERIA::IN);
+//        $gdpCriteria->add(RikssymDataPeer::REPORTER_ID, $countryIds, CRITERIA::IN);
+//
+//        $gdpCriteria->addGroupByColumn(RikssymDataPeer::PERIOD);
+//        $gdpCriteria->addAscendingOrderByColumn(RikssymDataPeer::PERIOD);
+//        $stmt = RikssymDataPeer::doSelectStmt($gdpCriteria);
+//        while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+//            $this->values[$row['PERIOD']] =  $row['value'];
+//        }
+//    }
+
+    public function getValueOfYear($year, $format) {
+        if($format == true && in_array($year, $this->years)) {
+            return number_format($this->values[$year],$this->roundToDecimals).$this->unitSymbol;
+        }
+        else if($format == false && in_array($year, $this->years)) {
+            return $this->values[$year];
+        }
+        else {
+            throw new Exception("RikssymIndicator::getValueOfYear ".$year." is not in array.");
+        }
+    }
+
+    public function __toString() {
+        $dump = implode(":",$this->values);
+        return $dump;
+    }
+}
+?>

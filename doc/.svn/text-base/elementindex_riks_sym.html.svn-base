@@ -1,0 +1,1626 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title></title>
+			<link rel="stylesheet" href="media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+						<a name="top"></a>
+<h2>[riks_sym] element index</h2>
+	<h3>Package indexes</h3>
+	<ul>
+				<li><a href="elementindex_default.html">default</a></li>
+							<li><a href="elementindex_lib-model-om.html">lib-model-om</a></li>
+					<li><a href="elementindex_lib-model-map.html">lib-model-map</a></li>
+			</ul>
+<a href="elementindex.html">All elements</a>
+<br />
+<div class="index-letter-menu">
+	<a class="index-letter" href="elementindex_riks_sym.html#a">a</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#b">b</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#c">c</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#d">d</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#e">e</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#g">g</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#i">i</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#p">p</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#r">r</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#s">s</a>
+</div>
+
+	<a name="a"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">a</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="include-title">actions.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangement/_apps---frontend---modules---arrangement---actions---actions.class.php.html">actions.class.php</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						arrangementActions
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangement/arrangementActions.html">arrangementActions</a> in actions.class.php</div>
+							<div class="index-item-description">arrangement actions.</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">actions.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangements/_apps---frontend---modules---arrangements---actions---actions.class.php.html">actions.class.php</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						arrangementsActions
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangements/arrangementsActions.html">arrangementsActions</a> in actions.class.php</div>
+							<div class="index-item-description">arrangements actions.</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">actions.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/country/_apps---frontend---modules---country---actions---actions.class.php.html">actions.class.php</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">actions.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/data/_apps---frontend---modules---data---actions---actions.class.php.html">actions.class.php</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">actions.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/document/_apps---frontend---modules---document---actions---actions.class.php.html">actions.class.php</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">actions.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/georegion/_apps---frontend---modules---georegion---actions---actions.class.php.html">actions.class.php</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">actions.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/indicator/_apps---frontend---modules---indicator---actions---actions.class.php.html">actions.class.php</a> in actions.class.php</div>
+					</dd>
+		</dl>
+	<a name="b"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">b</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						BaseFormFilterPropel
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseFormFilterPropel.html">BaseFormFilterPropel</a> in BaseFormFilterPropel.class.php</div>
+							<div class="index-item-description">Project filter form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymArrangementCountryFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymArrangementCountryFormFilter.html">BaseRikssymArrangementCountryFormFilter</a> in BaseRikssymArrangementCountryFormFilter.class.php</div>
+							<div class="index-item-description">RikssymArrangementCountry filter form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymArrangementFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymArrangementFormFilter.html">BaseRikssymArrangementFormFilter</a> in BaseRikssymArrangementFormFilter.class.php</div>
+							<div class="index-item-description">RikssymArrangement filter form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymCountryFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymCountryFormFilter.html">BaseRikssymCountryFormFilter</a> in BaseRikssymCountryFormFilter.class.php</div>
+							<div class="index-item-description">RikssymCountry filter form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymDataFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDataFormFilter.html">BaseRikssymDataFormFilter</a> in BaseRikssymDataFormFilter.class.php</div>
+							<div class="index-item-description">RikssymData filter form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymDatatypeFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDatatypeFormFilter.html">BaseRikssymDatatypeFormFilter</a> in BaseRikssymDatatypeFormFilter.class.php</div>
+							<div class="index-item-description">RikssymDatatype filter form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymDocumentEntityFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDocumentEntityFormFilter.html">BaseRikssymDocumentEntityFormFilter</a> in BaseRikssymDocumentEntityFormFilter.class.php</div>
+							<div class="index-item-description">RikssymDocumentEntity filter form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymDocumentFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDocumentFormFilter.html">BaseRikssymDocumentFormFilter</a> in BaseRikssymDocumentFormFilter.class.php</div>
+							<div class="index-item-description">RikssymDocument filter form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymEntryFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymEntryFormFilter.html">BaseRikssymEntryFormFilter</a> in BaseRikssymEntryFormFilter.class.php</div>
+							<div class="index-item-description">RikssymEntry filter form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymGeoregionFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymGeoregionFormFilter.html">BaseRikssymGeoregionFormFilter</a> in BaseRikssymGeoregionFormFilter.class.php</div>
+							<div class="index-item-description">RikssymGeoregion filter form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymIndicatorFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymIndicatorFormFilter.html">BaseRikssymIndicatorFormFilter</a> in BaseRikssymIndicatorFormFilter.class.php</div>
+							<div class="index-item-description">RikssymIndicator filter form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymSourcesFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymSourcesFormFilter.html">BaseRikssymSourcesFormFilter</a> in BaseRikssymSourcesFormFilter.class.php</div>
+							<div class="index-item-description">RikssymSources filter form base class.</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseFormFilterPropel.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---base---BaseFormFilterPropel.class.php.html">BaseFormFilterPropel.class.php</a> in BaseFormFilterPropel.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymArrangementCountryFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---base---BaseRikssymArrangementCountryFormFilter.class.php.html">BaseRikssymArrangementCountryFormFilter.class.php</a> in BaseRikssymArrangementCountryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymArrangementFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---base---BaseRikssymArrangementFormFilter.class.php.html">BaseRikssymArrangementFormFilter.class.php</a> in BaseRikssymArrangementFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymCountryFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---base---BaseRikssymCountryFormFilter.class.php.html">BaseRikssymCountryFormFilter.class.php</a> in BaseRikssymCountryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymDataFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---base---BaseRikssymDataFormFilter.class.php.html">BaseRikssymDataFormFilter.class.php</a> in BaseRikssymDataFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymDatatypeFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---base---BaseRikssymDatatypeFormFilter.class.php.html">BaseRikssymDatatypeFormFilter.class.php</a> in BaseRikssymDatatypeFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymDocumentEntityFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---base---BaseRikssymDocumentEntityFormFilter.class.php.html">BaseRikssymDocumentEntityFormFilter.class.php</a> in BaseRikssymDocumentEntityFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymDocumentFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---base---BaseRikssymDocumentFormFilter.class.php.html">BaseRikssymDocumentFormFilter.class.php</a> in BaseRikssymDocumentFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymEntryFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---base---BaseRikssymEntryFormFilter.class.php.html">BaseRikssymEntryFormFilter.class.php</a> in BaseRikssymEntryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymGeoregionFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---base---BaseRikssymGeoregionFormFilter.class.php.html">BaseRikssymGeoregionFormFilter.class.php</a> in BaseRikssymGeoregionFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymIndicatorFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---base---BaseRikssymIndicatorFormFilter.class.php.html">BaseRikssymIndicatorFormFilter.class.php</a> in BaseRikssymIndicatorFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymSourcesFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---base---BaseRikssymSourcesFormFilter.class.php.html">BaseRikssymSourcesFormFilter.class.php</a> in BaseRikssymSourcesFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						BaseFormPropel
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseFormPropel.html">BaseFormPropel</a> in BaseFormPropel.class.php</div>
+							<div class="index-item-description">Project form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymArrangementCountryForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymArrangementCountryForm.html">BaseRikssymArrangementCountryForm</a> in BaseRikssymArrangementCountryForm.class.php</div>
+							<div class="index-item-description">RikssymArrangementCountry form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymArrangementForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymArrangementForm.html">BaseRikssymArrangementForm</a> in BaseRikssymArrangementForm.class.php</div>
+							<div class="index-item-description">RikssymArrangement form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymCountryForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymCountryForm.html">BaseRikssymCountryForm</a> in BaseRikssymCountryForm.class.php</div>
+							<div class="index-item-description">RikssymCountry form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymDataForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymDataForm.html">BaseRikssymDataForm</a> in BaseRikssymDataForm.class.php</div>
+							<div class="index-item-description">RikssymData form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymDatatypeForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymDatatypeForm.html">BaseRikssymDatatypeForm</a> in BaseRikssymDatatypeForm.class.php</div>
+							<div class="index-item-description">RikssymDatatype form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymDocumentEntityForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymDocumentEntityForm.html">BaseRikssymDocumentEntityForm</a> in BaseRikssymDocumentEntityForm.class.php</div>
+							<div class="index-item-description">RikssymDocumentEntity form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymDocumentForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymDocumentForm.html">BaseRikssymDocumentForm</a> in BaseRikssymDocumentForm.class.php</div>
+							<div class="index-item-description">RikssymDocument form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymEntryForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymEntryForm.html">BaseRikssymEntryForm</a> in BaseRikssymEntryForm.class.php</div>
+							<div class="index-item-description">RikssymEntry form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymGeoregionForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymGeoregionForm.html">BaseRikssymGeoregionForm</a> in BaseRikssymGeoregionForm.class.php</div>
+							<div class="index-item-description">RikssymGeoregion form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymIndicatorForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymIndicatorForm.html">BaseRikssymIndicatorForm</a> in BaseRikssymIndicatorForm.class.php</div>
+							<div class="index-item-description">RikssymIndicator form base class.</div>
+					</dd>
+			<dt class="field">
+						BaseRikssymSourcesForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymSourcesForm.html">BaseRikssymSourcesForm</a> in BaseRikssymSourcesForm.class.php</div>
+							<div class="index-item-description">RikssymSources form base class.</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymArrangementCountryForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---base---BaseRikssymArrangementCountryForm.class.php.html">BaseRikssymArrangementCountryForm.class.php</a> in BaseRikssymArrangementCountryForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymArrangementForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---base---BaseRikssymArrangementForm.class.php.html">BaseRikssymArrangementForm.class.php</a> in BaseRikssymArrangementForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymCountryForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---base---BaseRikssymCountryForm.class.php.html">BaseRikssymCountryForm.class.php</a> in BaseRikssymCountryForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymDataForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---base---BaseRikssymDataForm.class.php.html">BaseRikssymDataForm.class.php</a> in BaseRikssymDataForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymDatatypeForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---base---BaseRikssymDatatypeForm.class.php.html">BaseRikssymDatatypeForm.class.php</a> in BaseRikssymDatatypeForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymDocumentEntityForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---base---BaseRikssymDocumentEntityForm.class.php.html">BaseRikssymDocumentEntityForm.class.php</a> in BaseRikssymDocumentEntityForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymDocumentForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---base---BaseRikssymDocumentForm.class.php.html">BaseRikssymDocumentForm.class.php</a> in BaseRikssymDocumentForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymEntryForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---base---BaseRikssymEntryForm.class.php.html">BaseRikssymEntryForm.class.php</a> in BaseRikssymEntryForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymGeoregionForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---base---BaseRikssymGeoregionForm.class.php.html">BaseRikssymGeoregionForm.class.php</a> in BaseRikssymGeoregionForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymIndicatorForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---base---BaseRikssymIndicatorForm.class.php.html">BaseRikssymIndicatorForm.class.php</a> in BaseRikssymIndicatorForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseRikssymSourcesForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---base---BaseRikssymSourcesForm.class.php.html">BaseRikssymSourcesForm.class.php</a> in BaseRikssymSourcesForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">BaseFormPropel.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---BaseFormPropel.class.php.html">BaseFormPropel.class.php</a> in BaseFormPropel.class.php</div>
+					</dd>
+		</dl>
+	<a name="c"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">c</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						countryActions
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/country/countryActions.html">countryActions</a> in actions.class.php</div>
+							<div class="index-item-description">country actions.</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymEntryFormFilter.html#methodconfigure">RikssymEntryFormFilter::configure()</a> in RikssymEntryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymGeoregionFormFilter.html#methodconfigure">RikssymGeoregionFormFilter::configure()</a> in RikssymGeoregionFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymIndicatorFormFilter.html#methodconfigure">RikssymIndicatorFormFilter::configure()</a> in RikssymIndicatorFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymSourcesFormFilter.html#methodconfigure">RikssymSourcesFormFilter::configure()</a> in RikssymSourcesFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymDocumentFormFilter.html#methodconfigure">RikssymDocumentFormFilter::configure()</a> in RikssymDocumentFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymDocumentEntityFormFilter.html#methodconfigure">RikssymDocumentEntityFormFilter::configure()</a> in RikssymDocumentEntityFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymArrangementFormFilter.html#methodconfigure">RikssymArrangementFormFilter::configure()</a> in RikssymArrangementFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymCountryFormFilter.html#methodconfigure">RikssymCountryFormFilter::configure()</a> in RikssymCountryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymDataFormFilter.html#methodconfigure">RikssymDataFormFilter::configure()</a> in RikssymDataFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymDatatypeFormFilter.html#methodconfigure">RikssymDatatypeFormFilter::configure()</a> in RikssymDatatypeFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymArrangementCountryFormFilter.html#methodconfigure">RikssymArrangementCountryFormFilter::configure()</a> in RikssymArrangementCountryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymEntryForm.html#methodconfigure">RikssymEntryForm::configure()</a> in RikssymEntryForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymGeoregionForm.html#methodconfigure">RikssymGeoregionForm::configure()</a> in RikssymGeoregionForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymIndicatorForm.html#methodconfigure">RikssymIndicatorForm::configure()</a> in RikssymIndicatorForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymSourcesForm.html#methodconfigure">RikssymSourcesForm::configure()</a> in RikssymSourcesForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymDocumentForm.html#methodconfigure">RikssymDocumentForm::configure()</a> in RikssymDocumentForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymDocumentEntityForm.html#methodconfigure">RikssymDocumentEntityForm::configure()</a> in RikssymDocumentEntityForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymArrangementForm.html#methodconfigure">RikssymArrangementForm::configure()</a> in RikssymArrangementForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymCountryForm.html#methodconfigure">RikssymCountryForm::configure()</a> in RikssymCountryForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymDataForm.html#methodconfigure">RikssymDataForm::configure()</a> in RikssymDataForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymDatatypeForm.html#methodconfigure">RikssymDatatypeForm::configure()</a> in RikssymDatatypeForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">configure</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymArrangementCountryForm.html#methodconfigure">RikssymArrangementCountryForm::configure()</a> in RikssymArrangementCountryForm.class.php</div>
+					</dd>
+		</dl>
+	<a name="d"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">d</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						dataActions
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/data/dataActions.html">dataActions</a> in actions.class.php</div>
+							<div class="index-item-description">data actions.</div>
+					</dd>
+			<dt class="field">
+						documentActions
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/document/documentActions.html">documentActions</a> in actions.class.php</div>
+							<div class="index-item-description">document actions.</div>
+					</dd>
+		</dl>
+	<a name="e"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">e</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">executeCreate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangement/arrangementActions.html#methodexecuteCreate">arrangementActions::executeCreate()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeDelete</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangement/arrangementActions.html#methodexecuteDelete">arrangementActions::executeDelete()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeEdit</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangement/arrangementActions.html#methodexecuteEdit">arrangementActions::executeEdit()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeIndex</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangement/arrangementActions.html#methodexecuteIndex">arrangementActions::executeIndex()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeNew</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangement/arrangementActions.html#methodexecuteNew">arrangementActions::executeNew()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeShow</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangement/arrangementActions.html#methodexecuteShow">arrangementActions::executeShow()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeUpdate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangement/arrangementActions.html#methodexecuteUpdate">arrangementActions::executeUpdate()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeCreate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangements/arrangementsActions.html#methodexecuteCreate">arrangementsActions::executeCreate()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeDelete</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangements/arrangementsActions.html#methodexecuteDelete">arrangementsActions::executeDelete()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeEdit</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangements/arrangementsActions.html#methodexecuteEdit">arrangementsActions::executeEdit()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeIndex</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangements/arrangementsActions.html#methodexecuteIndex">arrangementsActions::executeIndex()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeNew</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangements/arrangementsActions.html#methodexecuteNew">arrangementsActions::executeNew()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeShow</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangements/arrangementsActions.html#methodexecuteShow">arrangementsActions::executeShow()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeUpdate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangements/arrangementsActions.html#methodexecuteUpdate">arrangementsActions::executeUpdate()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeCreate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/country/countryActions.html#methodexecuteCreate">countryActions::executeCreate()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeDelete</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/country/countryActions.html#methodexecuteDelete">countryActions::executeDelete()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeEdit</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/country/countryActions.html#methodexecuteEdit">countryActions::executeEdit()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeIndex</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/country/countryActions.html#methodexecuteIndex">countryActions::executeIndex()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeNew</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/country/countryActions.html#methodexecuteNew">countryActions::executeNew()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeShow</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/country/countryActions.html#methodexecuteShow">countryActions::executeShow()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeUpdate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/country/countryActions.html#methodexecuteUpdate">countryActions::executeUpdate()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeCreate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/data/dataActions.html#methodexecuteCreate">dataActions::executeCreate()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeDelete</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/data/dataActions.html#methodexecuteDelete">dataActions::executeDelete()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeEdit</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/data/dataActions.html#methodexecuteEdit">dataActions::executeEdit()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeIndex</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/data/dataActions.html#methodexecuteIndex">dataActions::executeIndex()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeNew</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/data/dataActions.html#methodexecuteNew">dataActions::executeNew()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeShow</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/data/dataActions.html#methodexecuteShow">dataActions::executeShow()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeUpdate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/data/dataActions.html#methodexecuteUpdate">dataActions::executeUpdate()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeCreate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/document/documentActions.html#methodexecuteCreate">documentActions::executeCreate()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeDelete</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/document/documentActions.html#methodexecuteDelete">documentActions::executeDelete()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeEdit</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/document/documentActions.html#methodexecuteEdit">documentActions::executeEdit()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeIndex</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/document/documentActions.html#methodexecuteIndex">documentActions::executeIndex()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeNew</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/document/documentActions.html#methodexecuteNew">documentActions::executeNew()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeShow</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/document/documentActions.html#methodexecuteShow">documentActions::executeShow()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeUpdate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/document/documentActions.html#methodexecuteUpdate">documentActions::executeUpdate()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeCreate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/georegion/georegionActions.html#methodexecuteCreate">georegionActions::executeCreate()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeDelete</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/georegion/georegionActions.html#methodexecuteDelete">georegionActions::executeDelete()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeEdit</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/georegion/georegionActions.html#methodexecuteEdit">georegionActions::executeEdit()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeIndex</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/georegion/georegionActions.html#methodexecuteIndex">georegionActions::executeIndex()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeNew</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/georegion/georegionActions.html#methodexecuteNew">georegionActions::executeNew()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeShow</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/georegion/georegionActions.html#methodexecuteShow">georegionActions::executeShow()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeUpdate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/georegion/georegionActions.html#methodexecuteUpdate">georegionActions::executeUpdate()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeCreate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/indicator/indicatorActions.html#methodexecuteCreate">indicatorActions::executeCreate()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeDelete</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/indicator/indicatorActions.html#methodexecuteDelete">indicatorActions::executeDelete()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeEdit</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/indicator/indicatorActions.html#methodexecuteEdit">indicatorActions::executeEdit()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeIndex</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/indicator/indicatorActions.html#methodexecuteIndex">indicatorActions::executeIndex()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeNew</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/indicator/indicatorActions.html#methodexecuteNew">indicatorActions::executeNew()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeShow</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/indicator/indicatorActions.html#methodexecuteShow">indicatorActions::executeShow()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">executeUpdate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/indicator/indicatorActions.html#methodexecuteUpdate">indicatorActions::executeUpdate()</a> in actions.class.php</div>
+					</dd>
+		</dl>
+	<a name="g"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">g</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">getFields</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDocumentFormFilter.html#methodgetFields">BaseRikssymDocumentFormFilter::getFields()</a> in BaseRikssymDocumentFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getFields</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymArrangementCountryFormFilter.html#methodgetFields">BaseRikssymArrangementCountryFormFilter::getFields()</a> in BaseRikssymArrangementCountryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getFields</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymEntryFormFilter.html#methodgetFields">BaseRikssymEntryFormFilter::getFields()</a> in BaseRikssymEntryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getFields</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymGeoregionFormFilter.html#methodgetFields">BaseRikssymGeoregionFormFilter::getFields()</a> in BaseRikssymGeoregionFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getFields</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymSourcesFormFilter.html#methodgetFields">BaseRikssymSourcesFormFilter::getFields()</a> in BaseRikssymSourcesFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getFields</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymIndicatorFormFilter.html#methodgetFields">BaseRikssymIndicatorFormFilter::getFields()</a> in BaseRikssymIndicatorFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getFields</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDatatypeFormFilter.html#methodgetFields">BaseRikssymDatatypeFormFilter::getFields()</a> in BaseRikssymDatatypeFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getFields</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDocumentEntityFormFilter.html#methodgetFields">BaseRikssymDocumentEntityFormFilter::getFields()</a> in BaseRikssymDocumentEntityFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getFields</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymArrangementFormFilter.html#methodgetFields">BaseRikssymArrangementFormFilter::getFields()</a> in BaseRikssymArrangementFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getFields</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDataFormFilter.html#methodgetFields">BaseRikssymDataFormFilter::getFields()</a> in BaseRikssymDataFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getFields</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymCountryFormFilter.html#methodgetFields">BaseRikssymCountryFormFilter::getFields()</a> in BaseRikssymCountryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDatatypeFormFilter.html#methodgetModelName">BaseRikssymDatatypeFormFilter::getModelName()</a> in BaseRikssymDatatypeFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymIndicatorFormFilter.html#methodgetModelName">BaseRikssymIndicatorFormFilter::getModelName()</a> in BaseRikssymIndicatorFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymArrangementCountryFormFilter.html#methodgetModelName">BaseRikssymArrangementCountryFormFilter::getModelName()</a> in BaseRikssymArrangementCountryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymSourcesFormFilter.html#methodgetModelName">BaseRikssymSourcesFormFilter::getModelName()</a> in BaseRikssymSourcesFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymGeoregionFormFilter.html#methodgetModelName">BaseRikssymGeoregionFormFilter::getModelName()</a> in BaseRikssymGeoregionFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymArrangementFormFilter.html#methodgetModelName">BaseRikssymArrangementFormFilter::getModelName()</a> in BaseRikssymArrangementFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymCountryFormFilter.html#methodgetModelName">BaseRikssymCountryFormFilter::getModelName()</a> in BaseRikssymCountryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDocumentFormFilter.html#methodgetModelName">BaseRikssymDocumentFormFilter::getModelName()</a> in BaseRikssymDocumentFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDataFormFilter.html#methodgetModelName">BaseRikssymDataFormFilter::getModelName()</a> in BaseRikssymDataFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymEntryFormFilter.html#methodgetModelName">BaseRikssymEntryFormFilter::getModelName()</a> in BaseRikssymEntryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDocumentEntityFormFilter.html#methodgetModelName">BaseRikssymDocumentEntityFormFilter::getModelName()</a> in BaseRikssymDocumentEntityFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymEntryForm.html#methodgetModelName">BaseRikssymEntryForm::getModelName()</a> in BaseRikssymEntryForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymGeoregionForm.html#methodgetModelName">BaseRikssymGeoregionForm::getModelName()</a> in BaseRikssymGeoregionForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymIndicatorForm.html#methodgetModelName">BaseRikssymIndicatorForm::getModelName()</a> in BaseRikssymIndicatorForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymSourcesForm.html#methodgetModelName">BaseRikssymSourcesForm::getModelName()</a> in BaseRikssymSourcesForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymDocumentForm.html#methodgetModelName">BaseRikssymDocumentForm::getModelName()</a> in BaseRikssymDocumentForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymDocumentEntityForm.html#methodgetModelName">BaseRikssymDocumentEntityForm::getModelName()</a> in BaseRikssymDocumentEntityForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymArrangementForm.html#methodgetModelName">BaseRikssymArrangementForm::getModelName()</a> in BaseRikssymArrangementForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymCountryForm.html#methodgetModelName">BaseRikssymCountryForm::getModelName()</a> in BaseRikssymCountryForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymDataForm.html#methodgetModelName">BaseRikssymDataForm::getModelName()</a> in BaseRikssymDataForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymDatatypeForm.html#methodgetModelName">BaseRikssymDatatypeForm::getModelName()</a> in BaseRikssymDatatypeForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getModelName</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymArrangementCountryForm.html#methodgetModelName">BaseRikssymArrangementCountryForm::getModelName()</a> in BaseRikssymArrangementCountryForm.class.php</div>
+					</dd>
+			<dt class="field">
+						georegionActions
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/georegion/georegionActions.html">georegionActions</a> in actions.class.php</div>
+							<div class="index-item-description">georegion actions.</div>
+					</dd>
+		</dl>
+	<a name="i"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">i</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						indicatorActions
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/indicator/indicatorActions.html">indicatorActions</a> in actions.class.php</div>
+							<div class="index-item-description">indicator actions.</div>
+					</dd>
+		</dl>
+	<a name="p"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">p</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">processForm</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangement/arrangementActions.html#methodprocessForm">arrangementActions::processForm()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">processForm</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/arrangements/arrangementsActions.html#methodprocessForm">arrangementsActions::processForm()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">processForm</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/country/countryActions.html#methodprocessForm">countryActions::processForm()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">processForm</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/data/dataActions.html#methodprocessForm">dataActions::processForm()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">processForm</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/document/documentActions.html#methodprocessForm">documentActions::processForm()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">processForm</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/georegion/georegionActions.html#methodprocessForm">georegionActions::processForm()</a> in actions.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">processForm</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/indicator/indicatorActions.html#methodprocessForm">indicatorActions::processForm()</a> in actions.class.php</div>
+					</dd>
+		</dl>
+	<a name="r"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">r</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="include-title">RikssymArrangementCountryFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---RikssymArrangementCountryFormFilter.class.php.html">RikssymArrangementCountryFormFilter.class.php</a> in RikssymArrangementCountryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymArrangementFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---RikssymArrangementFormFilter.class.php.html">RikssymArrangementFormFilter.class.php</a> in RikssymArrangementFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymCountryFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---RikssymCountryFormFilter.class.php.html">RikssymCountryFormFilter.class.php</a> in RikssymCountryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymDataFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---RikssymDataFormFilter.class.php.html">RikssymDataFormFilter.class.php</a> in RikssymDataFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymDatatypeFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---RikssymDatatypeFormFilter.class.php.html">RikssymDatatypeFormFilter.class.php</a> in RikssymDatatypeFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymDocumentEntityFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---RikssymDocumentEntityFormFilter.class.php.html">RikssymDocumentEntityFormFilter.class.php</a> in RikssymDocumentEntityFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymDocumentFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---RikssymDocumentFormFilter.class.php.html">RikssymDocumentFormFilter.class.php</a> in RikssymDocumentFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymEntryFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---RikssymEntryFormFilter.class.php.html">RikssymEntryFormFilter.class.php</a> in RikssymEntryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymGeoregionFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---RikssymGeoregionFormFilter.class.php.html">RikssymGeoregionFormFilter.class.php</a> in RikssymGeoregionFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymIndicatorFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---RikssymIndicatorFormFilter.class.php.html">RikssymIndicatorFormFilter.class.php</a> in RikssymIndicatorFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymSourcesFormFilter.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/_lib---filter---RikssymSourcesFormFilter.class.php.html">RikssymSourcesFormFilter.class.php</a> in RikssymSourcesFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						RikssymArrangementCountryFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymArrangementCountryFormFilter.html">RikssymArrangementCountryFormFilter</a> in RikssymArrangementCountryFormFilter.class.php</div>
+							<div class="index-item-description">RikssymArrangementCountry filter form.</div>
+					</dd>
+			<dt class="field">
+						RikssymArrangementFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymArrangementFormFilter.html">RikssymArrangementFormFilter</a> in RikssymArrangementFormFilter.class.php</div>
+							<div class="index-item-description">RikssymArrangement filter form.</div>
+					</dd>
+			<dt class="field">
+						RikssymCountryFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymCountryFormFilter.html">RikssymCountryFormFilter</a> in RikssymCountryFormFilter.class.php</div>
+							<div class="index-item-description">RikssymCountry filter form.</div>
+					</dd>
+			<dt class="field">
+						RikssymDataFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymDataFormFilter.html">RikssymDataFormFilter</a> in RikssymDataFormFilter.class.php</div>
+							<div class="index-item-description">RikssymData filter form.</div>
+					</dd>
+			<dt class="field">
+						RikssymDatatypeFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymDatatypeFormFilter.html">RikssymDatatypeFormFilter</a> in RikssymDatatypeFormFilter.class.php</div>
+							<div class="index-item-description">RikssymDatatype filter form.</div>
+					</dd>
+			<dt class="field">
+						RikssymDocumentEntityFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymDocumentEntityFormFilter.html">RikssymDocumentEntityFormFilter</a> in RikssymDocumentEntityFormFilter.class.php</div>
+							<div class="index-item-description">RikssymDocumentEntity filter form.</div>
+					</dd>
+			<dt class="field">
+						RikssymDocumentFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymDocumentFormFilter.html">RikssymDocumentFormFilter</a> in RikssymDocumentFormFilter.class.php</div>
+							<div class="index-item-description">RikssymDocument filter form.</div>
+					</dd>
+			<dt class="field">
+						RikssymEntryFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymEntryFormFilter.html">RikssymEntryFormFilter</a> in RikssymEntryFormFilter.class.php</div>
+							<div class="index-item-description">RikssymEntry filter form.</div>
+					</dd>
+			<dt class="field">
+						RikssymGeoregionFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymGeoregionFormFilter.html">RikssymGeoregionFormFilter</a> in RikssymGeoregionFormFilter.class.php</div>
+							<div class="index-item-description">RikssymGeoregion filter form.</div>
+					</dd>
+			<dt class="field">
+						RikssymIndicatorFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymIndicatorFormFilter.html">RikssymIndicatorFormFilter</a> in RikssymIndicatorFormFilter.class.php</div>
+							<div class="index-item-description">RikssymIndicator filter form.</div>
+					</dd>
+			<dt class="field">
+						RikssymSourcesFormFilter
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/RikssymSourcesFormFilter.html">RikssymSourcesFormFilter</a> in RikssymSourcesFormFilter.class.php</div>
+							<div class="index-item-description">RikssymSources filter form.</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymArrangementCountryForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---RikssymArrangementCountryForm.class.php.html">RikssymArrangementCountryForm.class.php</a> in RikssymArrangementCountryForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymArrangementForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---RikssymArrangementForm.class.php.html">RikssymArrangementForm.class.php</a> in RikssymArrangementForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymCountryForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---RikssymCountryForm.class.php.html">RikssymCountryForm.class.php</a> in RikssymCountryForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymDataForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---RikssymDataForm.class.php.html">RikssymDataForm.class.php</a> in RikssymDataForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymDatatypeForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---RikssymDatatypeForm.class.php.html">RikssymDatatypeForm.class.php</a> in RikssymDatatypeForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymDocumentEntityForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---RikssymDocumentEntityForm.class.php.html">RikssymDocumentEntityForm.class.php</a> in RikssymDocumentEntityForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymDocumentForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---RikssymDocumentForm.class.php.html">RikssymDocumentForm.class.php</a> in RikssymDocumentForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymEntryForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---RikssymEntryForm.class.php.html">RikssymEntryForm.class.php</a> in RikssymEntryForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymGeoregionForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---RikssymGeoregionForm.class.php.html">RikssymGeoregionForm.class.php</a> in RikssymGeoregionForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymIndicatorForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---RikssymIndicatorForm.class.php.html">RikssymIndicatorForm.class.php</a> in RikssymIndicatorForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">RikssymSourcesForm.class.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/_lib---form---RikssymSourcesForm.class.php.html">RikssymSourcesForm.class.php</a> in RikssymSourcesForm.class.php</div>
+					</dd>
+			<dt class="field">
+						RikssymArrangementCountryForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymArrangementCountryForm.html">RikssymArrangementCountryForm</a> in RikssymArrangementCountryForm.class.php</div>
+							<div class="index-item-description">RikssymArrangementCountry form.</div>
+					</dd>
+			<dt class="field">
+						RikssymArrangementForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymArrangementForm.html">RikssymArrangementForm</a> in RikssymArrangementForm.class.php</div>
+							<div class="index-item-description">RikssymArrangement form.</div>
+					</dd>
+			<dt class="field">
+						RikssymCountryForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymCountryForm.html">RikssymCountryForm</a> in RikssymCountryForm.class.php</div>
+							<div class="index-item-description">RikssymCountry form.</div>
+					</dd>
+			<dt class="field">
+						RikssymDataForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymDataForm.html">RikssymDataForm</a> in RikssymDataForm.class.php</div>
+							<div class="index-item-description">RikssymData form.</div>
+					</dd>
+			<dt class="field">
+						RikssymDatatypeForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymDatatypeForm.html">RikssymDatatypeForm</a> in RikssymDatatypeForm.class.php</div>
+							<div class="index-item-description">RikssymDatatype form.</div>
+					</dd>
+			<dt class="field">
+						RikssymDocumentEntityForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymDocumentEntityForm.html">RikssymDocumentEntityForm</a> in RikssymDocumentEntityForm.class.php</div>
+							<div class="index-item-description">RikssymDocumentEntity form.</div>
+					</dd>
+			<dt class="field">
+						RikssymDocumentForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymDocumentForm.html">RikssymDocumentForm</a> in RikssymDocumentForm.class.php</div>
+							<div class="index-item-description">RikssymDocument form.</div>
+					</dd>
+			<dt class="field">
+						RikssymEntryForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymEntryForm.html">RikssymEntryForm</a> in RikssymEntryForm.class.php</div>
+							<div class="index-item-description">RikssymEntry form.</div>
+					</dd>
+			<dt class="field">
+						RikssymGeoregionForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymGeoregionForm.html">RikssymGeoregionForm</a> in RikssymGeoregionForm.class.php</div>
+							<div class="index-item-description">RikssymGeoregion form.</div>
+					</dd>
+			<dt class="field">
+						RikssymIndicatorForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymIndicatorForm.html">RikssymIndicatorForm</a> in RikssymIndicatorForm.class.php</div>
+							<div class="index-item-description">RikssymIndicator form.</div>
+					</dd>
+			<dt class="field">
+						RikssymSourcesForm
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/RikssymSourcesForm.html">RikssymSourcesForm</a> in RikssymSourcesForm.class.php</div>
+							<div class="index-item-description">RikssymSources form.</div>
+					</dd>
+		</dl>
+	<a name="s"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">s</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymEntryFormFilter.html#methodsetup">BaseRikssymEntryFormFilter::setup()</a> in BaseRikssymEntryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDocumentFormFilter.html#methodsetup">BaseRikssymDocumentFormFilter::setup()</a> in BaseRikssymDocumentFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymGeoregionFormFilter.html#methodsetup">BaseRikssymGeoregionFormFilter::setup()</a> in BaseRikssymGeoregionFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymIndicatorFormFilter.html#methodsetup">BaseRikssymIndicatorFormFilter::setup()</a> in BaseRikssymIndicatorFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymSourcesFormFilter.html#methodsetup">BaseRikssymSourcesFormFilter::setup()</a> in BaseRikssymSourcesFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDocumentEntityFormFilter.html#methodsetup">BaseRikssymDocumentEntityFormFilter::setup()</a> in BaseRikssymDocumentEntityFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDatatypeFormFilter.html#methodsetup">BaseRikssymDatatypeFormFilter::setup()</a> in BaseRikssymDatatypeFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymArrangementCountryFormFilter.html#methodsetup">BaseRikssymArrangementCountryFormFilter::setup()</a> in BaseRikssymArrangementCountryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymArrangementFormFilter.html#methodsetup">BaseRikssymArrangementFormFilter::setup()</a> in BaseRikssymArrangementFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymCountryFormFilter.html#methodsetup">BaseRikssymCountryFormFilter::setup()</a> in BaseRikssymCountryFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseRikssymDataFormFilter.html#methodsetup">BaseRikssymDataFormFilter::setup()</a> in BaseRikssymDataFormFilter.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/filter/BaseFormFilterPropel.html#methodsetup">BaseFormFilterPropel::setup()</a> in BaseFormFilterPropel.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymEntryForm.html#methodsetup">BaseRikssymEntryForm::setup()</a> in BaseRikssymEntryForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymDocumentForm.html#methodsetup">BaseRikssymDocumentForm::setup()</a> in BaseRikssymDocumentForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymGeoregionForm.html#methodsetup">BaseRikssymGeoregionForm::setup()</a> in BaseRikssymGeoregionForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymIndicatorForm.html#methodsetup">BaseRikssymIndicatorForm::setup()</a> in BaseRikssymIndicatorForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymSourcesForm.html#methodsetup">BaseRikssymSourcesForm::setup()</a> in BaseRikssymSourcesForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymDocumentEntityForm.html#methodsetup">BaseRikssymDocumentEntityForm::setup()</a> in BaseRikssymDocumentEntityForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymDatatypeForm.html#methodsetup">BaseRikssymDatatypeForm::setup()</a> in BaseRikssymDatatypeForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymArrangementCountryForm.html#methodsetup">BaseRikssymArrangementCountryForm::setup()</a> in BaseRikssymArrangementCountryForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymArrangementForm.html#methodsetup">BaseRikssymArrangementForm::setup()</a> in BaseRikssymArrangementForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymCountryForm.html#methodsetup">BaseRikssymCountryForm::setup()</a> in BaseRikssymCountryForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseRikssymDataForm.html#methodsetup">BaseRikssymDataForm::setup()</a> in BaseRikssymDataForm.class.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setup</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="riks_sym/form/BaseFormPropel.html#methodsetup">BaseFormPropel::setup()</a> in BaseFormPropel.class.php</div>
+					</dd>
+		</dl>
+
+<div class="index-letter-menu">
+	<a class="index-letter" href="elementindex_riks_sym.html#a">a</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#b">b</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#c">c</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#d">d</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#e">e</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#g">g</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#i">i</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#p">p</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#r">r</a>
+	<a class="index-letter" href="elementindex_riks_sym.html#s">s</a>
+</div>	</body>
+</html>

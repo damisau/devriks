@@ -1,0 +1,14 @@
+<div class="breadcrumb_blue"><?php echo $breadcrumb; ?></div>
+<h1>Working Papers</h1>
+<p>
+    The following represents an (open) list of working paper series dealing
+    with the various aspects of regional integration. If you feel we are missing
+    an important working paper series, please send us your suggestion. Your
+    input is highly appreciated!
+</p>
+<h2><a href="http://www.cris.unu.edu/UNU-CRIS-Working-Papers.19.0.html">
+        UNU-CRIS working papers</a></h2>
+<h2><a href="http://www.cris.unu.edu/BRIGG-Working-Papers.159.0.html">
+       Bruges Regional Integration & Global Governance (BRIGG) Papers</a></h2>
+<h2><a href="http://www.zei.de/zei_english/publikation/publ_zeib_pp.htm">
+       Center for European Integration Studies (ZEI) Working Papers</a></h2>

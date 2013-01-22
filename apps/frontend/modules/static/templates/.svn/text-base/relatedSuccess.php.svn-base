@@ -1,0 +1,21 @@
+<?php
+/* 
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+?>
+<div class="breadcrumb_pink">
+    <?php echo $breadcrumb;?>
+</div>
+<H1>Related Platforms</H1>
+<P>
+    This (growing) section provides an overview of similar platforms like RIKS;
+    platforms that provide quantitative and / or qualitative data that are
+    helpful in understanding the various aspects of regional integration
+    processes.
+</p>
+<p>
+    In case we are missing an important platform in this overview, please do
+    not hesitate to send us a <a href="mailto:bfuhne@cris.unu.edu">mail</a>.
+</P>

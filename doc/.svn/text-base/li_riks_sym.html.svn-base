@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title></title>
+			<link rel="stylesheet" href="media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+						<div class="package-title">riks_sym</div>
+<div class="package-details">
+
+	<dl class="tree">
+		
+		<dt class="folder-title">Description</dt>
+		<dd>
+			<a href='classtrees_riks_sym.html' target='right'>Class trees</a><br />
+			<a href='elementindex_riks_sym.html' target='right'>Index of elements</a><br />
+					</dd>
+	
+							
+							
+																												
+						
+							
+											
+				<dt class="sub-package">arrangement</dt>
+				<dd>
+					<dl class="tree">
+																			<dt class="folder-title">Classes</dt>
+															<dd><a href='riks_sym/arrangement/arrangementActions.html' target='right'>arrangementActions</a></dd>
+																																<dt class="folder-title">Files</dt>
+															<dd><a href='riks_sym/arrangement/_apps---frontend---modules---arrangement---actions---actions.class.php.html' target='right'>actions.class.php</a></dd>
+																		</dl>
+				</dd>
+								
+						
+							
+											
+				<dt class="sub-package">arrangements</dt>
+				<dd>
+					<dl class="tree">
+																			<dt class="folder-title">Classes</dt>
+															<dd><a href='riks_sym/arrangements/arrangementsActions.html' target='right'>arrangementsActions</a></dd>
+																																<dt class="folder-title">Files</dt>
+															<dd><a href='riks_sym/arrangements/_apps---frontend---modules---arrangements---actions---actions.class.php.html' target='right'>actions.class.php</a></dd>
+																		</dl>
+				</dd>
+								
+						
+							
+											
+				<dt class="sub-package">country</dt>
+				<dd>
+					<dl class="tree">
+																			<dt class="folder-title">Classes</dt>
+															<dd><a href='riks_sym/country/countryActions.html' target='right'>countryActions</a></dd>
+																																<dt class="folder-title">Files</dt>
+															<dd><a href='riks_sym/country/_apps---frontend---modules---country---actions---actions.class.php.html' target='right'>actions.class.php</a></dd>
+																		</dl>
+				</dd>
+								
+						
+							
+											
+				<dt class="sub-package">data</dt>
+				<dd>
+					<dl class="tree">
+																			<dt class="folder-title">Classes</dt>
+															<dd><a href='riks_sym/data/dataActions.html' target='right'>dataActions</a></dd>
+																																<dt class="folder-title">Files</dt>
+															<dd><a href='riks_sym/data/_apps---frontend---modules---data---actions---actions.class.php.html' target='right'>actions.class.php</a></dd>
+																		</dl>
+				</dd>
+								
+						
+							
+											
+				<dt class="sub-package">document</dt>
+				<dd>
+					<dl class="tree">
+																			<dt class="folder-title">Classes</dt>
+															<dd><a href='riks_sym/document/documentActions.html' target='right'>documentActions</a></dd>
+																																<dt class="folder-title">Files</dt>
+															<dd><a href='riks_sym/document/_apps---frontend---modules---document---actions---actions.class.php.html' target='right'>actions.class.php</a></dd>
+																		</dl>
+				</dd>
+								
+						
+							
+											
+				<dt class="sub-package">filter</dt>
+				<dd>
+					<dl class="tree">
+																			<dt class="folder-title">Classes</dt>
+															<dd><a href='riks_sym/filter/BaseFormFilterPropel.html' target='right'>BaseFormFilterPropel</a></dd>
+															<dd><a href='riks_sym/filter/BaseRikssymArrangementCountryFormFilter.html' target='right'>BaseRikssymArrangementCountryFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/BaseRikssymArrangementFormFilter.html' target='right'>BaseRikssymArrangementFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/BaseRikssymCountryFormFilter.html' target='right'>BaseRikssymCountryFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/BaseRikssymDataFormFilter.html' target='right'>BaseRikssymDataFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/BaseRikssymDatatypeFormFilter.html' target='right'>BaseRikssymDatatypeFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/BaseRikssymDocumentEntityFormFilter.html' target='right'>BaseRikssymDocumentEntityFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/BaseRikssymDocumentFormFilter.html' target='right'>BaseRikssymDocumentFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/BaseRikssymEntryFormFilter.html' target='right'>BaseRikssymEntryFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/BaseRikssymGeoregionFormFilter.html' target='right'>BaseRikssymGeoregionFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/BaseRikssymIndicatorFormFilter.html' target='right'>BaseRikssymIndicatorFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/BaseRikssymSourcesFormFilter.html' target='right'>BaseRikssymSourcesFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/RikssymArrangementCountryFormFilter.html' target='right'>RikssymArrangementCountryFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/RikssymArrangementFormFilter.html' target='right'>RikssymArrangementFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/RikssymCountryFormFilter.html' target='right'>RikssymCountryFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/RikssymDataFormFilter.html' target='right'>RikssymDataFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/RikssymDatatypeFormFilter.html' target='right'>RikssymDatatypeFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/RikssymDocumentEntityFormFilter.html' target='right'>RikssymDocumentEntityFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/RikssymDocumentFormFilter.html' target='right'>RikssymDocumentFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/RikssymEntryFormFilter.html' target='right'>RikssymEntryFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/RikssymGeoregionFormFilter.html' target='right'>RikssymGeoregionFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/RikssymIndicatorFormFilter.html' target='right'>RikssymIndicatorFormFilter</a></dd>
+															<dd><a href='riks_sym/filter/RikssymSourcesFormFilter.html' target='right'>RikssymSourcesFormFilter</a></dd>
+																																<dt class="folder-title">Files</dt>
+															<dd><a href='riks_sym/filter/_lib---filter---base---BaseFormFilterPropel.class.php.html' target='right'>BaseFormFilterPropel.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---base---BaseRikssymArrangementCountryFormFilter.class.php.html' target='right'>BaseRikssymArrangementCountryFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---base---BaseRikssymArrangementFormFilter.class.php.html' target='right'>BaseRikssymArrangementFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---base---BaseRikssymCountryFormFilter.class.php.html' target='right'>BaseRikssymCountryFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---base---BaseRikssymDataFormFilter.class.php.html' target='right'>BaseRikssymDataFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---base---BaseRikssymDatatypeFormFilter.class.php.html' target='right'>BaseRikssymDatatypeFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---base---BaseRikssymDocumentEntityFormFilter.class.php.html' target='right'>BaseRikssymDocumentEntityFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---base---BaseRikssymDocumentFormFilter.class.php.html' target='right'>BaseRikssymDocumentFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---base---BaseRikssymEntryFormFilter.class.php.html' target='right'>BaseRikssymEntryFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---base---BaseRikssymGeoregionFormFilter.class.php.html' target='right'>BaseRikssymGeoregionFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---base---BaseRikssymIndicatorFormFilter.class.php.html' target='right'>BaseRikssymIndicatorFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---base---BaseRikssymSourcesFormFilter.class.php.html' target='right'>BaseRikssymSourcesFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---RikssymArrangementCountryFormFilter.class.php.html' target='right'>RikssymArrangementCountryFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---RikssymArrangementFormFilter.class.php.html' target='right'>RikssymArrangementFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---RikssymCountryFormFilter.class.php.html' target='right'>RikssymCountryFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---RikssymDataFormFilter.class.php.html' target='right'>RikssymDataFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---RikssymDatatypeFormFilter.class.php.html' target='right'>RikssymDatatypeFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---RikssymDocumentEntityFormFilter.class.php.html' target='right'>RikssymDocumentEntityFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---RikssymDocumentFormFilter.class.php.html' target='right'>RikssymDocumentFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---RikssymEntryFormFilter.class.php.html' target='right'>RikssymEntryFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---RikssymGeoregionFormFilter.class.php.html' target='right'>RikssymGeoregionFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---RikssymIndicatorFormFilter.class.php.html' target='right'>RikssymIndicatorFormFilter.class.php</a></dd>
+															<dd><a href='riks_sym/filter/_lib---filter---RikssymSourcesFormFilter.class.php.html' target='right'>RikssymSourcesFormFilter.class.php</a></dd>
+																		</dl>
+				</dd>
+								
+						
+							
+											
+				<dt class="sub-package">form</dt>
+				<dd>
+					<dl class="tree">
+																			<dt class="folder-title">Classes</dt>
+															<dd><a href='riks_sym/form/BaseFormPropel.html' target='right'>BaseFormPropel</a></dd>
+															<dd><a href='riks_sym/form/BaseRikssymArrangementCountryForm.html' target='right'>BaseRikssymArrangementCountryForm</a></dd>
+															<dd><a href='riks_sym/form/BaseRikssymArrangementForm.html' target='right'>BaseRikssymArrangementForm</a></dd>
+															<dd><a href='riks_sym/form/BaseRikssymCountryForm.html' target='right'>BaseRikssymCountryForm</a></dd>
+															<dd><a href='riks_sym/form/BaseRikssymDataForm.html' target='right'>BaseRikssymDataForm</a></dd>
+															<dd><a href='riks_sym/form/BaseRikssymDatatypeForm.html' target='right'>BaseRikssymDatatypeForm</a></dd>
+															<dd><a href='riks_sym/form/BaseRikssymDocumentEntityForm.html' target='right'>BaseRikssymDocumentEntityForm</a></dd>
+															<dd><a href='riks_sym/form/BaseRikssymDocumentForm.html' target='right'>BaseRikssymDocumentForm</a></dd>
+															<dd><a href='riks_sym/form/BaseRikssymEntryForm.html' target='right'>BaseRikssymEntryForm</a></dd>
+															<dd><a href='riks_sym/form/BaseRikssymGeoregionForm.html' target='right'>BaseRikssymGeoregionForm</a></dd>
+															<dd><a href='riks_sym/form/BaseRikssymIndicatorForm.html' target='right'>BaseRikssymIndicatorForm</a></dd>
+															<dd><a href='riks_sym/form/BaseRikssymSourcesForm.html' target='right'>BaseRikssymSourcesForm</a></dd>
+															<dd><a href='riks_sym/form/RikssymArrangementCountryForm.html' target='right'>RikssymArrangementCountryForm</a></dd>
+															<dd><a href='riks_sym/form/RikssymArrangementForm.html' target='right'>RikssymArrangementForm</a></dd>
+															<dd><a href='riks_sym/form/RikssymCountryForm.html' target='right'>RikssymCountryForm</a></dd>
+															<dd><a href='riks_sym/form/RikssymDataForm.html' target='right'>RikssymDataForm</a></dd>
+															<dd><a href='riks_sym/form/RikssymDatatypeForm.html' target='right'>RikssymDatatypeForm</a></dd>
+															<dd><a href='riks_sym/form/RikssymDocumentEntityForm.html' target='right'>RikssymDocumentEntityForm</a></dd>
+															<dd><a href='riks_sym/form/RikssymDocumentForm.html' target='right'>RikssymDocumentForm</a></dd>
+															<dd><a href='riks_sym/form/RikssymEntryForm.html' target='right'>RikssymEntryForm</a></dd>
+															<dd><a href='riks_sym/form/RikssymGeoregionForm.html' target='right'>RikssymGeoregionForm</a></dd>
+															<dd><a href='riks_sym/form/RikssymIndicatorForm.html' target='right'>RikssymIndicatorForm</a></dd>
+															<dd><a href='riks_sym/form/RikssymSourcesForm.html' target='right'>RikssymSourcesForm</a></dd>
+																																<dt class="folder-title">Files</dt>
+															<dd><a href='riks_sym/form/_lib---form---BaseFormPropel.class.php.html' target='right'>BaseFormPropel.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---base---BaseRikssymArrangementCountryForm.class.php.html' target='right'>BaseRikssymArrangementCountryForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---base---BaseRikssymArrangementForm.class.php.html' target='right'>BaseRikssymArrangementForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---base---BaseRikssymCountryForm.class.php.html' target='right'>BaseRikssymCountryForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---base---BaseRikssymDataForm.class.php.html' target='right'>BaseRikssymDataForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---base---BaseRikssymDatatypeForm.class.php.html' target='right'>BaseRikssymDatatypeForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---base---BaseRikssymDocumentEntityForm.class.php.html' target='right'>BaseRikssymDocumentEntityForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---base---BaseRikssymDocumentForm.class.php.html' target='right'>BaseRikssymDocumentForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---base---BaseRikssymEntryForm.class.php.html' target='right'>BaseRikssymEntryForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---base---BaseRikssymGeoregionForm.class.php.html' target='right'>BaseRikssymGeoregionForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---base---BaseRikssymIndicatorForm.class.php.html' target='right'>BaseRikssymIndicatorForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---base---BaseRikssymSourcesForm.class.php.html' target='right'>BaseRikssymSourcesForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---RikssymArrangementCountryForm.class.php.html' target='right'>RikssymArrangementCountryForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---RikssymArrangementForm.class.php.html' target='right'>RikssymArrangementForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---RikssymCountryForm.class.php.html' target='right'>RikssymCountryForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---RikssymDataForm.class.php.html' target='right'>RikssymDataForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---RikssymDatatypeForm.class.php.html' target='right'>RikssymDatatypeForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---RikssymDocumentEntityForm.class.php.html' target='right'>RikssymDocumentEntityForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---RikssymDocumentForm.class.php.html' target='right'>RikssymDocumentForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---RikssymEntryForm.class.php.html' target='right'>RikssymEntryForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---RikssymGeoregionForm.class.php.html' target='right'>RikssymGeoregionForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---RikssymIndicatorForm.class.php.html' target='right'>RikssymIndicatorForm.class.php</a></dd>
+															<dd><a href='riks_sym/form/_lib---form---RikssymSourcesForm.class.php.html' target='right'>RikssymSourcesForm.class.php</a></dd>
+																		</dl>
+				</dd>
+								
+						
+							
+											
+				<dt class="sub-package">georegion</dt>
+				<dd>
+					<dl class="tree">
+																			<dt class="folder-title">Classes</dt>
+															<dd><a href='riks_sym/georegion/georegionActions.html' target='right'>georegionActions</a></dd>
+																																<dt class="folder-title">Files</dt>
+															<dd><a href='riks_sym/georegion/_apps---frontend---modules---georegion---actions---actions.class.php.html' target='right'>actions.class.php</a></dd>
+																		</dl>
+				</dd>
+								
+						
+							
+											
+				<dt class="sub-package">indicator</dt>
+				<dd>
+					<dl class="tree">
+																			<dt class="folder-title">Classes</dt>
+															<dd><a href='riks_sym/indicator/indicatorActions.html' target='right'>indicatorActions</a></dd>
+																																<dt class="folder-title">Files</dt>
+															<dd><a href='riks_sym/indicator/_apps---frontend---modules---indicator---actions---actions.class.php.html' target='right'>actions.class.php</a></dd>
+																		</dl>
+				</dd>
+								
+						
+			</dl>
+</div>
+<p class="notes"><a href="http://www.phpdoc.org" target="_blank">phpDocumentor v <span class="field">1.4.2</span></a></p>
+</BODY>
+</HTML>

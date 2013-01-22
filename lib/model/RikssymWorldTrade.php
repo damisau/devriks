@@ -1,0 +1,35 @@
+<?php
+/**
+ * Generates World Trade data for given year(s)
+ */
+class RikssymWorldTrade extends RikssymIndicator{
+    public $unitSymbol = "";
+
+    public function __construct(){
+
+    }
+
+    public function prepareQuery(){
+        $tradeFlows = array(15,16);
+        $gdpCriteria = new Criteria();
+        $gdpCriteria->clearSelectColumns();
+        $gdpCriteria->addSelectColumn(RikssymDataPeer::PERIOD);
+        $gdpCriteria->addAsColumn("worldTrade", "SUM(".RikssymDataPeer::VALUE.")");
+        $gdpCriteria->add(RikssymDataPeer::TYPE_ID, $tradeFlows, CRITERIA::IN);
+        $gdpCriteria->add(RikssymDataPeer::PERIOD, $this->years, CRITERIA::IN);
+	$gdpCriteria->add(RikssymDataPeer::PARTNER_ID, 321, CRITERIA::NOT_IN);
+        $gdpCriteria->add(RikssymDataPeer::REPORTER_ID, 321, CRITERIA::NOT_IN);
+        $gdpCriteria->addGroupByColumn(RikssymDataPeer::PERIOD);
+        $gdpCriteria->addAscendingOrderByColumn(RikssymDataPeer::PERIOD);
+        $stmt = RikssymDataPeer::doSelectStmt($gdpCriteria);
+        while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
+            $this->values[$row['PERIOD']] =  $row['worldTrade'];
+        }
+    }
+
+    public function __toString(){
+        $dump = implode(":",$this->values);
+        return $dump;
+    }
+}
+?>

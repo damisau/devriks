@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>phpDocumentor Parser Errors and Warnings</title>
+			<link rel="stylesheet" href="media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+						<a href="#Post-parsing">Post-parsing</a><br>
+<a href="#%%-14^%%-1407541581^method.tpl.php">%%-14^%%-1407541581^method.tpl.php</a><br>
+<a href="#%%-14^%%-1469097724^const.tpl.php">%%-14^%%-1469097724^const.tpl.php</a><br>
+<a href="#%%-17^%%-1708446885^blank.tpl.php">%%-17^%%-1708446885^blank.tpl.php</a><br>
+<a href="#%%-19^%%-1910644431^basicindex.tpl.php">%%-19^%%-1910644431^basicindex.tpl.php</a><br>
+<a href="#%%-39^%%-392581648^top_frame.tpl.php">%%-39^%%-392581648^top_frame.tpl.php</a><br>
+<a href="#%%-65^%%-658603405^page.tpl.php">%%-65^%%-658603405^page.tpl.php</a><br>
+<a href="#%%-72^%%-727729411^left_frame.tpl.php">%%-72^%%-727729411^left_frame.tpl.php</a><br>
+<a href="#%%117^%%1172603085^index.tpl.php">%%117^%%1172603085^index.tpl.php</a><br>
+<a href="#%%127^%%12781687^pkgelementindex.tpl.php">%%127^%%12781687^pkgelementindex.tpl.php</a><br>
+<a href="#%%131^%%131447552^elementindex.tpl.php">%%131^%%131447552^elementindex.tpl.php</a><br>
+<a href="#%%165^%%1653142046^class.tpl.php">%%165^%%1653142046^class.tpl.php</a><br>
+<a href="#%%176^%%1767056382^include.tpl.php">%%176^%%1767056382^include.tpl.php</a><br>
+<a href="#%%202^%%2027336986^classtrees.tpl.php">%%202^%%2027336986^classtrees.tpl.php</a><br>
+<a href="#%%239^%%239105369^footer.tpl.php">%%239^%%239105369^footer.tpl.php</a><br>
+<a href="#%%422^%%422353953^errors.tpl.php">%%422^%%422353953^errors.tpl.php</a><br>
+<a href="#%%708^%%708843835^var.tpl.php">%%708^%%708843835^var.tpl.php</a><br>
+<a href="#%%972^%%972954595^docblock.tpl.php">%%972^%%972954595^docblock.tpl.php</a><br>
+<a href="#actions.class.php">actions.class.php</a><br>
+<a href="#arrangementActionsTest.php">arrangementActionsTest.php</a><br>
+<a href="#arrangementsActionsTest.php">arrangementsActionsTest.php</a><br>
+<a href="#BaseFormFilterPropel.class.php">BaseFormFilterPropel.class.php</a><br>
+<a href="#BaseFormPropel.class.php">BaseFormPropel.class.php</a><br>
+<a href="#BaseRikssymArrangement.php">BaseRikssymArrangement.php</a><br>
+<a href="#BaseRikssymArrangementCountry.php">BaseRikssymArrangementCountry.php</a><br>
+<a href="#BaseRikssymArrangementCountryForm.class.php">BaseRikssymArrangementCountryForm.class.php</a><br>
+<a href="#BaseRikssymArrangementCountryFormFilter.class.php">BaseRikssymArrangementCountryFormFilter.class.php</a><br>
+<a href="#BaseRikssymArrangementCountryPeer.php">BaseRikssymArrangementCountryPeer.php</a><br>
+<a href="#BaseRikssymArrangementForm.class.php">BaseRikssymArrangementForm.class.php</a><br>
+<a href="#BaseRikssymArrangementFormFilter.class.php">BaseRikssymArrangementFormFilter.class.php</a><br>
+<a href="#BaseRikssymArrangementPeer.php">BaseRikssymArrangementPeer.php</a><br>
+<a href="#BaseRikssymCountry.php">BaseRikssymCountry.php</a><br>
+<a href="#BaseRikssymCountryForm.class.php">BaseRikssymCountryForm.class.php</a><br>
+<a href="#BaseRikssymCountryFormFilter.class.php">BaseRikssymCountryFormFilter.class.php</a><br>
+<a href="#BaseRikssymCountryPeer.php">BaseRikssymCountryPeer.php</a><br>
+<a href="#BaseRikssymData.php">BaseRikssymData.php</a><br>
+<a href="#BaseRikssymDataForm.class.php">BaseRikssymDataForm.class.php</a><br>
+<a href="#BaseRikssymDataFormFilter.class.php">BaseRikssymDataFormFilter.class.php</a><br>
+<a href="#BaseRikssymDataPeer.php">BaseRikssymDataPeer.php</a><br>
+<a href="#BaseRikssymDatatype.php">BaseRikssymDatatype.php</a><br>
+<a href="#BaseRikssymDatatypeForm.class.php">BaseRikssymDatatypeForm.class.php</a><br>
+<a href="#BaseRikssymDatatypeFormFilter.class.php">BaseRikssymDatatypeFormFilter.class.php</a><br>
+<a href="#BaseRikssymDatatypePeer.php">BaseRikssymDatatypePeer.php</a><br>
+<a href="#BaseRikssymDocument.php">BaseRikssymDocument.php</a><br>
+<a href="#BaseRikssymDocumentEntity.php">BaseRikssymDocumentEntity.php</a><br>
+<a href="#BaseRikssymDocumentEntityForm.class.php">BaseRikssymDocumentEntityForm.class.php</a><br>
+<a href="#BaseRikssymDocumentEntityFormFilter.class.php">BaseRikssymDocumentEntityFormFilter.class.php</a><br>
+<a href="#BaseRikssymDocumentEntityPeer.php">BaseRikssymDocumentEntityPeer.php</a><br>
+<a href="#BaseRikssymDocumentForm.class.php">BaseRikssymDocumentForm.class.php</a><br>
+<a href="#BaseRikssymDocumentFormFilter.class.php">BaseRikssymDocumentFormFilter.class.php</a><br>
+<a href="#BaseRikssymDocumentPeer.php">BaseRikssymDocumentPeer.php</a><br>
+<a href="#BaseRikssymEntry.php">BaseRikssymEntry.php</a><br>
+<a href="#BaseRikssymEntryForm.class.php">BaseRikssymEntryForm.class.php</a><br>
+<a href="#BaseRikssymEntryFormFilter.class.php">BaseRikssymEntryFormFilter.class.php</a><br>
+<a href="#BaseRikssymEntryPeer.php">BaseRikssymEntryPeer.php</a><br>
+<a href="#BaseRikssymGeoregion.php">BaseRikssymGeoregion.php</a><br>
+<a href="#BaseRikssymGeoregionForm.class.php">BaseRikssymGeoregionForm.class.php</a><br>
+<a href="#BaseRikssymGeoregionFormFilter.class.php">BaseRikssymGeoregionFormFilter.class.php</a><br>
+<a href="#BaseRikssymGeoregionPeer.php">BaseRikssymGeoregionPeer.php</a><br>
+<a href="#BaseRikssymIndicator.php">BaseRikssymIndicator.php</a><br>
+<a href="#BaseRikssymIndicatorForm.class.php">BaseRikssymIndicatorForm.class.php</a><br>
+<a href="#BaseRikssymIndicatorFormFilter.class.php">BaseRikssymIndicatorFormFilter.class.php</a><br>
+<a href="#BaseRikssymIndicatorPeer.php">BaseRikssymIndicatorPeer.php</a><br>
+<a href="#BaseRikssymRegionalGDP.php">BaseRikssymRegionalGDP.php</a><br>
+<a href="#BaseRikssymSources.php">BaseRikssymSources.php</a><br>
+<a href="#BaseRikssymSourcesForm.class.php">BaseRikssymSourcesForm.class.php</a><br>
+<a href="#BaseRikssymSourcesFormFilter.class.php">BaseRikssymSourcesFormFilter.class.php</a><br>
+<a href="#BaseRikssymSourcesPeer.php">BaseRikssymSourcesPeer.php</a><br>
+<a href="#config_app.yml.php">config_app.yml.php</a><br>
+<a href="#config_autoload.yml.php">config_autoload.yml.php</a><br>
+<a href="#config_config_handlers.yml.php">config_config_handlers.yml.php</a><br>
+<a href="#config_databases.yml.php">config_databases.yml.php</a><br>
+<a href="#config_factories.yml.php">config_factories.yml.php</a><br>
+<a href="#config_routing.yml.php">config_routing.yml.php</a><br>
+<a href="#config_settings.yml.php">config_settings.yml.php</a><br>
+<a href="#countryActionsTest.php">countryActionsTest.php</a><br>
+<a href="#dataActionsTest.php">dataActionsTest.php</a><br>
+<a href="#documentActionsTest.php">documentActionsTest.php</a><br>
+<a href="#documentsActionsTest.php">documentsActionsTest.php</a><br>
+<a href="#editSuccess.php">editSuccess.php</a><br>
+<a href="#EmptyPHP.php">EmptyPHP.php</a><br>
+<a href="#frontendConfiguration.class.php">frontendConfiguration.class.php</a><br>
+<a href="#frontend_dev.php">frontend_dev.php</a><br>
+<a href="#functional.php">functional.php</a><br>
+<a href="#georegionActionsTest.php">georegionActionsTest.php</a><br>
+<a href="#index.php">index.php</a><br>
+<a href="#indexSuccess.php">indexSuccess.php</a><br>
+<a href="#indicatorActionsTest.php">indicatorActionsTest.php</a><br>
+<a href="#layout.php">layout.php</a><br>
+<a href="#modules_data_config_filters.yml.php">modules_data_config_filters.yml.php</a><br>
+<a href="#modules_data_config_module.yml.php">modules_data_config_module.yml.php</a><br>
+<a href="#modules_data_config_security.yml.php">modules_data_config_security.yml.php</a><br>
+<a href="#modules_data_config_view.yml.php">modules_data_config_view.yml.php</a><br>
+<a href="#myUser.class.php">myUser.class.php</a><br>
+<a href="#newSuccess.php">newSuccess.php</a><br>
+<a href="#ProjectConfiguration.class.php">ProjectConfiguration.class.php</a><br>
+<a href="#RikssymArrangement.php">RikssymArrangement.php</a><br>
+<a href="#RikssymArrangementCountry.php">RikssymArrangementCountry.php</a><br>
+<a href="#RikssymArrangementCountryForm.class.php">RikssymArrangementCountryForm.class.php</a><br>
+<a href="#RikssymArrangementCountryFormFilter.class.php">RikssymArrangementCountryFormFilter.class.php</a><br>
+<a href="#RikssymArrangementCountryMapBuilder.php">RikssymArrangementCountryMapBuilder.php</a><br>
+<a href="#RikssymArrangementCountryPeer.php">RikssymArrangementCountryPeer.php</a><br>
+<a href="#RikssymArrangementForm.class.php">RikssymArrangementForm.class.php</a><br>
+<a href="#RikssymArrangementFormFilter.class.php">RikssymArrangementFormFilter.class.php</a><br>
+<a href="#RikssymArrangementMapBuilder.php">RikssymArrangementMapBuilder.php</a><br>
+<a href="#RikssymArrangementPeer.php">RikssymArrangementPeer.php</a><br>
+<a href="#RikssymCountry.php">RikssymCountry.php</a><br>
+<a href="#RikssymCountryForm.class.php">RikssymCountryForm.class.php</a><br>
+<a href="#RikssymCountryFormFilter.class.php">RikssymCountryFormFilter.class.php</a><br>
+<a href="#RikssymCountryMapBuilder.php">RikssymCountryMapBuilder.php</a><br>
+<a href="#RikssymCountryPeer.php">RikssymCountryPeer.php</a><br>
+<a href="#RikssymData.php">RikssymData.php</a><br>
+<a href="#RikssymDataDump.php">RikssymDataDump.php</a><br>
+<a href="#RikssymDataForm.class.php">RikssymDataForm.class.php</a><br>
+<a href="#RikssymDataFormFilter.class.php">RikssymDataFormFilter.class.php</a><br>
+<a href="#RikssymDataMapBuilder.php">RikssymDataMapBuilder.php</a><br>
+<a href="#RikssymDataPeer.php">RikssymDataPeer.php</a><br>
+<a href="#RikssymDatatype.php">RikssymDatatype.php</a><br>
+<a href="#RikssymDatatypeForm.class.php">RikssymDatatypeForm.class.php</a><br>
+<a href="#RikssymDatatypeFormFilter.class.php">RikssymDatatypeFormFilter.class.php</a><br>
+<a href="#RikssymDatatypeMapBuilder.php">RikssymDatatypeMapBuilder.php</a><br>
+<a href="#RikssymDatatypePeer.php">RikssymDatatypePeer.php</a><br>
+<a href="#RikssymDocument.php">RikssymDocument.php</a><br>
+<a href="#RikssymDocumentEntity.php">RikssymDocumentEntity.php</a><br>
+<a href="#RikssymDocumentEntityForm.class.php">RikssymDocumentEntityForm.class.php</a><br>
+<a href="#RikssymDocumentEntityFormFilter.class.php">RikssymDocumentEntityFormFilter.class.php</a><br>
+<a href="#RikssymDocumentEntityMapBuilder.php">RikssymDocumentEntityMapBuilder.php</a><br>
+<a href="#RikssymDocumentEntityPeer.php">RikssymDocumentEntityPeer.php</a><br>
+<a href="#RikssymDocumentForm.class.php">RikssymDocumentForm.class.php</a><br>
+<a href="#RikssymDocumentFormFilter.class.php">RikssymDocumentFormFilter.class.php</a><br>
+<a href="#RikssymDocumentMapBuilder.php">RikssymDocumentMapBuilder.php</a><br>
+<a href="#RikssymDocumentPeer.php">RikssymDocumentPeer.php</a><br>
+<a href="#RikssymEntry.php">RikssymEntry.php</a><br>
+<a href="#RikssymEntryForm.class.php">RikssymEntryForm.class.php</a><br>
+<a href="#RikssymEntryFormFilter.class.php">RikssymEntryFormFilter.class.php</a><br>
+<a href="#RikssymEntryMapBuilder.php">RikssymEntryMapBuilder.php</a><br>
+<a href="#RikssymEntryPeer.php">RikssymEntryPeer.php</a><br>
+<a href="#RikssymGeoregion.php">RikssymGeoregion.php</a><br>
+<a href="#RikssymGeoregionForm.class.php">RikssymGeoregionForm.class.php</a><br>
+<a href="#RikssymGeoregionFormFilter.class.php">RikssymGeoregionFormFilter.class.php</a><br>
+<a href="#RikssymGeoregionMapBuilder.php">RikssymGeoregionMapBuilder.php</a><br>
+<a href="#RikssymGeoregionPeer.php">RikssymGeoregionPeer.php</a><br>
+<a href="#RikssymIndicator.php">RikssymIndicator.php</a><br>
+<a href="#RikssymIndicatorForm.class.php">RikssymIndicatorForm.class.php</a><br>
+<a href="#RikssymIndicatorFormFilter.class.php">RikssymIndicatorFormFilter.class.php</a><br>
+<a href="#RikssymIndicatorMapBuilder.php">RikssymIndicatorMapBuilder.php</a><br>
+<a href="#RikssymIndicatorPeer.php">RikssymIndicatorPeer.php</a><br>
+<a href="#RikssymRegionalGDP.php">RikssymRegionalGDP.php</a><br>
+<a href="#RikssymRegionalGDPShare.php">RikssymRegionalGDPShare.php</a><br>
+<a href="#RikssymRegionalPopulation.php">RikssymRegionalPopulation.php</a><br>
+<a href="#RikssymRegionalPopulationShare.php">RikssymRegionalPopulationShare.php</a><br>
+<a href="#RikssymSources.php">RikssymSources.php</a><br>
+<a href="#RikssymSourcesForm.class.php">RikssymSourcesForm.class.php</a><br>
+<a href="#RikssymSourcesFormFilter.class.php">RikssymSourcesFormFilter.class.php</a><br>
+<a href="#RikssymSourcesMapBuilder.php">RikssymSourcesMapBuilder.php</a><br>
+<a href="#RikssymSourcesPeer.php">RikssymSourcesPeer.php</a><br>
+<a href="#rikssym_documentActionsTest.php">rikssym_documentActionsTest.php</a><br>
+<a href="#showSuccess.php">showSuccess.php</a><br>
+<a href="#unit.php">unit.php</a><br>
+<a href="#_form.php">_form.php</a><br>
+<a href="#_list.php">_list.php</a><br>
+<a href="#_submenu.php">_submenu.php</a><br>
+<a name="Post-parsing"></a>
+<h1>Post-parsing</h1>
+<h2>Warnings:</h2><br>
+<b>Warning</b> - Class documentActions parent sfActions not found<br>
+<b>Warning</b> - Class indicatorActions parent sfActions not found<br>
+<b>Warning</b> - Class arrangementsActions parent sfActions not found<br>
+<b>Warning</b> - Class ProjectConfiguration parent sfProjectConfiguration not found<br>
+<b>Warning</b> - Class BaseRikssymSources parent BaseObject not found<br>
+<b>Warning</b> - Class dataActions parent sfActions not found<br>
+<b>Warning</b> - Class georegionActions parent sfActions not found<br>
+<b>Warning</b> - Class frontendConfiguration parent sfApplicationConfiguration not found<br>
+<b>Warning</b> - Class myUser parent sfBasicSecurityUser not found<br>
+<b>Warning</b> - Class countryActions parent sfActions not found<br>
+<b>Warning</b> - Class arrangementActions parent sfActions not found<br>
+<b>Warning</b> - Class BaseRikssymArrangement parent BaseObject not found<br>
+<b>Warning</b> - Class BaseRikssymArrangementCountry parent BaseObject not found<br>
+<b>Warning</b> - Class BaseRikssymDatatype parent BaseObject not found<br>
+<b>Warning</b> - Class BaseRikssymEntry parent BaseObject not found<br>
+<b>Warning</b> - Class BaseRikssymData parent BaseObject not found<br>
+<b>Warning</b> - Class BaseFormFilterPropel parent sfFormFilterPropel not found<br>
+<b>Warning</b> - Class BaseFormPropel parent sfFormPropel not found<br>
+<b>Warning</b> - Class BaseRikssymCountry parent BaseObject not found<br>
+<b>Warning</b> - Class BaseRikssymDocument parent BaseObject not found<br>
+<b>Warning</b> - Class BaseRikssymGeoregion parent BaseObject not found<br>
+<b>Warning</b> - Class BaseRikssymIndicator parent BaseObject not found<br>
+<b>Warning</b> - Class BaseRikssymDocumentEntity parent BaseObject not found<br>
+<a name="%%-13^%%-135052920^header.tpl.php"></a>
+<h1>%%-13^%%-135052920^header.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 16</b> - File "/var/www/riks_sym/doc/riks_sym/document/26d3399f63abd43a7d72f8c21440dcb0/%%-13^%%-135052920^header.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 16</b> - File "/var/www/riks_sym/doc/riks_sym/data/26d3399f63abd43a7d72f8c21440dcb0/%%-13^%%-135052920^header.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 16</b> - File "/var/www/riks_sym/doc/riks_sym/form/26d3399f63abd43a7d72f8c21440dcb0/%%-13^%%-135052920^header.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 16</b> - File "/var/www/riks_sym/doc/media/26d3399f63abd43a7d72f8c21440dcb0/%%-13^%%-135052920^header.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 16</b> - File "/var/www/riks_sym/doc/riks_sym/arrangements/26d3399f63abd43a7d72f8c21440dcb0/%%-13^%%-135052920^header.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 16</b> - File "/var/www/riks_sym/doc/default/26d3399f63abd43a7d72f8c21440dcb0/%%-13^%%-135052920^header.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 16</b> - File "/var/www/riks_sym/doc/lib-model-map/26d3399f63abd43a7d72f8c21440dcb0/%%-13^%%-135052920^header.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 16</b> - File "/var/www/riks_sym/doc/26d3399f63abd43a7d72f8c21440dcb0/%%-13^%%-135052920^header.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 16</b> - File "/var/www/riks_sym/doc/lib-model-om/26d3399f63abd43a7d72f8c21440dcb0/%%-13^%%-135052920^header.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 16</b> - File "/var/www/riks_sym/doc/riks_sym/country/26d3399f63abd43a7d72f8c21440dcb0/%%-13^%%-135052920^header.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 16</b> - File "/var/www/riks_sym/doc/riks_sym/filter/26d3399f63abd43a7d72f8c21440dcb0/%%-13^%%-135052920^header.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 16</b> - File "/var/www/riks_sym/doc/riks_sym/arrangement/26d3399f63abd43a7d72f8c21440dcb0/%%-13^%%-135052920^header.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 16</b> - File "/var/www/riks_sym/doc/riks_sym/georegion/26d3399f63abd43a7d72f8c21440dcb0/%%-13^%%-135052920^header.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 16</b> - File "/var/www/riks_sym/doc/riks_sym/indicator/26d3399f63abd43a7d72f8c21440dcb0/%%-13^%%-135052920^header.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%-14^%%-1407541581^method.tpl.php"></a>
+<h1>%%-14^%%-1407541581^method.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 424</b> - File "/var/www/riks_sym/doc/riks_sym/country/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1407541581^method.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 424</b> - File "/var/www/riks_sym/doc/riks_sym/indicator/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1407541581^method.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 424</b> - File "/var/www/riks_sym/doc/riks_sym/arrangements/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1407541581^method.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 424</b> - File "/var/www/riks_sym/doc/lib-model-map/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1407541581^method.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 424</b> - File "/var/www/riks_sym/doc/default/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1407541581^method.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 424</b> - File "/var/www/riks_sym/doc/riks_sym/data/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1407541581^method.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 424</b> - File "/var/www/riks_sym/doc/riks_sym/filter/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1407541581^method.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 424</b> - File "/var/www/riks_sym/doc/riks_sym/arrangement/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1407541581^method.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 424</b> - File "/var/www/riks_sym/doc/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1407541581^method.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 424</b> - File "/var/www/riks_sym/doc/riks_sym/georegion/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1407541581^method.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 424</b> - File "/var/www/riks_sym/doc/riks_sym/form/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1407541581^method.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 424</b> - File "/var/www/riks_sym/doc/lib-model-om/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1407541581^method.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 424</b> - File "/var/www/riks_sym/doc/riks_sym/document/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1407541581^method.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%-14^%%-1469097724^const.tpl.php"></a>
+<h1>%%-14^%%-1469097724^const.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 53</b> - File "/var/www/riks_sym/doc/lib-model-map/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1469097724^const.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 53</b> - File "/var/www/riks_sym/doc/riks_sym/filter/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1469097724^const.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 53</b> - File "/var/www/riks_sym/doc/riks_sym/form/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1469097724^const.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 53</b> - File "/var/www/riks_sym/doc/default/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1469097724^const.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 53</b> - File "/var/www/riks_sym/doc/lib-model-om/26d3399f63abd43a7d72f8c21440dcb0/%%-14^%%-1469097724^const.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%-17^%%-1708446885^blank.tpl.php"></a>
+<h1>%%-17^%%-1708446885^blank.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 20</b> - File "/var/www/riks_sym/doc/26d3399f63abd43a7d72f8c21440dcb0/%%-17^%%-1708446885^blank.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%-19^%%-1910644431^basicindex.tpl.php"></a>
+<h1>%%-19^%%-1910644431^basicindex.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 158</b> - File "/var/www/riks_sym/doc/26d3399f63abd43a7d72f8c21440dcb0/%%-19^%%-1910644431^basicindex.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 158</b> - File "/var/www/riks_sym/doc/media/26d3399f63abd43a7d72f8c21440dcb0/%%-19^%%-1910644431^basicindex.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%-39^%%-392581648^top_frame.tpl.php"></a>
+<h1>%%-39^%%-392581648^top_frame.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 106</b> - File "/var/www/riks_sym/doc/26d3399f63abd43a7d72f8c21440dcb0/%%-39^%%-392581648^top_frame.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%-65^%%-658603405^page.tpl.php"></a>
+<h1>%%-65^%%-658603405^page.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 268</b> - File "/var/www/riks_sym/doc/riks_sym/country/26d3399f63abd43a7d72f8c21440dcb0/%%-65^%%-658603405^page.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 268</b> - File "/var/www/riks_sym/doc/riks_sym/indicator/26d3399f63abd43a7d72f8c21440dcb0/%%-65^%%-658603405^page.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 268</b> - File "/var/www/riks_sym/doc/default/26d3399f63abd43a7d72f8c21440dcb0/%%-65^%%-658603405^page.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 268</b> - File "/var/www/riks_sym/doc/riks_sym/data/26d3399f63abd43a7d72f8c21440dcb0/%%-65^%%-658603405^page.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 268</b> - File "/var/www/riks_sym/doc/riks_sym/form/26d3399f63abd43a7d72f8c21440dcb0/%%-65^%%-658603405^page.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 268</b> - File "/var/www/riks_sym/doc/riks_sym/filter/26d3399f63abd43a7d72f8c21440dcb0/%%-65^%%-658603405^page.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 268</b> - File "/var/www/riks_sym/doc/riks_sym/arrangement/26d3399f63abd43a7d72f8c21440dcb0/%%-65^%%-658603405^page.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 268</b> - File "/var/www/riks_sym/doc/riks_sym/document/26d3399f63abd43a7d72f8c21440dcb0/%%-65^%%-658603405^page.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 268</b> - File "/var/www/riks_sym/doc/riks_sym/arrangements/26d3399f63abd43a7d72f8c21440dcb0/%%-65^%%-658603405^page.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 268</b> - File "/var/www/riks_sym/doc/lib-model-om/26d3399f63abd43a7d72f8c21440dcb0/%%-65^%%-658603405^page.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 268</b> - File "/var/www/riks_sym/doc/riks_sym/georegion/26d3399f63abd43a7d72f8c21440dcb0/%%-65^%%-658603405^page.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 268</b> - File "/var/www/riks_sym/doc/lib-model-map/26d3399f63abd43a7d72f8c21440dcb0/%%-65^%%-658603405^page.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 268</b> - File "/var/www/riks_sym/doc/26d3399f63abd43a7d72f8c21440dcb0/%%-65^%%-658603405^page.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%-72^%%-727729411^left_frame.tpl.php"></a>
+<h1>%%-72^%%-727729411^left_frame.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 515</b> - File "/var/www/riks_sym/doc/26d3399f63abd43a7d72f8c21440dcb0/%%-72^%%-727729411^left_frame.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%117^%%1172603085^index.tpl.php"></a>
+<h1>%%117^%%1172603085^index.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 31</b> - File "/var/www/riks_sym/doc/26d3399f63abd43a7d72f8c21440dcb0/%%117^%%1172603085^index.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%127^%%12781687^pkgelementindex.tpl.php"></a>
+<h1>%%127^%%12781687^pkgelementindex.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 55</b> - File "/var/www/riks_sym/doc/26d3399f63abd43a7d72f8c21440dcb0/%%127^%%12781687^pkgelementindex.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 55</b> - File "/var/www/riks_sym/doc/media/26d3399f63abd43a7d72f8c21440dcb0/%%127^%%12781687^pkgelementindex.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%131^%%131447552^elementindex.tpl.php"></a>
+<h1>%%131^%%131447552^elementindex.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 49</b> - File "/var/www/riks_sym/doc/26d3399f63abd43a7d72f8c21440dcb0/%%131^%%131447552^elementindex.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%165^%%1653142046^class.tpl.php"></a>
+<h1>%%165^%%1653142046^class.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 863</b> - File "/var/www/riks_sym/doc/riks_sym/data/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 863</b> - File "/var/www/riks_sym/doc/riks_sym/form/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 863</b> - File "/var/www/riks_sym/doc/riks_sym/georegion/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 863</b> - File "/var/www/riks_sym/doc/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 863</b> - File "/var/www/riks_sym/doc/riks_sym/arrangement/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 863</b> - File "/var/www/riks_sym/doc/riks_sym/indicator/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 863</b> - File "/var/www/riks_sym/doc/riks_sym/filter/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 863</b> - File "/var/www/riks_sym/doc/riks_sym/country/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 863</b> - File "/var/www/riks_sym/doc/riks_sym/arrangements/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 863</b> - File "/var/www/riks_sym/doc/riks_sym/document/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 863</b> - File "/var/www/riks_sym/doc/lib-model-map/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 863</b> - File "/var/www/riks_sym/doc/default/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 863</b> - File "/var/www/riks_sym/doc/lib-model-om/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%176^%%1767056382^include.tpl.php"></a>
+<h1>%%176^%%1767056382^include.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 50</b> - File "/var/www/riks_sym/doc/riks_sym/country/26d3399f63abd43a7d72f8c21440dcb0/%%176^%%1767056382^include.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 50</b> - File "/var/www/riks_sym/doc/riks_sym/arrangement/26d3399f63abd43a7d72f8c21440dcb0/%%176^%%1767056382^include.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 50</b> - File "/var/www/riks_sym/doc/lib-model-om/26d3399f63abd43a7d72f8c21440dcb0/%%176^%%1767056382^include.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 50</b> - File "/var/www/riks_sym/doc/riks_sym/form/26d3399f63abd43a7d72f8c21440dcb0/%%176^%%1767056382^include.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 50</b> - File "/var/www/riks_sym/doc/default/26d3399f63abd43a7d72f8c21440dcb0/%%176^%%1767056382^include.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 50</b> - File "/var/www/riks_sym/doc/riks_sym/data/26d3399f63abd43a7d72f8c21440dcb0/%%176^%%1767056382^include.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%202^%%2027336986^classtrees.tpl.php"></a>
+<h1>%%202^%%2027336986^classtrees.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 73</b> - File "/var/www/riks_sym/doc/26d3399f63abd43a7d72f8c21440dcb0/%%202^%%2027336986^classtrees.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%239^%%239105369^footer.tpl.php"></a>
+<h1>%%239^%%239105369^footer.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/doc/lib-model-om/26d3399f63abd43a7d72f8c21440dcb0/%%239^%%239105369^footer.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/doc/lib-model-map/26d3399f63abd43a7d72f8c21440dcb0/%%239^%%239105369^footer.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/doc/riks_sym/filter/26d3399f63abd43a7d72f8c21440dcb0/%%239^%%239105369^footer.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/doc/riks_sym/country/26d3399f63abd43a7d72f8c21440dcb0/%%239^%%239105369^footer.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/doc/26d3399f63abd43a7d72f8c21440dcb0/%%239^%%239105369^footer.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/doc/riks_sym/georegion/26d3399f63abd43a7d72f8c21440dcb0/%%239^%%239105369^footer.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/doc/riks_sym/document/26d3399f63abd43a7d72f8c21440dcb0/%%239^%%239105369^footer.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/doc/riks_sym/form/26d3399f63abd43a7d72f8c21440dcb0/%%239^%%239105369^footer.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/doc/riks_sym/data/26d3399f63abd43a7d72f8c21440dcb0/%%239^%%239105369^footer.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/doc/riks_sym/indicator/26d3399f63abd43a7d72f8c21440dcb0/%%239^%%239105369^footer.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/doc/default/26d3399f63abd43a7d72f8c21440dcb0/%%239^%%239105369^footer.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/doc/riks_sym/arrangement/26d3399f63abd43a7d72f8c21440dcb0/%%239^%%239105369^footer.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/doc/riks_sym/arrangements/26d3399f63abd43a7d72f8c21440dcb0/%%239^%%239105369^footer.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/doc/media/26d3399f63abd43a7d72f8c21440dcb0/%%239^%%239105369^footer.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%422^%%422353953^errors.tpl.php"></a>
+<h1>%%422^%%422353953^errors.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 102</b> - File "/var/www/riks_sym/doc/default/26d3399f63abd43a7d72f8c21440dcb0/%%422^%%422353953^errors.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%708^%%708843835^var.tpl.php"></a>
+<h1>%%708^%%708843835^var.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 208</b> - File "/var/www/riks_sym/doc/lib-model-om/26d3399f63abd43a7d72f8c21440dcb0/%%708^%%708843835^var.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 208</b> - File "/var/www/riks_sym/doc/riks_sym/filter/26d3399f63abd43a7d72f8c21440dcb0/%%708^%%708843835^var.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 208</b> - File "/var/www/riks_sym/doc/lib-model-map/26d3399f63abd43a7d72f8c21440dcb0/%%708^%%708843835^var.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 208</b> - File "/var/www/riks_sym/doc/default/26d3399f63abd43a7d72f8c21440dcb0/%%708^%%708843835^var.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 208</b> - File "/var/www/riks_sym/doc/riks_sym/form/26d3399f63abd43a7d72f8c21440dcb0/%%708^%%708843835^var.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="%%972^%%972954595^docblock.tpl.php"></a>
+<h1>%%972^%%972954595^docblock.tpl.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 40</b> - File "/var/www/riks_sym/doc/lib-model-map/26d3399f63abd43a7d72f8c21440dcb0/%%972^%%972954595^docblock.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 40</b> - File "/var/www/riks_sym/doc/riks_sym/country/26d3399f63abd43a7d72f8c21440dcb0/%%972^%%972954595^docblock.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 40</b> - File "/var/www/riks_sym/doc/riks_sym/document/26d3399f63abd43a7d72f8c21440dcb0/%%972^%%972954595^docblock.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 40</b> - File "/var/www/riks_sym/doc/riks_sym/arrangements/26d3399f63abd43a7d72f8c21440dcb0/%%972^%%972954595^docblock.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 40</b> - File "/var/www/riks_sym/doc/riks_sym/indicator/26d3399f63abd43a7d72f8c21440dcb0/%%972^%%972954595^docblock.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 40</b> - File "/var/www/riks_sym/doc/riks_sym/data/26d3399f63abd43a7d72f8c21440dcb0/%%972^%%972954595^docblock.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 40</b> - File "/var/www/riks_sym/doc/26d3399f63abd43a7d72f8c21440dcb0/%%972^%%972954595^docblock.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 40</b> - File "/var/www/riks_sym/doc/lib-model-om/26d3399f63abd43a7d72f8c21440dcb0/%%972^%%972954595^docblock.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 40</b> - File "/var/www/riks_sym/doc/default/26d3399f63abd43a7d72f8c21440dcb0/%%972^%%972954595^docblock.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 40</b> - File "/var/www/riks_sym/doc/riks_sym/form/26d3399f63abd43a7d72f8c21440dcb0/%%972^%%972954595^docblock.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 40</b> - File "/var/www/riks_sym/doc/riks_sym/georegion/26d3399f63abd43a7d72f8c21440dcb0/%%972^%%972954595^docblock.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 40</b> - File "/var/www/riks_sym/doc/riks_sym/filter/26d3399f63abd43a7d72f8c21440dcb0/%%972^%%972954595^docblock.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 40</b> - File "/var/www/riks_sym/doc/riks_sym/arrangement/26d3399f63abd43a7d72f8c21440dcb0/%%972^%%972954595^docblock.tpl.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="actions.class.php"></a>
+<h1>actions.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "documentActions", use another DocBlock to document the file<br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "arrangementsActions", use another DocBlock to document the file<br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "arrangementActions", use another DocBlock to document the file<br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "countryActions", use another DocBlock to document the file<br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "georegionActions", use another DocBlock to document the file<br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "indicatorActions", use another DocBlock to document the file<br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "dataActions", use another DocBlock to document the file<br>
+<a name="arrangementActionsTest.php"></a>
+<h1>arrangementActionsTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - File "/var/www/riks_sym/test/functional/frontend/arrangementActionsTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="arrangementsActionsTest.php"></a>
+<h1>arrangementsActionsTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - File "/var/www/riks_sym/test/functional/frontend/arrangementsActionsTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="BaseFormFilterPropel.class.php"></a>
+<h1>BaseFormFilterPropel.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "BaseFormFilterPropel", use another DocBlock to document the file<br>
+<a name="BaseFormPropel.class.php"></a>
+<h1>BaseFormPropel.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "BaseFormPropel", use another DocBlock to document the file<br>
+<a name="BaseRikssymArrangement.php"></a>
+<h1>BaseRikssymArrangement.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymArrangement", use another DocBlock to document the file<br>
+<a name="BaseRikssymArrangementCountry.php"></a>
+<h1>BaseRikssymArrangementCountry.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymArrangementCountry", use another DocBlock to document the file<br>
+<a name="BaseRikssymArrangementCountryForm.class.php"></a>
+<h1>BaseRikssymArrangementCountryForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "BaseRikssymArrangementCountryForm", use another DocBlock to document the file<br>
+<a name="BaseRikssymArrangementCountryFormFilter.class.php"></a>
+<h1>BaseRikssymArrangementCountryFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 46</b> - File "/var/www/riks_sym/lib/filter/base/BaseRikssymArrangementCountryFormFilter.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="BaseRikssymArrangementCountryPeer.php"></a>
+<h1>BaseRikssymArrangementCountryPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymArrangementCountryPeer", use another DocBlock to document the file<br>
+<a name="BaseRikssymArrangementForm.class.php"></a>
+<h1>BaseRikssymArrangementForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "BaseRikssymArrangementForm", use another DocBlock to document the file<br>
+<a name="BaseRikssymArrangementFormFilter.class.php"></a>
+<h1>BaseRikssymArrangementFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 52</b> - File "/var/www/riks_sym/lib/filter/base/BaseRikssymArrangementFormFilter.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="BaseRikssymArrangementPeer.php"></a>
+<h1>BaseRikssymArrangementPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymArrangementPeer", use another DocBlock to document the file<br>
+<a name="BaseRikssymCountry.php"></a>
+<h1>BaseRikssymCountry.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymCountry", use another DocBlock to document the file<br>
+<a name="BaseRikssymCountryForm.class.php"></a>
+<h1>BaseRikssymCountryForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "BaseRikssymCountryForm", use another DocBlock to document the file<br>
+<a name="BaseRikssymCountryFormFilter.class.php"></a>
+<h1>BaseRikssymCountryFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 43</b> - File "/var/www/riks_sym/lib/filter/base/BaseRikssymCountryFormFilter.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="BaseRikssymCountryPeer.php"></a>
+<h1>BaseRikssymCountryPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymCountryPeer", use another DocBlock to document the file<br>
+<a name="BaseRikssymData.php"></a>
+<h1>BaseRikssymData.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymData", use another DocBlock to document the file<br>
+<a name="BaseRikssymDataForm.class.php"></a>
+<h1>BaseRikssymDataForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "BaseRikssymDataForm", use another DocBlock to document the file<br>
+<a name="BaseRikssymDataFormFilter.class.php"></a>
+<h1>BaseRikssymDataFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 58</b> - File "/var/www/riks_sym/lib/filter/base/BaseRikssymDataFormFilter.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="BaseRikssymDataPeer.php"></a>
+<h1>BaseRikssymDataPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymDataPeer", use another DocBlock to document the file<br>
+<a name="BaseRikssymDatatype.php"></a>
+<h1>BaseRikssymDatatype.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymDatatype", use another DocBlock to document the file<br>
+<a name="BaseRikssymDatatypeForm.class.php"></a>
+<h1>BaseRikssymDatatypeForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "BaseRikssymDatatypeForm", use another DocBlock to document the file<br>
+<a name="BaseRikssymDatatypeFormFilter.class.php"></a>
+<h1>BaseRikssymDatatypeFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 43</b> - File "/var/www/riks_sym/lib/filter/base/BaseRikssymDatatypeFormFilter.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="BaseRikssymDatatypePeer.php"></a>
+<h1>BaseRikssymDatatypePeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymDatatypePeer", use another DocBlock to document the file<br>
+<a name="BaseRikssymDocument.php"></a>
+<h1>BaseRikssymDocument.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymDocument", use another DocBlock to document the file<br>
+<a name="BaseRikssymDocumentEntity.php"></a>
+<h1>BaseRikssymDocumentEntity.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymDocumentEntity", use another DocBlock to document the file<br>
+<a name="BaseRikssymDocumentEntityForm.class.php"></a>
+<h1>BaseRikssymDocumentEntityForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "BaseRikssymDocumentEntityForm", use another DocBlock to document the file<br>
+<a name="BaseRikssymDocumentEntityFormFilter.class.php"></a>
+<h1>BaseRikssymDocumentEntityFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 49</b> - File "/var/www/riks_sym/lib/filter/base/BaseRikssymDocumentEntityFormFilter.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="BaseRikssymDocumentEntityPeer.php"></a>
+<h1>BaseRikssymDocumentEntityPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymDocumentEntityPeer", use another DocBlock to document the file<br>
+<a name="BaseRikssymDocumentForm.class.php"></a>
+<h1>BaseRikssymDocumentForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "BaseRikssymDocumentForm", use another DocBlock to document the file<br>
+<a name="BaseRikssymDocumentFormFilter.class.php"></a>
+<h1>BaseRikssymDocumentFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 61</b> - File "/var/www/riks_sym/lib/filter/base/BaseRikssymDocumentFormFilter.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="BaseRikssymDocumentPeer.php"></a>
+<h1>BaseRikssymDocumentPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymDocumentPeer", use another DocBlock to document the file<br>
+<a name="BaseRikssymEntry.php"></a>
+<h1>BaseRikssymEntry.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymEntry", use another DocBlock to document the file<br>
+<a name="BaseRikssymEntryForm.class.php"></a>
+<h1>BaseRikssymEntryForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "BaseRikssymEntryForm", use another DocBlock to document the file<br>
+<a name="BaseRikssymEntryFormFilter.class.php"></a>
+<h1>BaseRikssymEntryFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 43</b> - File "/var/www/riks_sym/lib/filter/base/BaseRikssymEntryFormFilter.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="BaseRikssymEntryPeer.php"></a>
+<h1>BaseRikssymEntryPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymEntryPeer", use another DocBlock to document the file<br>
+<a name="BaseRikssymGeoregion.php"></a>
+<h1>BaseRikssymGeoregion.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymGeoregion", use another DocBlock to document the file<br>
+<a name="BaseRikssymGeoregionForm.class.php"></a>
+<h1>BaseRikssymGeoregionForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "BaseRikssymGeoregionForm", use another DocBlock to document the file<br>
+<a name="BaseRikssymGeoregionFormFilter.class.php"></a>
+<h1>BaseRikssymGeoregionFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 43</b> - File "/var/www/riks_sym/lib/filter/base/BaseRikssymGeoregionFormFilter.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="BaseRikssymGeoregionPeer.php"></a>
+<h1>BaseRikssymGeoregionPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymGeoregionPeer", use another DocBlock to document the file<br>
+<a name="BaseRikssymIndicator.php"></a>
+<h1>BaseRikssymIndicator.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymIndicator", use another DocBlock to document the file<br>
+<a name="BaseRikssymIndicatorForm.class.php"></a>
+<h1>BaseRikssymIndicatorForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "BaseRikssymIndicatorForm", use another DocBlock to document the file<br>
+<a name="BaseRikssymIndicatorFormFilter.class.php"></a>
+<h1>BaseRikssymIndicatorFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 52</b> - File "/var/www/riks_sym/lib/filter/base/BaseRikssymIndicatorFormFilter.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="BaseRikssymIndicatorPeer.php"></a>
+<h1>BaseRikssymIndicatorPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymIndicatorPeer", use another DocBlock to document the file<br>
+<a name="BaseRikssymRegionalGDP.php"></a>
+<h1>BaseRikssymRegionalGDP.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 5</b> - no @package tag was used in a DocBlock for class BaseRikssymRegionalGDP<br>
+<b>Warning on line 8</b> - File "/var/www/riks_sym/lib/model/om/BaseRikssymRegionalGDP.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="BaseRikssymSources.php"></a>
+<h1>BaseRikssymSources.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymSources", use another DocBlock to document the file<br>
+<a name="BaseRikssymSourcesForm.class.php"></a>
+<h1>BaseRikssymSourcesForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "BaseRikssymSourcesForm", use another DocBlock to document the file<br>
+<a name="BaseRikssymSourcesFormFilter.class.php"></a>
+<h1>BaseRikssymSourcesFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 46</b> - File "/var/www/riks_sym/lib/filter/base/BaseRikssymSourcesFormFilter.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="BaseRikssymSourcesPeer.php"></a>
+<h1>BaseRikssymSourcesPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 13</b> - DocBlock would be page-level, but precedes class "BaseRikssymSourcesPeer", use another DocBlock to document the file<br>
+<a name="config_app.yml.php"></a>
+<h1>config_app.yml.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 7</b> - File "/var/www/riks_sym/cache/frontend/dev/config/config_app.yml.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="config_autoload.yml.php"></a>
+<h1>config_autoload.yml.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 235</b> - File "/var/www/riks_sym/cache/frontend/dev/config/config_autoload.yml.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="config_config_handlers.yml.php"></a>
+<h1>config_config_handlers.yml.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 23</b> - File "/var/www/riks_sym/cache/frontend/dev/config/config_config_handlers.yml.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="config_databases.yml.php"></a>
+<h1>config_databases.yml.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 14</b> - File "/var/www/riks_sym/cache/frontend/dev/config/config_databases.yml.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="config_factories.yml.php"></a>
+<h1>config_factories.yml.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 139</b> - File "/var/www/riks_sym/cache/frontend/dev/config/config_factories.yml.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="config_routing.yml.php"></a>
+<h1>config_routing.yml.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - File "/var/www/riks_sym/cache/frontend/dev/config/config_routing.yml.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="config_settings.yml.php"></a>
+<h1>config_settings.yml.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 47</b> - File "/var/www/riks_sym/cache/frontend/dev/config/config_settings.yml.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="countryActionsTest.php"></a>
+<h1>countryActionsTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - File "/var/www/riks_sym/test/functional/frontend/countryActionsTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="dataActionsTest.php"></a>
+<h1>dataActionsTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - File "/var/www/riks_sym/test/functional/frontend/dataActionsTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="documentActionsTest.php"></a>
+<h1>documentActionsTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - File "/var/www/riks_sym/test/functional/frontend/documentActionsTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="documentsActionsTest.php"></a>
+<h1>documentsActionsTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - File "/var/www/riks_sym/test/functional/frontend/documentsActionsTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="editSuccess.php"></a>
+<h1>editSuccess.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - File "/var/www/riks_sym/apps/frontend/modules/data/templates/editSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 2</b> - File "/var/www/riks_sym/apps/frontend/modules/georegion/templates/editSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 2</b> - File "/var/www/riks_sym/apps/frontend/modules/indicator/templates/editSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 2</b> - File "/var/www/riks_sym/apps/frontend/modules/arrangement/templates/editSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 3</b> - File "/var/www/riks_sym/apps/frontend/modules/country/templates/editSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 3</b> - File "/var/www/riks_sym/apps/frontend/modules/document/templates/editSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 3</b> - File "/var/www/riks_sym/apps/frontend/modules/arrangements/templates/editSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="EmptyPHP.php"></a>
+<h1>EmptyPHP.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 112</b> - File "/var/www/riks_sym/apps/frontend/modules/data/templates/EmptyPHP.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="frontendConfiguration.class.php"></a>
+<h1>frontendConfiguration.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class frontendConfiguration<br>
+<b>Warning on line 7</b> - File "/var/www/riks_sym/apps/frontend/config/frontendConfiguration.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="frontend_dev.php"></a>
+<h1>frontend_dev.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/web/frontend_dev.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="functional.php"></a>
+<h1>functional.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 25</b> - File "/var/www/riks_sym/test/bootstrap/functional.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="georegionActionsTest.php"></a>
+<h1>georegionActionsTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - File "/var/www/riks_sym/test/functional/frontend/georegionActionsTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="index.php"></a>
+<h1>index.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 6</b> - File "/var/www/riks_sym/web/index.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="indexSuccess.php"></a>
+<h1>indexSuccess.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - File "/var/www/riks_sym/apps/frontend/modules/country/templates/indexSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 19</b> - File "/var/www/riks_sym/apps/frontend/modules/georegion/templates/indexSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 20</b> - File "/var/www/riks_sym/apps/frontend/modules/document/templates/indexSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 21</b> - File "/var/www/riks_sym/apps/frontend/modules/arrangements/templates/indexSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 25</b> - File "/var/www/riks_sym/apps/frontend/modules/indicator/templates/indexSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 31</b> - File "/var/www/riks_sym/apps/frontend/modules/arrangement/templates/indexSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 38</b> - File "/var/www/riks_sym/apps/frontend/modules/data/templates/indexSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="indicatorActionsTest.php"></a>
+<h1>indicatorActionsTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - File "/var/www/riks_sym/test/functional/frontend/indicatorActionsTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="layout.php"></a>
+<h1>layout.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 169</b> - File "/var/www/riks_sym/apps/frontend/templates/layout.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="modules_data_config_filters.yml.php"></a>
+<h1>modules_data_config_filters.yml.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 27</b> - File "/var/www/riks_sym/cache/frontend/dev/config/modules_data_config_filters.yml.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="modules_data_config_module.yml.php"></a>
+<h1>modules_data_config_module.yml.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 7</b> - File "/var/www/riks_sym/cache/frontend/dev/config/modules_data_config_module.yml.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="modules_data_config_security.yml.php"></a>
+<h1>modules_data_config_security.yml.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 8</b> - File "/var/www/riks_sym/cache/frontend/dev/config/modules_data_config_security.yml.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="modules_data_config_view.yml.php"></a>
+<h1>modules_data_config_view.yml.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 21</b> - File "/var/www/riks_sym/cache/frontend/dev/config/modules_data_config_view.yml.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="myUser.class.php"></a>
+<h1>myUser.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class myUser<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/apps/frontend/lib/myUser.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="newSuccess.php"></a>
+<h1>newSuccess.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - File "/var/www/riks_sym/apps/frontend/modules/data/templates/newSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 2</b> - File "/var/www/riks_sym/apps/frontend/modules/arrangement/templates/newSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 2</b> - File "/var/www/riks_sym/apps/frontend/modules/georegion/templates/newSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 2</b> - File "/var/www/riks_sym/apps/frontend/modules/indicator/templates/newSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 3</b> - File "/var/www/riks_sym/apps/frontend/modules/document/templates/newSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 3</b> - File "/var/www/riks_sym/apps/frontend/modules/country/templates/newSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 3</b> - File "/var/www/riks_sym/apps/frontend/modules/arrangements/templates/newSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="ProjectConfiguration.class.php"></a>
+<h1>ProjectConfiguration.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 6</b> - no @package tag was used in a DocBlock for class ProjectConfiguration<br>
+<b>Warning on line 12</b> - File "/var/www/riks_sym/config/ProjectConfiguration.class.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymArrangement.php"></a>
+<h1>RikssymArrangement.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymArrangement<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymArrangement.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymArrangementCountry.php"></a>
+<h1>RikssymArrangementCountry.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymArrangementCountry<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymArrangementCountry.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymArrangementCountryForm.class.php"></a>
+<h1>RikssymArrangementCountryForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymArrangementCountryForm", use another DocBlock to document the file<br>
+<a name="RikssymArrangementCountryFormFilter.class.php"></a>
+<h1>RikssymArrangementCountryFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymArrangementCountryFormFilter", use another DocBlock to document the file<br>
+<a name="RikssymArrangementCountryMapBuilder.php"></a>
+<h1>RikssymArrangementCountryMapBuilder.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - DocBlock would be page-level, but precedes class "RikssymArrangementCountryMapBuilder", use another DocBlock to document the file<br>
+<a name="RikssymArrangementCountryPeer.php"></a>
+<h1>RikssymArrangementCountryPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymArrangementCountryPeer<br>
+<b>Warning on line 5</b> - File "/var/www/riks_sym/lib/model/RikssymArrangementCountryPeer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymArrangementForm.class.php"></a>
+<h1>RikssymArrangementForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymArrangementForm", use another DocBlock to document the file<br>
+<a name="RikssymArrangementFormFilter.class.php"></a>
+<h1>RikssymArrangementFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymArrangementFormFilter", use another DocBlock to document the file<br>
+<a name="RikssymArrangementMapBuilder.php"></a>
+<h1>RikssymArrangementMapBuilder.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - DocBlock would be page-level, but precedes class "RikssymArrangementMapBuilder", use another DocBlock to document the file<br>
+<a name="RikssymArrangementPeer.php"></a>
+<h1>RikssymArrangementPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymArrangementPeer<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymArrangementPeer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymCountry.php"></a>
+<h1>RikssymCountry.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymCountry<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymCountry.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymCountryForm.class.php"></a>
+<h1>RikssymCountryForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymCountryForm", use another DocBlock to document the file<br>
+<a name="RikssymCountryFormFilter.class.php"></a>
+<h1>RikssymCountryFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymCountryFormFilter", use another DocBlock to document the file<br>
+<a name="RikssymCountryMapBuilder.php"></a>
+<h1>RikssymCountryMapBuilder.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - DocBlock would be page-level, but precedes class "RikssymCountryMapBuilder", use another DocBlock to document the file<br>
+<a name="RikssymCountryPeer.php"></a>
+<h1>RikssymCountryPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymCountryPeer<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymCountryPeer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymData.php"></a>
+<h1>RikssymData.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymData<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymData.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymDataDump.php"></a>
+<h1>RikssymDataDump.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 5</b> - no @package tag was used in a DocBlock for class RikssymDataDump<br>
+<b>Warning on line 66</b> - File "/var/www/riks_sym/lib/model/RikssymDataDump.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymDataForm.class.php"></a>
+<h1>RikssymDataForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymDataForm", use another DocBlock to document the file<br>
+<a name="RikssymDataFormFilter.class.php"></a>
+<h1>RikssymDataFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymDataFormFilter", use another DocBlock to document the file<br>
+<a name="RikssymDataMapBuilder.php"></a>
+<h1>RikssymDataMapBuilder.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - DocBlock would be page-level, but precedes class "RikssymDataMapBuilder", use another DocBlock to document the file<br>
+<a name="RikssymDataPeer.php"></a>
+<h1>RikssymDataPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymDataPeer<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymDataPeer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymDatatype.php"></a>
+<h1>RikssymDatatype.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymDatatype<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymDatatype.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymDatatypeForm.class.php"></a>
+<h1>RikssymDatatypeForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymDatatypeForm", use another DocBlock to document the file<br>
+<a name="RikssymDatatypeFormFilter.class.php"></a>
+<h1>RikssymDatatypeFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymDatatypeFormFilter", use another DocBlock to document the file<br>
+<a name="RikssymDatatypeMapBuilder.php"></a>
+<h1>RikssymDatatypeMapBuilder.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - DocBlock would be page-level, but precedes class "RikssymDatatypeMapBuilder", use another DocBlock to document the file<br>
+<a name="RikssymDatatypePeer.php"></a>
+<h1>RikssymDatatypePeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymDatatypePeer<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymDatatypePeer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymDocument.php"></a>
+<h1>RikssymDocument.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymDocument<br>
+<b>Warning on line 23</b> - File "/var/www/riks_sym/lib/model/RikssymDocument.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymDocumentEntity.php"></a>
+<h1>RikssymDocumentEntity.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymDocumentEntity<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymDocumentEntity.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymDocumentEntityForm.class.php"></a>
+<h1>RikssymDocumentEntityForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymDocumentEntityForm", use another DocBlock to document the file<br>
+<a name="RikssymDocumentEntityFormFilter.class.php"></a>
+<h1>RikssymDocumentEntityFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymDocumentEntityFormFilter", use another DocBlock to document the file<br>
+<a name="RikssymDocumentEntityMapBuilder.php"></a>
+<h1>RikssymDocumentEntityMapBuilder.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - DocBlock would be page-level, but precedes class "RikssymDocumentEntityMapBuilder", use another DocBlock to document the file<br>
+<a name="RikssymDocumentEntityPeer.php"></a>
+<h1>RikssymDocumentEntityPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymDocumentEntityPeer<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymDocumentEntityPeer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymDocumentForm.class.php"></a>
+<h1>RikssymDocumentForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymDocumentForm", use another DocBlock to document the file<br>
+<a name="RikssymDocumentFormFilter.class.php"></a>
+<h1>RikssymDocumentFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymDocumentFormFilter", use another DocBlock to document the file<br>
+<a name="RikssymDocumentMapBuilder.php"></a>
+<h1>RikssymDocumentMapBuilder.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - DocBlock would be page-level, but precedes class "RikssymDocumentMapBuilder", use another DocBlock to document the file<br>
+<a name="RikssymDocumentPeer.php"></a>
+<h1>RikssymDocumentPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymDocumentPeer<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymDocumentPeer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymEntry.php"></a>
+<h1>RikssymEntry.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymEntry<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymEntry.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymEntryForm.class.php"></a>
+<h1>RikssymEntryForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymEntryForm", use another DocBlock to document the file<br>
+<a name="RikssymEntryFormFilter.class.php"></a>
+<h1>RikssymEntryFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymEntryFormFilter", use another DocBlock to document the file<br>
+<a name="RikssymEntryMapBuilder.php"></a>
+<h1>RikssymEntryMapBuilder.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - DocBlock would be page-level, but precedes class "RikssymEntryMapBuilder", use another DocBlock to document the file<br>
+<a name="RikssymEntryPeer.php"></a>
+<h1>RikssymEntryPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymEntryPeer<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymEntryPeer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymGeoregion.php"></a>
+<h1>RikssymGeoregion.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymGeoregion<br>
+<b>Warning on line 7</b> - File "/var/www/riks_sym/lib/model/RikssymGeoregion.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymGeoregionForm.class.php"></a>
+<h1>RikssymGeoregionForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymGeoregionForm", use another DocBlock to document the file<br>
+<a name="RikssymGeoregionFormFilter.class.php"></a>
+<h1>RikssymGeoregionFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymGeoregionFormFilter", use another DocBlock to document the file<br>
+<a name="RikssymGeoregionMapBuilder.php"></a>
+<h1>RikssymGeoregionMapBuilder.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - DocBlock would be page-level, but precedes class "RikssymGeoregionMapBuilder", use another DocBlock to document the file<br>
+<a name="RikssymGeoregionPeer.php"></a>
+<h1>RikssymGeoregionPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymGeoregionPeer<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymGeoregionPeer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymIndicator.php"></a>
+<h1>RikssymIndicator.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 5</b> - no @package tag was used in a DocBlock for class RikssymIndicator<br>
+<b>Warning on line 15</b> - File "/var/www/riks_sym/lib/model/RikssymIndicator.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymIndicatorForm.class.php"></a>
+<h1>RikssymIndicatorForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymIndicatorForm", use another DocBlock to document the file<br>
+<a name="RikssymIndicatorFormFilter.class.php"></a>
+<h1>RikssymIndicatorFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymIndicatorFormFilter", use another DocBlock to document the file<br>
+<a name="RikssymIndicatorMapBuilder.php"></a>
+<h1>RikssymIndicatorMapBuilder.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - DocBlock would be page-level, but precedes class "RikssymIndicatorMapBuilder", use another DocBlock to document the file<br>
+<a name="RikssymIndicatorPeer.php"></a>
+<h1>RikssymIndicatorPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymIndicatorPeer<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymIndicatorPeer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymRegionalGDP.php"></a>
+<h1>RikssymRegionalGDP.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 5</b> - no @package tag was used in a DocBlock for class RikssymRegionalGDP<br>
+<b>Warning on line 66</b> - File "/var/www/riks_sym/lib/model/RikssymRegionalGDP.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymRegionalGDPShare.php"></a>
+<h1>RikssymRegionalGDPShare.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 5</b> - no @package tag was used in a DocBlock for class RikssymRegionalGDPShare<br>
+<b>Warning on line 86</b> - File "/var/www/riks_sym/lib/model/RikssymRegionalGDPShare.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymRegionalPopulation.php"></a>
+<h1>RikssymRegionalPopulation.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 5</b> - no @package tag was used in a DocBlock for class RikssymRegionalPopulation<br>
+<b>Warning on line 60</b> - File "/var/www/riks_sym/lib/model/RikssymRegionalPopulation.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymRegionalPopulationShare.php"></a>
+<h1>RikssymRegionalPopulationShare.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 5</b> - no @package tag was used in a DocBlock for class RikssymRegionalPopulationShare<br>
+<b>Warning on line 86</b> - File "/var/www/riks_sym/lib/model/RikssymRegionalPopulationShare.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymSources.php"></a>
+<h1>RikssymSources.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymSources<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymSources.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RikssymSourcesForm.class.php"></a>
+<h1>RikssymSourcesForm.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymSourcesForm", use another DocBlock to document the file<br>
+<a name="RikssymSourcesFormFilter.class.php"></a>
+<h1>RikssymSourcesFormFilter.class.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - DocBlock would be page-level, but precedes class "RikssymSourcesFormFilter", use another DocBlock to document the file<br>
+<a name="RikssymSourcesMapBuilder.php"></a>
+<h1>RikssymSourcesMapBuilder.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - DocBlock would be page-level, but precedes class "RikssymSourcesMapBuilder", use another DocBlock to document the file<br>
+<a name="RikssymSourcesPeer.php"></a>
+<h1>RikssymSourcesPeer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class RikssymSourcesPeer<br>
+<b>Warning on line 4</b> - File "/var/www/riks_sym/lib/model/RikssymSourcesPeer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="rikssym_documentActionsTest.php"></a>
+<h1>rikssym_documentActionsTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - File "/var/www/riks_sym/test/functional/frontend/rikssym_documentActionsTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="showSuccess.php"></a>
+<h1>showSuccess.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - File "/var/www/riks_sym/apps/frontend/modules/arrangement/templates/showSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 17</b> - File "/var/www/riks_sym/apps/frontend/modules/georegion/templates/showSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 24</b> - File "/var/www/riks_sym/apps/frontend/modules/arrangements/templates/showSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 29</b> - File "/var/www/riks_sym/apps/frontend/modules/data/templates/showSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 29</b> - File "/var/www/riks_sym/apps/frontend/modules/indicator/templates/showSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 33</b> - File "/var/www/riks_sym/apps/frontend/modules/document/templates/showSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 34</b> - File "/var/www/riks_sym/apps/frontend/modules/country/templates/showSuccess.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="unit.php"></a>
+<h1>unit.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 14</b> - File "/var/www/riks_sym/test/bootstrap/unit.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="_form.php"></a>
+<h1>_form.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 23</b> - File "/var/www/riks_sym/apps/frontend/modules/document/templates/_form.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 23</b> - File "/var/www/riks_sym/apps/frontend/modules/indicator/templates/_form.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 23</b> - File "/var/www/riks_sym/apps/frontend/modules/georegion/templates/_form.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 23</b> - File "/var/www/riks_sym/apps/frontend/modules/arrangement/templates/_form.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 23</b> - File "/var/www/riks_sym/apps/frontend/modules/arrangements/templates/_form.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 23</b> - File "/var/www/riks_sym/apps/frontend/modules/country/templates/_form.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 38</b> - File "/var/www/riks_sym/apps/frontend/modules/data/templates/_form.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="_list.php"></a>
+<h1>_list.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 8</b> - File "/var/www/riks_sym/apps/frontend/modules/document/templates/_list.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="_submenu.php"></a>
+<h1>_submenu.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 84</b> - File "/var/www/riks_sym/apps/frontend/modules/arrangement/templates/_submenu.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+	<p class="notes" id="credit">
+		Documentation generated on Sat, 10 Jan 2009 18:25:14 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.2</a>
+	</p>
+	</body>
+</html>

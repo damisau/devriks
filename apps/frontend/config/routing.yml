@@ -1,0 +1,43 @@
+# default rules
+about:
+    url:    /about/
+country_id:
+    url:    /country/:id
+    param:  { module: country, action: show}
+    requirements: { id: \d+ }
+
+country_old:
+    url:    /country/show/:id
+    param:  {module: country, action: show}
+    requirements: { id: \d+ }
+
+country_name:
+    url:    /country/show/:id
+    param:  {module: country, action: show}
+error:
+  url:  /static/error
+    
+homepage:
+  url:   /
+  param: { module: static, action: home }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
+
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_password:
+  url:   /request_password
+  param: { module: sfGuardAuth, action: password }
+
+

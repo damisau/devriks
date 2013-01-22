@@ -1,0 +1,36 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:  RIKS - Regional Integration Knowledge System
+    description: A database for qualitative and quantitative data relevant for the study of regional integration
+    keywords:  regional integration, database, statistics, indicators, garnet, unu-cris, trade statistics
+    #language:     en
+    robots:       index, follow
+
+  stylesheets:    [riks.css]
+
+  javascripts:    []
+
+  has_layout:     on
+  layout:         layout
+
+
+
+  all:
+  javascripts: [%SF_PROTOTYPE_WEB_DIR%/js/prototype]
+
+
+homeSuccess:
+  layout: homeSuccess
+researchSuccess:
+    layout: researchSuccess
+center:
+  indexSuccess:
+    layout: researchSuccess
+journal:
+  indexSuccess:
+    layout: researchSuccess
+development:
+    indexSuccess:  aboutSuccess

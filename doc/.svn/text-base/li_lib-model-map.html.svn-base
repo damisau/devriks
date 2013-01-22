@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title></title>
+			<link rel="stylesheet" href="media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+						<div class="package-title">lib-model-map</div>
+<div class="package-details">
+
+	<dl class="tree">
+		
+		<dt class="folder-title">Description</dt>
+		<dd>
+			<a href='classtrees_lib-model-map.html' target='right'>Class trees</a><br />
+			<a href='elementindex_lib-model-map.html' target='right'>Index of elements</a><br />
+					</dd>
+	
+							
+							
+																	<dt class="folder-title">Classes</dt>
+										   						<dd><a href='lib-model-map/RikssymArrangementCountryMapBuilder.html' target='right'>RikssymArrangementCountryMapBuilder</a></dd>
+					   										   						<dd><a href='lib-model-map/RikssymArrangementMapBuilder.html' target='right'>RikssymArrangementMapBuilder</a></dd>
+					   										   						<dd><a href='lib-model-map/RikssymCountryMapBuilder.html' target='right'>RikssymCountryMapBuilder</a></dd>
+					   										   						<dd><a href='lib-model-map/RikssymDataMapBuilder.html' target='right'>RikssymDataMapBuilder</a></dd>
+					   										   						<dd><a href='lib-model-map/RikssymDatatypeMapBuilder.html' target='right'>RikssymDatatypeMapBuilder</a></dd>
+					   										   						<dd><a href='lib-model-map/RikssymDocumentEntityMapBuilder.html' target='right'>RikssymDocumentEntityMapBuilder</a></dd>
+					   										   						<dd><a href='lib-model-map/RikssymDocumentMapBuilder.html' target='right'>RikssymDocumentMapBuilder</a></dd>
+					   										   						<dd><a href='lib-model-map/RikssymEntryMapBuilder.html' target='right'>RikssymEntryMapBuilder</a></dd>
+					   										   						<dd><a href='lib-model-map/RikssymGeoregionMapBuilder.html' target='right'>RikssymGeoregionMapBuilder</a></dd>
+					   										   						<dd><a href='lib-model-map/RikssymIndicatorMapBuilder.html' target='right'>RikssymIndicatorMapBuilder</a></dd>
+					   										   						<dd><a href='lib-model-map/RikssymSourcesMapBuilder.html' target='right'>RikssymSourcesMapBuilder</a></dd>
+					   																						<dt class="folder-title">Files</dt>
+											<dd><a href='lib-model-map/_lib---model---map---RikssymArrangementCountryMapBuilder.php.html' target='right'>RikssymArrangementCountryMapBuilder.php</a></dd>
+											<dd><a href='lib-model-map/_lib---model---map---RikssymArrangementMapBuilder.php.html' target='right'>RikssymArrangementMapBuilder.php</a></dd>
+											<dd><a href='lib-model-map/_lib---model---map---RikssymCountryMapBuilder.php.html' target='right'>RikssymCountryMapBuilder.php</a></dd>
+											<dd><a href='lib-model-map/_lib---model---map---RikssymDataMapBuilder.php.html' target='right'>RikssymDataMapBuilder.php</a></dd>
+											<dd><a href='lib-model-map/_lib---model---map---RikssymDatatypeMapBuilder.php.html' target='right'>RikssymDatatypeMapBuilder.php</a></dd>
+											<dd><a href='lib-model-map/_lib---model---map---RikssymDocumentEntityMapBuilder.php.html' target='right'>RikssymDocumentEntityMapBuilder.php</a></dd>
+											<dd><a href='lib-model-map/_lib---model---map---RikssymDocumentMapBuilder.php.html' target='right'>RikssymDocumentMapBuilder.php</a></dd>
+											<dd><a href='lib-model-map/_lib---model---map---RikssymEntryMapBuilder.php.html' target='right'>RikssymEntryMapBuilder.php</a></dd>
+											<dd><a href='lib-model-map/_lib---model---map---RikssymGeoregionMapBuilder.php.html' target='right'>RikssymGeoregionMapBuilder.php</a></dd>
+											<dd><a href='lib-model-map/_lib---model---map---RikssymIndicatorMapBuilder.php.html' target='right'>RikssymIndicatorMapBuilder.php</a></dd>
+											<dd><a href='lib-model-map/_lib---model---map---RikssymSourcesMapBuilder.php.html' target='right'>RikssymSourcesMapBuilder.php</a></dd>
+																	
+						
+			</dl>
+</div>
+<p class="notes"><a href="http://www.phpdoc.org" target="_blank">phpDocumentor v <span class="field">1.4.2</span></a></p>
+</BODY>
+</HTML>

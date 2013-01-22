@@ -1,0 +1,232 @@
+<?php
+
+/**
+ * data actions.
+ *
+ * @package    riks_sym
+ * @subpackage data
+ * @author     Birger FÃ¼hne
+ * @version    SVN: $Id: actions.class.php 12474 2008-10-31 10:41:27Z fabien $
+ * @todo       move the creation of the Excel sheet to a separate class.
+ */
+class dataActions extends sfActions {
+
+    public function executeIndex(sfWebRequest $request) {
+        $this->menuColor = "green";
+        $this->breadcrumb = "You are here: ".sfConfig::get('app_home')." > ".
+                sfConfig::get('app_databases')." > Regional Indicators";
+        $publicTradeIndicatorCriteria = new Criteria();
+        $publicTradeIndicatorCriteria->add(RikssymIndicatorPeer::ISPUBLIC,'1');
+        $publicTradeIndicatorCriteria->add(RikssymIndicatorPeer::CATEGORY, 'trade');
+        $publicTradeIndicatorCriteria->addAscendingOrderByColumn(RikssymIndicatorPeer::NAME);
+        $this->rikssym_tradeIndicator_list = RikssymIndicatorPeer::doSelect($publicTradeIndicatorCriteria);
+
+        $publicNationalIndicatorCriteria = new Criteria();
+        $publicNationalIndicatorCriteria->clearSelectColumns();
+        $publicNationalIndicatorCriteria->add(RikssymIndicatorPeer::ISPUBLIC,'1');
+        $publicNationalIndicatorCriteria->add(RikssymIndicatorPeer::CATEGORY, 'national');
+        $publicNationalIndicatorCriteria->addAscendingOrderByColumn(RikssymIndicatorPeer::NAME);
+        $this->rikssym_nationalIndicator_list = RikssymIndicatorPeer::doSelect($publicNationalIndicatorCriteria);
+
+        $orderCriteria = new Criteria();
+        $this->abbrev = 0;
+        if($request->getParameter('abbrev')) {
+            $orderCriteria->addAscendingOrderByColumn(RikssymArrangementPeer::ABBREV);
+            $this->abbrev = 1;
+        } else {
+            $orderCriteria->addAscendingOrderByColumn(RikssymArrangementPeer::NAME);
+        }
+        $this->rikssym_arrangement_list = RikssymArrangementPeer::doSelect($orderCriteria);
+
+        $options = array();
+        foreach($this->rikssym_arrangement_list as $arrangement) {
+            $options[$arrangement->getId()] = $arrangement->getName().
+                    " (".$arrangement->getAbbrev().")";
+        }
+        $this->options = $options;
+    }
+
+    public function executeShow(sfWebRequest $request) {
+        $this->menuColor = "green";
+        $this->breadcrumb = "You are here: ".sfConfig::get('app_home')." > ".
+                sfConfig::get('app_databases')." > Regional Indicators";
+
+
+        $this->years = $request->getParameter('years');
+        $this->indicatorClassnames = $request->getParameter('data');
+        $this->arrangementIds = $request->getParameter('omenu');
+
+        $this->indicatorObjects = array();
+        foreach($this->arrangementIds as $arrangementId) {
+            $arrangementObject = RikssymArrangementPeer::retrieveByPK($arrangementId);
+            foreach($this->indicatorClassnames as $indicatorClassname) {
+                $indicator =
+                        RikssymIndicatorFactory::createIndicator($indicatorClassname, $arrangementObject, $this->years, $custom = false);
+                $this->indicatorObjects[] = $indicator;
+            }
+        }
+
+        $this->imagePath = sfConfig::get("app_graphUrl");
+        $this->name = $this->createRandomFileName();
+
+
+        //check submitted parameters, if valid create graph
+        //TODO add check if graph can be created
+        if(sizeof($this->years) > 1 && sizeof($this->indicatorClassnames) == 1) {
+            $graph = new RikssymGraph($request,
+                    $this->indicatorObjects,
+                    $this->years,
+                    $this->name);
+        }
+    }
+
+    public function executeCustomIndex() {
+        $this->menuColor = "green";
+        $this->breadcrumb = "You are here: ".sfConfig::get('app_home')." > ".
+                sfConfig::get('app_databases')." > Custom Regions";
+        $countryCriteria = new Criteria();
+        $countryCriteria->add(RikssymCountryPeer::SHOW, 'false');
+        $countryCriteria->addAscendingOrderByColumn(RikssymCountryPeer::NAME);
+        $this->countryList = RikssymCountryPeer::doSelect($countryCriteria);
+
+        $publicTradeIndicatorCriteria = new Criteria();
+        $publicTradeIndicatorCriteria->add(RikssymIndicatorPeer::ISPUBLIC,'1');
+        $publicTradeIndicatorCriteria->add(RikssymIndicatorPeer::CATEGORY, 'trade');
+        $publicTradeIndicatorCriteria->addAscendingOrderByColumn(RikssymIndicatorPeer::NAME);
+        $this->rikssym_tradeIndicator_list = RikssymIndicatorPeer::doSelect($publicTradeIndicatorCriteria);
+
+        $publicNationalIndicatorCriteria = new Criteria();
+        $publicNationalIndicatorCriteria->clearSelectColumns();
+        $publicNationalIndicatorCriteria->add(RikssymIndicatorPeer::ISPUBLIC,'1');
+        $publicNationalIndicatorCriteria->add(RikssymIndicatorPeer::CATEGORY, 'national');
+        $publicNationalIndicatorCriteria->addAscendingOrderByColumn(RikssymIndicatorPeer::NAME);
+        $this->rikssym_nationalIndicator_list = RikssymIndicatorPeer::doSelect($publicNationalIndicatorCriteria);
+    }
+
+    public function executeCustomShow(sfWebRequest $request) {
+        $this->breadcrumb = "You are here: ".sfConfig::get('app_home')." > ".
+                sfConfig::get('app_databases')." > Custom Regions";
+
+        $this->years = $request->getParameter('years');
+        $this->indicatorClassnames = $request->getParameter('data');
+        $this->countries = RikssymCountryPeer::retrieveByPKs($request->getParameter('omenu'));
+        $this->customRegion = new RikssymCustomRegion($this->countries);
+
+        $this->indicatorObjects = array();
+        foreach($this->indicatorClassnames as $indicatorClassname) {
+            $indicator =
+                    RikssymIndicatorFactory::createIndicator($indicatorClassname, $this->customRegion, $this->years, $custom = true);
+            $this->indicatorObjects[] = $indicator;
+        }
+        $this->imagePath = sfConfig::get("app_graphUrl");
+
+
+        $this->name = $this->createRandomFileName();
+
+        if(sizeof($this->years) > 1 && sizeof($this->indicatorClassnames) == 1) {
+            $graph = new RikssymGraph($request,
+                    $this->indicatorObjects,
+                    $this->years,
+                    $this->name);
+        }
+    }
+
+    //TODO: disable before live deployment
+    protected function processForm(sfWebRequest $request, sfForm $form) {
+        $form->bind($request->getParameter($form->getName()), $request->getFiles($form->getName()));
+        if ($form->isValid()) {
+            $rikssym_data = $form->save();
+            $this->redirect('data/edit?id='.$rikssym_data->getId());
+        }
+    }
+
+
+
+    public function executeExcel(sfWebRequest $request,
+            RikssymDataDump $dataDump,
+            $arrangements,
+            $years,
+            $indicators,
+            $filename) {
+        /** PHPExcel */
+        include 'PHPExcel.php';
+
+        /** PHPExcel_Writer_Excel5 */
+        include 'PHPExcel/Writer/Excel5.php';
+
+        $objPHPExcel = new PHPExcel();
+
+        // Set properties
+        $objPHPExcel->getProperties()->setCreator("Regional Integration Knowledge System");
+        $objPHPExcel->getProperties()->setLastModifiedBy("");
+        $objPHPExcel->getProperties()->setTitle("RIKS Spreadsheet Export");
+        $objPHPExcel->getProperties()->setSubject("RIKS Spreadsheet Title");
+        $objPHPExcel->getProperties()->setDescription("RIKS Spreadsheet Description");
+
+        $rowCount = 1;
+        $column = range('A','Z');
+        $columnCount = 0;
+        $activeSheet = 0;
+
+        $objPHPExcel->setActiveSheetIndex($activeSheet);
+
+        $objPHPExcel->getActiveSheet()->getColumnDimension($column[$columnCount])->setAutoSize(true);
+        $objPHPExcel->getActiveSheet()->setCellValue($column[$columnCount].$rowCount, 'RIKS data export:');
+
+        $objPHPExcel->getActiveSheet()->getStyle($column[$columnCount].$rowCount)->getFont()->setSize(20);
+        $objPHPExcel->getActiveSheet()->getStyle($column[$columnCount].$rowCount)->getFont()->setBold(true);
+        $objPHPExcel->getActiveSheet()->getStyle($column[$columnCount].$rowCount)->getFont()->setUnderline(PHPExcel_Style_Font::UNDERLINE_SINGLE);
+        $objPHPExcel->getActiveSheet()->getStyle($column[$columnCount].$rowCount)->getFont()->getColor()->setARGB(PHPExcel_Style_Color::COLOR_BLACK);
+        $rowCount = $rowCount +2;
+
+        foreach($arrangements as $arrangement) {
+            $objPHPExcel->getActiveSheet()->getStyle($column[$columnCount].$rowCount)->getFont()->setBold(true);
+            $objPHPExcel->getActiveSheet()->setCellValue($column[$columnCount].$rowCount, $arrangement->getName());
+            $rowCount++;
+            foreach($indicators as $indicator) {
+
+                $columnCount = $columnCount +1;
+                $objPHPExcel->getActiveSheet()->getStyle($column[$columnCount].$rowCount)->getFont()->setBold(true);
+                $objPHPExcel->getActiveSheet()->setCellValue($column[$columnCount].$rowCount, $indicator->getName()." ".$indicator->getUnitTitle());
+                $rowCount++;
+                $columnCount -= 1;
+                $yearValueArray = $dataDump->getValuesOfIndicator($arrangement, $indicator);
+                foreach($years as $year) {
+
+                    $objPHPExcel->getActiveSheet()->setCellValue($column[$columnCount].$rowCount, $year);
+                    $columnCount++;
+                    $objPHPExcel->getActiveSheet()->getColumnDimension('B')->setWidth(40);
+
+                    $objPHPExcel->getActiveSheet()->setCellValue($column[$columnCount].$rowCount,
+                            $yearValueArray[$year]);
+                    $rowCount++;
+                    $objPHPExcel->getActiveSheet()->setCellValue($column[$columnCount].$rowCount,
+                            strip_tags($indicator->getDescription()));
+                    $columnCount--;
+                }
+                $rowCount = $rowCount +2;
+            }
+        }
+        $objPHPExcel->getActiveSheet()->setTitle('RIKS data export');
+
+        // Save Excel 2007 file
+        $objWriter = new PHPExcel_Writer_Excel5($objPHPExcel);
+        $objWriter->save("graphs/".$filename.".xls");
+        sfView::NONE;
+    }
+
+
+    public function createRandomFileName() {
+        $chars = "abcdefghijkmnopqrstuvwxyz023456789";
+        srand((double)microtime()*1000000);
+        $i = 0;
+        $pass = '' ;
+        while ($i <= 29) {
+            $num = rand() % 33;
+            $tmp = substr($chars, $num, 1);
+            $pass = $pass . $tmp;
+            $i++;
+        }
+        return $pass;
+    }
+}

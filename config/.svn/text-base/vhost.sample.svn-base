@@ -1,0 +1,21 @@
+    # Be sure to only have this line once in your configuration
+    NameVirtualHost 127.0.0.1:80
+
+    # This is the configuration for riks_sym
+    Listen 127.0.0.1:80
+
+    <VirtualHost 127.0.0.1:80>
+      ServerName riks_sym.localhost
+      DocumentRoot "/var/www/riks_sym/web"
+      DirectoryIndex index.php
+      <Directory "/var/www/riks_sym/web">
+        AllowOverride All
+        Allow from All
+      </Directory>
+
+      Alias /sf "/usr/share/php/data/web/sf"
+      <Directory "/usr/share/php/data/web/sf">
+        AllowOverride All
+        Allow from All
+      </Directory>
+    </VirtualHost>

@@ -1,0 +1,123 @@
+rikssym_master:
+  class: sfPropelRouteCollection
+  options:
+    model:               RikssymMaster
+    module:              rikssym_master
+    prefix_path:         rikssym_master
+    column:              id
+    with_wildcard_routes: true
+
+rikssym_journal:
+  class: sfPropelRouteCollection
+  options:
+    model:               RikssymJournal
+    module:              rikssym_journal
+    prefix_path:         rikssym_journal
+    column:              id
+    with_wildcard_routes: true
+
+rikssym_indicator:
+  class: sfPropelRouteCollection
+  options:
+    model:               RikssymIndicator
+    module:              rikssym_indicator
+    prefix_path:         rikssym_indicator
+    column:              id
+    with_wildcard_routes: true
+
+rikssym_dblinks:
+  class: sfPropelRouteCollection
+  options:
+    model:               RikssymDblinks
+    module:              rikssym_dblinks
+    prefix_path:         rikssym_dblinks
+    column:              id
+    with_wildcard_routes: true
+
+rikssym_data:
+  class: sfPropelRouteCollection
+  options:
+    model:               RikssymData
+    module:              rikssym_data
+    prefix_path:         rikssym_data
+    column:              id
+    with_wildcard_routes: true
+
+rikssym_center:
+  class: sfPropelRouteCollection
+  options:
+    model:               RikssymCenter
+    module:              rikssym_center
+    prefix_path:         rikssym_center
+    column:              id
+    with_wildcard_routes: true
+
+rikssym_document:
+  class: sfPropelRouteCollection
+  options:
+    model:               RikssymDocument
+    module:              rikssym_document
+    prefix_path:         rikssym_document
+    column:              id
+    with_wildcard_routes: true
+
+rikssym_arrangement_country:
+  class: sfPropelRouteCollection
+  options:
+    model:               RikssymArrangementCountry
+    module:              rikssym_arrangement_country
+    prefix_path:         rikssym_arrangement_country
+    column:              id
+    with_wildcard_routes: true
+
+rikssym_arrangement:
+  class: sfPropelRouteCollection
+  options:
+    model:               RikssymArrangement
+    module:              rikssym_arrangement
+    prefix_path:         rikssym_arrangement
+    column:              id
+    with_wildcard_routes: true
+
+rikssym_country:
+  class: sfPropelRouteCollection
+  options:
+    model:               RikssymCountry
+    module:              rikssym_country
+    prefix_path:         rikssym_country
+    column:              id
+    with_wildcard_routes: true
+
+rikssym_development:
+  class: sfPropelRouteCollection
+  options:
+    model:               RikssymDevelopment
+    module:              rikssym_development
+    prefix_path:         rikssym_development
+    column:              id
+    with_wildcard_routes: true
+
+# default rules
+homepage:
+  url:   /
+  param: { module: default, action: index }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
+
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_password:
+  url:   /request_password
+  param: { module: sfGuardAuth, action: password }
+

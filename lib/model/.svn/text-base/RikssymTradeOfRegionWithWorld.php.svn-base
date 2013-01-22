@@ -1,0 +1,72 @@
+<?php
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+*/
+class RikssymTradeOfRegionWithWorld extends RikssymIndicator {
+
+
+    public function __construct() {
+    }
+
+    public function prepareQuery() {
+        $countryIds = $this->entity->getCountryIds();
+        $tradeFlows = array(15,16);
+        $tradeCriteria = new Criteria();
+        $tradeCriteria->clearSelectColumns();
+        $tradeCriteria->addSelectColumn(RikssymDataPeer::PERIOD);
+        $tradeCriteria->addAsColumn("tradeOfRegionWithWorld", "SUM(".RikssymDataPeer::VALUE.")");
+        $tradeCriteria->add(RikssymDataPeer::TYPE_ID, $tradeFlows, CRITERIA::IN);
+        $tradeCriteria->add(RikssymDataPeer::PERIOD, $this->years, CRITERIA::IN);
+        $tradeCriteria->add(RikssymDataPeer::REPORTER_ID, $countryIds, CRITERIA::IN);
+        $tradeCriteria->addGroupByColumn(RikssymDataPeer::PERIOD);
+        $tradeCriteria->addAscendingOrderByColumn(RikssymDataPeer::PERIOD);
+        $stmt = RikssymDataPeer::doSelectStmt($tradeCriteria);
+        while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+            $this->values[$row['PERIOD']] =  $row['tradeOfRegionWithWorld'];
+        }
+//        $tradeFlows = array(15,16);
+//        $tradeCriteria = new Criteria();
+//        $tradeCriteria->clearSelectColumns();
+//        $tradeCriteria->addSelectColumn(RikssymDataPeer::PERIOD);
+//        $tradeCriteria->addAsColumn("tradeOfRegionWithWorld", "SUM(".RikssymDataPeer::VALUE.")");
+//        $tradeCriteria->add(RikssymDataPeer::TYPE_ID, $tradeFlows, CRITERIA::IN);
+//        $tradeCriteria->add(RikssymDataPeer::PERIOD, $this->years, CRITERIA::IN);
+//        $tradeCriteria->addAlias("ce_relation", RikssymArrangementCountryPeer::TABLE_NAME);
+//        $tradeCriteria->addJoin(RikssymDataPeer::REPORTER_ID,
+//            RikssymArrangementCountryPeer::alias("ce_relation", RikssymArrangementCountryPeer::COUNTRY_ID),
+//            CRITERIA::INNER_JOIN);
+//        $tradeCriteria->add(RikssymArrangementCountryPeer::alias("ce_relation", RikssymArrangementCountryPeer::ARRANGEMENT_ID),
+//            $this->entity->getId(), CRITERIA::EQUAL);
+//        $tradeCriteria->addGroupByColumn(RikssymDataPeer::PERIOD);
+//        $tradeCriteria->addAscendingOrderByColumn(RikssymDataPeer::PERIOD);
+//        $stmt = RikssymDataPeer::doSelectStmt($tradeCriteria);
+//        while($row = $stmt->fetch(PDO::FETCH_ASSOC)){
+//            $this->values[$row['PERIOD']] =  $row['tradeOfRegionWithWorld'];
+//        }
+    }
+
+//    public function prepareCustomQuery() {
+//        $countryIds = $this->entity->getCountryIds();
+//        $tradeFlows = array(15,16);
+//        $tradeCriteria = new Criteria();
+//        $tradeCriteria->clearSelectColumns();
+//        $tradeCriteria->addSelectColumn(RikssymDataPeer::PERIOD);
+//        $tradeCriteria->addAsColumn("tradeOfRegionWithWorld", "SUM(".RikssymDataPeer::VALUE.")");
+//        $tradeCriteria->add(RikssymDataPeer::TYPE_ID, $tradeFlows, CRITERIA::IN);
+//        $tradeCriteria->add(RikssymDataPeer::PERIOD, $this->years, CRITERIA::IN);
+//        $tradeCriteria->add(RikssymDataPeer::REPORTER_ID, $countryIds, CRITERIA::IN);
+//        $tradeCriteria->addGroupByColumn(RikssymDataPeer::PERIOD);
+//        $tradeCriteria->addAscendingOrderByColumn(RikssymDataPeer::PERIOD);
+//        $stmt = RikssymDataPeer::doSelectStmt($tradeCriteria);
+//        while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+//            $this->values[$row['PERIOD']] =  $row['tradeOfRegionWithWorld'];
+//        }
+//    }
+
+    public function __toString() {
+        $dump = implode(":",$this->values);
+        return $dump;
+    }
+}
+?>

@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class sfController</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class sfController</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-descendents">Descendents</a>
+			|											<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">abstract:</span> </li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_frontend---prod---config---config_core_compile.yml.php.html">/frontend/prod/config/config_core_compile.yml.php</a> (line <span class="field">564</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+	<a name="sec-descendents"></a>
+	<div class="info-box">
+		<div class="info-box-title">Direct descendents</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Descendents</span>
+			|												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+								|															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../default/sfWebController.html">sfWebController</a></td>
+					<td>
+											
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																																								<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$context" title="details" class="var-name">$context</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$controllerClasses" title="details" class="var-name">$controllerClasses</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$dispatcher" title="details" class="var-name">$dispatcher</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$maxForwards" title="details" class="var-name">$maxForwards</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$renderMode" title="details" class="var-name">$renderMode</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																												
+												<div class="method-definition">
+											<span class="method-result">sfController</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$context</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#actionExists" title="details" class="method-name">actionExists</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$actionName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#componentExists" title="details" class="method-name">componentExists</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$componentName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#controllerExists" title="details" class="method-name">controllerExists</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$controllerName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$extension</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$throwExceptions</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#forward" title="details" class="method-name">forward</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$actionName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getAction" title="details" class="method-name">getAction</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$actionName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getActionStack" title="details" class="method-name">getActionStack</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getComponent" title="details" class="method-name">getComponent</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$componentName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getController" title="details" class="method-name">getController</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$controllerName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$extension</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getPresentationFor" title="details" class="method-name">getPresentationFor</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$module</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$action</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$viewName</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getRenderMode" title="details" class="method-name">getRenderMode</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getView" title="details" class="method-name">getView</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$actionName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$viewName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#inCLI" title="details" class="method-name">inCLI</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#initialize" title="details" class="method-name">initialize</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$context</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#sendEmail" title="details" class="method-name">sendEmail</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$module</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$action</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setRenderMode" title="details" class="method-name">setRenderMode</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$mode</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#__call" title="details" class="method-name">__call</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$method</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$arguments</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$context" id="$context"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$context</span>
+			 = <span class="var-default"> null</span>			(line <span class="line-number">567</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$controllerClasses" id="$controllerClasses"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$controllerClasses</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">569</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$dispatcher" id="$dispatcher"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$dispatcher</span>
+			 = <span class="var-default"> null</span>			(line <span class="line-number">568</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$maxForwards" id="$maxForwards"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$maxForwards</span>
+						(line <span class="line-number">570</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$renderMode" id="$renderMode"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$renderMode</span>
+						(line <span class="line-number">571</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">572</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">sfController</span>
+		<span class="method-name">
+			__construct
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$context</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$context</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodactionExists" id="actionExists"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">actionExists</span> (line <span class="line-number">586</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			actionExists
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$actionName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$moduleName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$actionName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcomponentExists" id="componentExists"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">componentExists</span> (line <span class="line-number">582</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			componentExists
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$componentName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$moduleName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$componentName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcontrollerExists" id="controllerExists"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">controllerExists</span> (line <span class="line-number">590</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			controllerExists
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$controllerName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$extension</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$throwExceptions</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$moduleName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$controllerName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$extension</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$throwExceptions</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodforward" id="forward"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">forward</span> (line <span class="line-number">643</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			forward
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$actionName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$moduleName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$actionName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetAction" id="getAction"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getAction</span> (line <span class="line-number">696</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getAction
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$actionName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$moduleName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$actionName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetActionStack" id="getActionStack"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getActionStack</span> (line <span class="line-number">719</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getActionStack
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetComponent" id="getComponent"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getComponent</span> (line <span class="line-number">700</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getComponent
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$componentName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$moduleName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$componentName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetController" id="getController"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getController</span> (line <span class="line-number">704</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getController
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$controllerName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$extension</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$moduleName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$controllerName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$extension</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetPresentationFor" id="getPresentationFor"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPresentationFor</span> (line <span class="line-number">754</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getPresentationFor
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$module</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$action</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$viewName</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$module</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$action</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$viewName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetRenderMode" id="getRenderMode"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getRenderMode</span> (line <span class="line-number">723</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getRenderMode
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetView" id="getView"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getView</span> (line <span class="line-number">727</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getView
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$moduleName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$actionName</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$viewName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$moduleName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$actionName</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$viewName</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinCLI" id="inCLI"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">inCLI</span> (line <span class="line-number">813</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			inCLI
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodinitialize" id="initialize"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">initialize</span> (line <span class="line-number">576</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			initialize
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$context</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$context</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsendEmail" id="sendEmail"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">sendEmail</span> (line <span class="line-number">746</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			sendEmail
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$module</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$action</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$module</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$action</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetRenderMode" id="setRenderMode"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setRenderMode</span> (line <span class="line-number">804</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setRenderMode
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$mode</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$mode</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method__call" id="__call"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">__call</span> (line <span class="line-number">817</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			__call
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$method</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$arguments</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$method</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$arguments</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 19 Dec 2008 11:29:13 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.2</a>
+	</p>
+	</div></body>
+</html>
