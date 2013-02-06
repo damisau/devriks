@@ -59,7 +59,7 @@
         {
             modified = true;
             addAllYears();
-            removeBefore(1980);
+            //removeBefore(1980);
             $('errors').update('<b>Please note: Regional HDI is only available after 1979.</B>');
         }
         else if(stack.exists("RikssymRegionalImmigrationShare") || stack.exists("RikssymRegionalMigrantsPopulationShare")
@@ -78,6 +78,7 @@
     }
 
     function removeBefore(year){
+        console.log('removeBefore: ' + year)
         var options = document.getElementById('yearmenu').getElementsByTagName('option');
         var max = options.length -1;
         for(i=max;i > -1; i--){
@@ -89,6 +90,7 @@
     }
 
     function removeExcept(year){
+        console.log('removeExcept' + year);
         var options = document.getElementById('yearmenu').getElementsByTagName('option');
         var max = options.length -1;
         for(i=max;i > -1; i--){
@@ -100,6 +102,7 @@
     }
 
     function addYear(year){
+        console.log('addYear: ' + year);
         var options = document.getElementById('yearmenu').getElementsByTagName('option');
         var newOption = document.createElement("option");
         newOption.setAttribute("value", year);
@@ -108,14 +111,15 @@
     }
 
     function addAllYears(){
+        console.log('addAllYears');
         var options = document.getElementById('yearmenu').getElementsByTagName('option');
         var max = options.length -1;
         for(i=max;i > -1; i--){
-            if(parseInt(options[i].value) <= 2008){
+            if(parseInt(options[i].value) <= 2011){
                 document.getElementById('yearmenu').removeChild(options[i]);
             }
         }
-        for(j=<?php echo sfConfig::get('app_minyear') ?>;j< <?php echo sfConfig::get('app_maxyear') ?>; j++){
+        for(j=<?php echo sfConfig::get('app_minyear') ?>;j<= <?php echo sfConfig::get('app_maxyear') ?>; j++){
             var newOption = document.createElement("option");
             newOption.setAttribute("value", j);
             newOption.innerHTML = j;
